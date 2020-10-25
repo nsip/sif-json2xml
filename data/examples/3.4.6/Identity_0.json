@@ -1,0 +1,19 @@
+{
+  "Identity": {
+    "-RefId": "4286194F-43ED-43C1-8EE2-F0A27C4BEF86",
+    "AuthenticationSource": "AUAccessShibboleth",
+    "AuthenticationSourceGlobalUID": "A9A6CB2B-C493-4427-8C1F-D6587D448B35",
+    "IdentityAssertions": {
+      "IdentityAssertion": [
+        {
+          "#content": "john.doe@asdf.edu.au",
+          "-SchemaName": "eduPersonPrincipalName"
+        }
+      ]
+    },
+    "SIF_RefId": {
+      "#content": "23B08571-E4D6-45C3-B82A-3E52E5349925",
+      "-SIF_RefObject": "StudentPersonal"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "StudentActivityInfo": {
+    "-RefId": "6472B261-0947-583A-463D-BB345291B001",
+    "CurricularStatus": "0750",
+    "Description": "Group of middle school students promoting reading",
+    "Location": {
+      "-Type": "Classroom",
+      "LocationName": "Beaconhills Middle School Library",
+      "LocationRefId": {
+        "#content": "94758261-0947-583A-CEB2-BB345291BAAA",
+        "-SIF_RefObject": "RoomInfo"
+      }
+    },
+    "StudentActivityLevel": "Middle School",
+    "StudentActivityType": {
+      "Code": "6011",
+      "OtherCodeList": {
+        "OtherCode": [
+          {
+            "#content": "MBook",
+            "-Codeset": "Local"
+          }
+        ]
+      }
+    },
+    "Title": "Book Club",
+    "YearLevels": {
+      "YearLevel": [
+        {
+          "Code": "5"
+        },
+        {
+          "Code": "6"
+        },
+        {
+          "Code": "7"
+        },
+        {
+          "Code": "8"
+        }
+      ]
+    }
+  }
+}

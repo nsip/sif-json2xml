@@ -1,0 +1,31 @@
+{
+  "PersonPicture": {
+    "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+    "OKToPublish": "Y",
+    "ParentObjectRefId": {
+      "#content": "AA648462-8886-24AA-5294-BC638017320B",
+      "-SIF_RefObject": "StudentPersonal"
+    },
+    "PictureSource": {
+      "#content": "http://www.schoolsite.com/pictures/2007/1234.jpg",
+      "-Type": "01"
+    },
+    "PublishingPermissionList": {
+      "PublishingPermission": [
+        {
+          "PermissionCategory": "OKPrintedMaterial",
+          "PermissionValue": "Y"
+        },
+        {
+          "PermissionCategory": "OKOnlineMaterial",
+          "PermissionValue": "Y"
+        },
+        {
+          "PermissionCategory": "OKMediaRelease",
+          "PermissionValue": "U"
+        }
+      ]
+    },
+    "SchoolYear": "2007"
+  }
+}

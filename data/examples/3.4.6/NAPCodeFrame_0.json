@@ -1,0 +1,554 @@
+{
+  "NAPCodeFrame": {
+    "-RefId": "09381381-641E-4034-A54B-9A84D7B54426",
+    "NAPTestRefId": "CE9FFC50-33B4-4F19-8DD5-62579B681A63",
+    "TestContent": {
+      "Domain": "Reading",
+      "DomainBands": {
+        "Band10Lower": 681,
+        "Band10Upper": 999,
+        "Band1Lower": 0,
+        "Band1Upper": 258,
+        "Band2Lower": 258,
+        "Band2Upper": 318,
+        "Band3Lower": 318,
+        "Band3Upper": 368,
+        "Band4Lower": 368,
+        "Band4Upper": 417,
+        "Band5Lower": 417,
+        "Band5Upper": 466,
+        "Band6Lower": 466,
+        "Band6Upper": 526,
+        "Band7Lower": 526,
+        "Band7Upper": 574,
+        "Band8Lower": 574,
+        "Band8Upper": 633,
+        "Band9Lower": 633,
+        "Band9Upper": 681
+      },
+      "DomainProficiency": {
+        "Level1Lower": 10,
+        "Level1Upper": 20,
+        "Level2Lower": 30,
+        "Level2Upper": 40,
+        "Level3Lower": 50,
+        "Level3Upper": 60,
+        "Level4Lower": 70,
+        "Level4Upper": 80
+      },
+      "NAPTestLocalId": "NAPLAN-2017-0001-Reading",
+      "StagesCount": 3,
+      "TestLevel": {
+        "Code": "3"
+      },
+      "TestName": "NAPLAN Reading Yr 3, 2017",
+      "TestType": "Normal",
+      "TestYear": "2017"
+    },
+    "TestletList": {
+      "Testlet": [
+        {
+          "NAPTestletRefId": "74391492-B229-4B32-A9ED-E1B03C929604",
+          "TestItemList": {
+            "TestItem": [
+              {
+                "SequenceNumber": 0,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "MC",
+                  "MarkingType": "AS",
+                  "MaximumScore": 1,
+                  "MultipleChoiceOptionCount": 4,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-00",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "kzgms666",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "87734F2A-673B-4F2D-A805-532869CE3F57"
+              },
+              {
+                "SequenceNumber": 1,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "MC",
+                  "MarkingType": "AS",
+                  "MaximumScore": 1,
+                  "MultipleChoiceOptionCount": 4,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-01",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "vzahj691",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "70032978-57F3-4941-ADE7-BDC79ED34B5B"
+              },
+              {
+                "SequenceNumber": 2,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "SP",
+                  "MarkingType": "AS",
+                  "MaximumScore": 1,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-02",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "gmynn860",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "4CC4CB22-105E-485F-926C-BB1C8F0F4079"
+              },
+              {
+                "SequenceNumber": 3,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "MC",
+                  "MarkingType": "AS",
+                  "MaximumScore": 1,
+                  "MultipleChoiceOptionCount": 4,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-03",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "zapvk881",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "DD84E41B-59A9-41FF-B097-5D420DB661F1"
+              },
+              {
+                "SequenceNumber": 4,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "IO",
+                  "MarkingType": "AS",
+                  "MaximumScore": 1,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-04",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "kbrgs236",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "E5D5FFFF-6168-4FC9-BC8E-A35E49799F19"
+              },
+              {
+                "SequenceNumber": 5,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "MC",
+                  "MarkingType": "AS",
+                  "MaximumScore": 1,
+                  "MultipleChoiceOptionCount": 4,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-05",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "rokoh652",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "29B1B7C8-6D9D-4D84-BC2D-C88B6ED172DD"
+              },
+              {
+                "SequenceNumber": 6,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "MC",
+                  "MarkingType": "AS",
+                  "MaximumScore": 1,
+                  "MultipleChoiceOptionCount": 4,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-06",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "qrlet247",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "D9EDC321-D0F0-490A-8BE6-55A3C6548B60"
+              },
+              {
+                "SequenceNumber": 7,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "IGM",
+                  "MarkingType": "AS",
+                  "MaximumScore": 1,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-07",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "zhplu511",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "F962D535-13F3-4837-9BFD-DCED4AEBEE19"
+              },
+              {
+                "SequenceNumber": 8,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "MC",
+                  "MarkingType": "AS",
+                  "MaximumScore": 1,
+                  "MultipleChoiceOptionCount": 4,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-08",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "biyci381",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "22B8B073-F6C6-40F3-8BF6-108FFA841E56"
+              },
+              {
+                "SequenceNumber": 9,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "TE",
+                  "MarkingType": "AES",
+                  "MaximumScore": 1,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-09",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "cbptn921",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "AA59E605-D6C1-4332-8F47-60C40BC3BAC5"
+              },
+              {
+                "SequenceNumber": 10,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "PO",
+                  "MarkingType": "AS",
+                  "MaximumScore": 1,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-10",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "ioysv413",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "952B4AFC-36FE-4309-83C8-8EE398BA7F97"
+              },
+              {
+                "SequenceNumber": 11,
+                "TestItemContent": {
+                  "ContentDescriptionList": {
+                    "ContentDescription": [
+                      "MNA32",
+                      "MNA37"
+                    ]
+                  },
+                  "CorrectAnswer": "7",
+                  "ExemplarURL": "http://example.com/n3.xml",
+                  "ItemDescriptor": "Descriptor #1",
+                  "ItemDifficulty": 3,
+                  "ItemDifficultyLogit5": 0.8,
+                  "ItemDifficultyLogit5SE": 0.8,
+                  "ItemDifficultyLogit62": 0.9,
+                  "ItemDifficultyLogit62SE": 0.9,
+                  "ItemProficiencyBand": 3,
+                  "ItemProficiencyLevel": "C",
+                  "ItemType": "MC",
+                  "MarkingType": "AS",
+                  "MaximumScore": 1,
+                  "MultipleChoiceOptionCount": 4,
+                  "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-11",
+                  "ReleasedStatus": true,
+                  "StimulusList": {
+                    "Stimulus": [
+                      {
+                        "Content": "http://example.com/Reading.xml",
+                        "StimulusLocalId": "odzlq067",
+                        "TextDescriptor": "A nice rollicking anecdote",
+                        "TextGenre": "Narrative",
+                        "TextType": "Simple",
+                        "WordCount": 300
+                      }
+                    ]
+                  },
+                  "Subdomain": "Letters"
+                },
+                "TestItemRefId": "E138C292-FB89-4736-946D-16C78C8B3893"
+              }
+            ]
+          },
+          "TestletContent": {
+            "LocationInStage": 1,
+            "NAPTestletLocalId": "NAPLAN-2017-0001-Reading-A-00",
+            "Node": "A",
+            "TestletMaximumScore": 12,
+            "TestletName": "Testlet A-1 for Reading Yr 3"
+          }
+        }
+      ]
+    }
+  }
+}

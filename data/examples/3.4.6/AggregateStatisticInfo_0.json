@@ -1,0 +1,30 @@
+{
+  "AggregateStatisticInfo": {
+    "-RefId": "A5DECBD3-161B-4F5D-9F46-EBA64C87B002",
+    "ApprovalDate": "2002-09-01",
+    "CalculationRule": {
+      "#content": "Number of students scoring at Reading Proficiency Level 1",
+      "-Type": "Description"
+    },
+    "ExclusionRules": {
+      "ExclusionRule": [
+        {
+          "#content": "N less than 10",
+          "-Type": "SampleSize"
+        }
+      ]
+    },
+    "ExpirationDate": "2006-06-30",
+    "Location": {
+      "-Type": "School",
+      "LocationName": "Green River High School",
+      "LocationRefId": {
+        "#content": "279BCEE5-515E-4C1A-AC3A-765D1F069BC3",
+        "-SIF_RefObject": "SchoolInfo"
+      }
+    },
+    "Measure": "Count",
+    "Source": "SIS",
+    "StatisticName": "Read Proficiency L1"
+  }
+}

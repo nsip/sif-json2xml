@@ -1,0 +1,44 @@
+{
+  "SectionInfo": {
+    "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+    "LanguageOfInstruction": {
+      "Code": "1201"
+    },
+    "LocalId": "287-1",
+    "LocationOfInstruction": {
+      "Code": "0340",
+      "OtherCodeList": {
+        "OtherCode": [
+          {
+            "#content": "NSW DEC",
+            "-Codeset": "Text"
+          }
+        ]
+      }
+    },
+    "MediumOfInstruction": {
+      "Code": "0605"
+    },
+    "SchoolCourseInfoOverride": {
+      "-Override": "Yes",
+      "CourseCode": "CS101A",
+      "CourseTitle": "Graphics Basics",
+      "DistrictCourseCode": "CS101A",
+      "InstructionalLevel": "Graduate Certificate II",
+      "StateCourseCode": "08-001A",
+      "SubjectArea": {
+        "Code": "05",
+        "OtherCodeList": {
+          "OtherCode": [
+            {
+              "#content": "Graphic Arts for Beginners",
+              "-Codeset": "Text"
+            }
+          ]
+        }
+      }
+    },
+    "SchoolCourseInfoRefId": "101A8C3D-00AA-001A-0000-A2E35B359D75",
+    "SchoolYear": "2013"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "TimeTable": {
+    "-RefId": "64A309DA-063A-2E35-B359-D75101A8C3D0",
+    "DaysPerCycle": 5,
+    "EndDate": "2008-06-20",
+    "LocalId": "2008S1",
+    "PeriodsPerDay": 6,
+    "SchoolInfoRefId": "F2256EE2-B67F-47D6-AB47-94D4DEE0D0AD",
+    "SchoolLocalId": "01011234",
+    "SchoolName": "Newest Secondary College",
+    "SchoolYear": "2008",
+    "StartDate": "2008-01-30",
+    "TeachingPeriodsPerDay": 5,
+    "TimeTableCreationDate": "2008-02-01",
+    "TimeTableDayList": {
+      "TimeTableDay": [
+        {
+          "DayId": "1",
+          "DayTitle": "Monday",
+          "TimeTablePeriodList": {
+            "TimeTablePeriod": [
+              {
+                "PeriodId": "1",
+                "PeriodTitle": "P1"
+              },
+              {
+                "PeriodId": "2",
+                "PeriodTitle": "P2"
+              },
+              {
+                "PeriodId": "3",
+                "PeriodTitle": "P3"
+              },
+              {
+                "PeriodId": "4",
+                "PeriodTitle": "P4"
+              },
+              {
+                "PeriodId": "5",
+                "PeriodTitle": "P5"
+              },
+              {
+                "PeriodId": "6",
+                "PeriodTitle": "P6"
+              }
+            ]
+          }
+        },
+        {
+          "DayId": "2",
+          "DayTitle": "Tuesday",
+          "TimeTablePeriodList": {
+            "TimeTablePeriod": [
+              {
+                "PeriodId": "1",
+                "PeriodTitle": "P1"
+              },
+              {
+                "PeriodId": "2",
+                "PeriodTitle": "P2"
+              },
+              {
+                "PeriodId": "3",
+                "PeriodTitle": "P3"
+              },
+              {
+                "PeriodId": "4",
+                "PeriodTitle": "P4"
+              },
+              {
+                "PeriodId": "5",
+                "PeriodTitle": "P5"
+              },
+              {
+                "PeriodId": "6",
+                "PeriodTitle": "P6"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Title": "2008 Semester 1"
+  }
+}

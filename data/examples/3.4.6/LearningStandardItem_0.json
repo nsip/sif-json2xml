@@ -1,0 +1,102 @@
+{
+  "LearningStandardItem": {
+    "-RefId": "A5D75F78-9175-101B-8C7E-08EA123A8234",
+    "ACStrandSubjectArea": {
+      "ACStrand": "M",
+      "SubjectArea": {
+        "Code": "Maths",
+        "OtherCodeList": {
+          "OtherCode": [
+            {
+              "#content": "Mathematics",
+              "-Codeset": "Text"
+            }
+          ]
+        }
+      }
+    },
+    "LearningStandardDocumentRefId": "8454189F-6BBC-26C6-B97D-DB4B6D0E3AC8",
+    "PredecessorItems": {
+      "LearningStandardItemRefId": [
+        "DE072A87-EFAD-4B77-8AF9-FAF83C94839E"
+      ]
+    },
+    "RelatedLearningStandardItems": {
+      "LearningStandardItemRefId": [
+        {
+          "#content": "869670E8-540A-4350-9515-AFB767FADD9A",
+          "-RelationshipType": "Content"
+        },
+        {
+          "#content": "B14FDAB4-37CA-4565-A976-5A5B824545C4",
+          "-RelationshipType": "State"
+        },
+        {
+          "#content": "D5440A11-F5A4-4AC1-9202-61ECBE5A29F6",
+          "-RelationshipType": "ContentElaboration"
+        }
+      ]
+    },
+    "StandardHierarchyLevel": {
+      "Description": "AchievementStandard",
+      "Number": 3
+    },
+    "StandardIdentifier": {
+      "ACStrandSubjectArea": {
+        "ACStrand": "M",
+        "SubjectArea": {
+          "Code": "Maths",
+          "OtherCodeList": {
+            "OtherCode": [
+              {
+                "#content": "Mathematics",
+                "-Codeset": "Text"
+              }
+            ]
+          }
+        }
+      },
+      "Organization": "DEECD VIC",
+      "StandardNumber": "04",
+      "YearCreated": "2003",
+      "YearLevels": {
+        "YearLevel": [
+          {
+            "Code": "5"
+          },
+          {
+            "Code": "6"
+          },
+          {
+            "Code": "7"
+          }
+        ]
+      }
+    },
+    "StandardSettingBody": {
+      "Country": "1101",
+      "SettingBodyName": "DEECD",
+      "StateProvince": "VIC"
+    },
+    "StatementCodes": {
+      "StatementCode": [
+        "Mathematics.2.03.a"
+      ]
+    },
+    "Statements": {
+      "Statement": [
+        "Counting from 0 to 100 using whole numbers"
+      ]
+    },
+    "YearLevels": {
+      "YearLevel": [
+        {
+          "Code": "4"
+        },
+        {
+          "Code": "5"
+        }
+      ]
+    }
+  }
+}

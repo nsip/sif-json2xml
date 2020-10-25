@@ -1,0 +1,33 @@
+{
+  "PurchaseOrder": {
+    "-RefId": "ED12345F-DA84-9727-5BC2-8AA349DD3721",
+    "ChargedLocationInfoRefId": "ED12345F-DA84-9727-5BC2-8AA349DD3722",
+    "EmployeePersonalRefId": "AD12345F-DA84-9727-5BC2-8AA349DD3721",
+    "FormNumber": "00342",
+    "PurchasingItems": {
+      "PurchasingItem": [
+        {
+          "ExpenseAccounts": {
+            "ExpenseAccount": [
+              {
+                "AccountCode": "10-1100-610",
+                "Amount": {
+                  "#content": 70,
+                  "-Currency": "AUD"
+                }
+              }
+            ]
+          },
+          "ItemDescription": "Floor Wax",
+          "ItemNumber": "154486",
+          "Quantity": "10",
+          "UnitCost": {
+            "#content": 7,
+            "-Currency": "AUD"
+          }
+        }
+      ]
+    },
+    "VendorInfoRefId": "BD12345F-DA84-9727-5BC2-8AA349DD3723"
+  }
+}

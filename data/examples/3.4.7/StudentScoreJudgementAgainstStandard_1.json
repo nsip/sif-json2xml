@@ -1,0 +1,20 @@
+{
+  "StudentScoreJudgementAgainstStandard": {
+    "-RefId": "5810E283-E928-459C-BBA7-6EFE1963F784",
+    "ClassLocalId": "MAT10A",
+    "CurriculumCode": "AUSVELS",
+    "CurriculumNodeCode": "MATNUM",
+    "LocalTermCode": "Mid",
+    "ManagedPathwayLocalCode": "MPOMP",
+    "SchoolCommonwealthId": "AGEID-1032",
+    "SchoolLocalId": "027789",
+    "SchoolYear": "2018",
+    "Score": "10",
+    "SpecialCircumstanceLocalCode": "SCMP",
+    "StaffLocalId": "C1234567",
+    "StudentStateProvinceId": "987654321",
+    "YearLevel": {
+      "Code": "10"
+    }
+  }
+}

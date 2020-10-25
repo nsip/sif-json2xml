@@ -1,0 +1,13 @@
+{
+  "TimeTableSubject": {
+    "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+    "AcademicYear": {
+      "Code": "7"
+    },
+    "SchoolYear": "2009",
+    "SubjectLocalId": "07AR",
+    "SubjectLongName": "Year 7 Art",
+    "SubjectShortName": "7 ART",
+    "SubjectType": "E"
+  }
+}

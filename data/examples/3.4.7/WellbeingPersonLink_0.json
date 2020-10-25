@@ -1,0 +1,20 @@
+{
+  "WellbeingPersonLink": {
+    "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+    "FollowUpActionList": {
+      "FollowUpAction": [
+        {
+          "FollowUpDetails": "Parent's notified"
+        }
+      ]
+    },
+    "GroupId": "Inv0009",
+    "HowInvolved": "Instigator",
+    "PersonRefId": {
+      "#content": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-SIF_RefObject": "StudentPersonal"
+    },
+    "WellbeingEventRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1688",
+    "WellbeingResponseRefId": "E6E34B35-9D75-101A-8C3D-00AA001A1700"
+  }
+}

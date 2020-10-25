@@ -1,0 +1,26 @@
+{
+  "NAPEventStudentLink": {
+    "-RefId": "2014F046-0C95-4613-8ACD-8A6CA8227C7A",
+    "DOBRange": "false",
+    "Date": "2017-06-01",
+    "Device": "iPad",
+    "LapsedTimeTest": "PT2H57M32S",
+    "NAPJurisdiction": "1",
+    "NAPTestLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation",
+    "NAPTestRefId": "5195A2E9-37CE-4F51-AEF2-9095D9CF97FA",
+    "PSIOtherIdMatch": "false",
+    "ParticipationCode": "P",
+    "ParticipationText": "Present",
+    "PersonalDetailsChanged": "false",
+    "PlatformStudentIdentifier": "R100000004R",
+    "PossibleDuplicate": "false",
+    "ReportingSchoolName": "Podunk High School",
+    "SchoolACARAId": "21212",
+    "SchoolGeolocation": "11",
+    "SchoolInfoRefId": "19F9C467-D299-4A35-9825-2148BF39DB64",
+    "SchoolSector": "NG",
+    "StartTime": "09:00:00",
+    "StudentPersonalRefId": "2F71D7C1-29B2-4FAD-9DB7-9FD80DC8804A",
+    "System": "0001"
+  }
+}

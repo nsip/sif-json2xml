@@ -1,0 +1,78 @@
+{
+  "NAPTestlet": {
+    "-RefId": "42DE5F3F-DA32-4DA6-8966-4C8FA176E4B4",
+    "NAPTestLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation",
+    "NAPTestRefId": "FBB8A444-1891-4701-B306-F3CED219369C",
+    "TestItemList": {
+      "TestItem": [
+        {
+          "SequenceNumber": 1,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-00",
+          "TestItemRefId": "C77240DF-6E21-4774-AD1D-9454D5F60758"
+        },
+        {
+          "SequenceNumber": 2,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-01",
+          "TestItemRefId": "1C4016D1-AAAA-4034-BE8A-0CDE847B2EC7"
+        },
+        {
+          "SequenceNumber": 3,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-02",
+          "TestItemRefId": "3CCD15F4-BAF5-4192-A361-3C4184AB4FC8"
+        },
+        {
+          "SequenceNumber": 4,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-03",
+          "TestItemRefId": "66602398-5EC9-46E4-BCE6-E8917F49EE56"
+        },
+        {
+          "SequenceNumber": 5,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-04",
+          "TestItemRefId": "D1A5A9F2-43FB-40BB-A88F-71A879C5450D"
+        },
+        {
+          "SequenceNumber": 6,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-05",
+          "TestItemRefId": "3D253985-4021-418B-BD20-992EEA886535"
+        },
+        {
+          "SequenceNumber": 7,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-06",
+          "TestItemRefId": "D5B39AE5-B134-4909-A581-F69205F2682A"
+        },
+        {
+          "SequenceNumber": 8,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-07",
+          "TestItemRefId": "E5537981-2898-46DE-BC1C-3CEC4AFF9468"
+        },
+        {
+          "SequenceNumber": 9,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-08",
+          "TestItemRefId": "900CC548-23FE-49B5-ADCD-25854FBFA995"
+        },
+        {
+          "SequenceNumber": 10,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-09",
+          "TestItemRefId": "476FE04D-81CA-4C08-A555-60463F0DC918"
+        },
+        {
+          "SequenceNumber": 11,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-10",
+          "TestItemRefId": "217B9585-2D66-4270-ABD4-2AD57E7453B5"
+        },
+        {
+          "SequenceNumber": 12,
+          "TestItemLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00-11",
+          "TestItemRefId": "982D24CB-A976-4AD1-B9D5-5CD4C09F8C00"
+        }
+      ]
+    },
+    "TestletContent": {
+      "LocationInStage": 1,
+      "NAPTestletLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation-C-00",
+      "Node": "C",
+      "TestletMaximumScore": 12,
+      "TestletName": "Testlet C-1 for Language Conventions: Grammar and Punctuation Yr 3"
+    }
+  }
+}

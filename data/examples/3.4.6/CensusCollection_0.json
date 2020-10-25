@@ -1,0 +1,190 @@
+{
+  "CensusCollection": {
+    "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+    "CensusReportingList": {
+      "CensusReporting": [
+        {
+          "ACARAId": "1234",
+          "AGContextualQuestionList": {
+            "AGContextualQuestion": [
+              {
+                "AGAnswer": "Yes",
+                "AGContextCode": "NGSC001"
+              },
+              {
+                "AGAnswer": "Yes",
+                "AGContextCode": "NGSC002"
+              },
+              {
+                "AGAnswer": "No",
+                "AGContextCode": "NGSC003"
+              },
+              {
+                "AGAnswer": "Yes",
+                "AGContextCode": "NGSC004"
+              },
+              {
+                "AGAnswer": "Yes",
+                "AGContextCode": "NGSC005"
+              }
+            ]
+          },
+          "CensusStaffList": {
+            "CensusStaff": [
+              {
+                "Headcount": 5,
+                "IndigenousStatus": "4",
+                "PrimaryFTE": 0.5,
+                "SecondaryFTE": 0.5,
+                "Sex": "1",
+                "StaffActivity": {
+                  "Code": "1100"
+                }
+              },
+              {
+                "Headcount": 6,
+                "IndigenousStatus": "4",
+                "PrimaryFTE": 1,
+                "SecondaryFTE": 0,
+                "Sex": "2",
+                "StaffActivity": {
+                  "Code": "1100"
+                }
+              },
+              {
+                "Headcount": 5,
+                "IndigenousStatus": "1",
+                "PrimaryFTE": 0,
+                "SecondaryFTE": 1,
+                "Sex": "1",
+                "StaffActivity": {
+                  "Code": "1100"
+                }
+              },
+              {
+                "Headcount": 1,
+                "IndigenousStatus": "1",
+                "PrimaryFTE": 0,
+                "SecondaryFTE": 1,
+                "Sex": "1",
+                "StaffActivity": {
+                  "Code": "1103"
+                }
+              }
+            ]
+          },
+          "CensusStudentList": {
+            "CensusStudent": [
+              {
+                "AustralianCitizenshipStatus": "2",
+                "BoardingStatus": "D",
+                "CensusAge": 13,
+                "DistanceEducationStudent": "N",
+                "FFPOS": "1",
+                "FTE": 1,
+                "Headcount": 1,
+                "IndigenousStatus": "1",
+                "Sex": "1",
+                "YearLevel": {
+                  "Code": "7"
+                }
+              },
+              {
+                "AustralianCitizenshipStatus": "2",
+                "BoardingStatus": "D",
+                "CensusAge": 13,
+                "DistanceEducationStudent": "N",
+                "FFPOS": "1",
+                "FTE": 1,
+                "Headcount": 1,
+                "IndigenousStatus": "1",
+                "Sex": "2",
+                "YearLevel": {
+                  "Code": "7"
+                }
+              },
+              {
+                "AustralianCitizenshipStatus": "2",
+                "BoardingStatus": "D",
+                "CensusAge": 13,
+                "DistanceEducationStudent": "N",
+                "FFPOS": "2",
+                "FTE": 1,
+                "Headcount": 120,
+                "IndigenousStatus": "4",
+                "Sex": "1"
+              },
+              {
+                "AustralianCitizenshipStatus": "2",
+                "BoardingStatus": "D",
+                "CensusAge": 13,
+                "DisabilityCategory": "Sensory",
+                "DisabilityLevelOfAdjustment": "Substantial",
+                "DistanceEducationStudent": "N",
+                "FFPOS": "1",
+                "FTE": 1,
+                "Headcount": 1,
+                "IndigenousStatus": "1",
+                "Sex": "1",
+                "YearLevel": {
+                  "Code": "7"
+                }
+              }
+            ]
+          },
+          "CommonwealthId": "012345",
+          "EntityContact": {
+            "Email": {
+              "#content": "jmiller@lsc.vic.edu.au",
+              "-Type": "01"
+            },
+            "Name": {
+              "-Type": "LGL",
+              "FamilyName": "Miller",
+              "GivenName": "James"
+            },
+            "PhoneNumber": {
+              "-Type": "0096",
+              "Number": "03 9637-2000"
+            },
+            "PositionTitle": "Auditor"
+          },
+          "EntityLevel": "School",
+          "EntityName": "XXX Secondary College",
+          "LocalId": "01011234",
+          "SchoolInfoRefId": "C4D54B35-9D75-101A-8C3D-00AA001A1689",
+          "StateProvinceId": "01011234",
+          "YearLevels": {
+            "YearLevel": [
+              {
+                "Code": "7"
+              },
+              {
+                "Code": "8"
+              },
+              {
+                "Code": "9"
+              },
+              {
+                "Code": "10"
+              },
+              {
+                "Code": "11"
+              },
+              {
+                "Code": "12"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "CensusYear": "2018",
+    "ReportingAuthorityCommonwealthId": "012345",
+    "RoundCode": "Census1",
+    "SoftwareVendorInfo": {
+      "SoftwareProduct": "Civica",
+      "SoftwareVersion": "Websys 1.0"
+    }
+  }
+}

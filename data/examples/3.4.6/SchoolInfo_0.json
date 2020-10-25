@@ -1,0 +1,150 @@
+{
+  "SchoolInfo": {
+    "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+    "ARIA": 1,
+    "Campus": {
+      "AdminStatus": "Y",
+      "CampusType": "Camp",
+      "SchoolCampusId": "01"
+    },
+    "CommonwealthId": "012345",
+    "FederalElectorate": "216",
+    "IndependentSchool": "Y",
+    "JurisdictionLowerHouse": "Unknown",
+    "LEAInfoRefId": "73648462-8886-24AA-5294-BC6380173276",
+    "LocalGovernmentArea": "Cardinia",
+    "LocalId": "01011234",
+    "NonGovSystemicStatus": "S",
+    "OperationalStatus": "O",
+    "OtherLEA": {
+      "#content": "AA648462-8886-24AA-5294-BC638017320B",
+      "-SIF_RefObject": "LEAInfo"
+    },
+    "PhoneNumberList": {
+      "PhoneNumber": [
+        {
+          "-Type": "0096",
+          "Number": "03 9637-2000"
+        }
+      ]
+    },
+    "PrincipalInfo": {
+      "ContactName": {
+        "-Type": "LGL",
+        "FamilyName": "Mason",
+        "FullName": "Mr Frank Mason Jr.",
+        "GivenName": "Francis",
+        "MiddleName": "Frank",
+        "Suffix": "Jr.",
+        "Title": "Mr"
+      },
+      "ContactTitle": "Senior School Principal"
+    },
+    "ReligiousAffiliation": "2171",
+    "SLA": "205801452",
+    "SchoolCoEdStatus": "C",
+    "SchoolContactList": {
+      "SchoolContact": [
+        {
+          "ContactInfo": {
+            "Address": {
+              "-Role": "012B",
+              "-Type": "0123",
+              "City": "Carnegie",
+              "Country": "1101",
+              "GridLocation": {
+                "Latitude": 23.9876,
+                "Longitude": -98.8765
+              },
+              "PostalCode": "3004",
+              "StateProvince": "VIC",
+              "Street": {
+                "Line1": "23 Nicholson Street"
+              }
+            },
+            "EmailList": {
+              "Email": [
+                {
+                  "#content": "jmiller@lsc.vic.edu.au",
+                  "-Type": "01"
+                },
+                {
+                  "#content": "jmiller@yahoo.com.au",
+                  "-Type": "02"
+                }
+              ]
+            },
+            "Name": {
+              "-Type": "LGL",
+              "FamilyName": "Miller",
+              "FullName": "Mr James Mark Miller Jr.",
+              "GivenName": "James",
+              "MiddleName": "Mark",
+              "Suffix": "Jr.",
+              "Title": "Mr"
+            },
+            "PhoneNumberList": {
+              "PhoneNumber": [
+                {
+                  "-Type": "0096",
+                  "Extension": "72345",
+                  "ListedStatus": "Y",
+                  "Number": "03 9637-2000"
+                }
+              ]
+            },
+            "PositionTitle": "Business Manager",
+            "Role": "School Information Contact Point"
+          },
+          "PublishInDirectory": "Y"
+        }
+      ]
+    },
+    "SchoolDistrict": "Southern Metropolitan Region",
+    "SchoolFocusList": {
+      "SchoolFocus": [
+        "01",
+        "03"
+      ]
+    },
+    "SchoolGeographicLocation": "10",
+    "SchoolGroupList": {
+      "SchoolGroup": [
+        "YVC",
+        "EastSec01"
+      ]
+    },
+    "SchoolName": "Lincoln Secondary College",
+    "SchoolSector": "NG",
+    "SchoolType": "Pri/Sec",
+    "SchoolURL": "http://www.lincolnsc.edu.vic.au",
+    "SessionType": "0827",
+    "StateProvinceId": "01011234",
+    "System": "0003",
+    "YearLevels": {
+      "YearLevel": [
+        {
+          "Code": "6"
+        },
+        {
+          "Code": "7"
+        },
+        {
+          "Code": "8"
+        },
+        {
+          "Code": "9"
+        },
+        {
+          "Code": "10"
+        },
+        {
+          "Code": "11"
+        },
+        {
+          "Code": "12"
+        }
+      ]
+    }
+  }
+}

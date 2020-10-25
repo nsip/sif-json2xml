@@ -1,0 +1,31 @@
+{
+  "MarkValueInfo": {
+    "-RefId": "11737E21-4A7C-46BD-BA43-01CADCA75C87",
+    "Name": "Letter Grades",
+    "SchoolInfoRefId": "A137D78A-E00B-C744-EF90-F2871CEB90A2",
+    "ValidLetterMarkList": {
+      "ValidLetterMark": [
+        {
+          "Code": "A",
+          "NumericEquivalent": 100
+        },
+        {
+          "Code": "B",
+          "NumericEquivalent": 90
+        },
+        {
+          "Code": "C",
+          "NumericEquivalent": 80
+        },
+        {
+          "Code": "D",
+          "NumericEquivalent": 70
+        },
+        {
+          "Code": "F",
+          "NumericEquivalent": 60
+        }
+      ]
+    }
+  }
+}

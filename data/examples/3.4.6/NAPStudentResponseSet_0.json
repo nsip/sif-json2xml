@@ -1,0 +1,423 @@
+{
+  "NAPStudentResponseSet": {
+    "-RefId": "D90E7E40-33B2-44FA-9BA0-FAACA9D95487",
+    "CalibrationSampleFlag": "false",
+    "DomainScore": {
+      "PlausibleScaledValueList": {
+        "PlausibleScaledValue": [
+          "14",
+          "15",
+          "16",
+          "17",
+          "18"
+        ]
+      },
+      "RawScore": 30,
+      "ScaledScoreLogitStandardError": 20.6,
+      "ScaledScoreLogitValue": 20.94,
+      "ScaledScoreStandardError": 22.17,
+      "ScaledScoreValue": 440,
+      "StudentDomainBand": 6,
+      "StudentProficiency": "Proficient"
+    },
+    "EquatingSampleFlag": "false",
+    "NAPTestLocalId": "NAPLAN-2017-0001-Reading",
+    "NAPTestRefId": "615DD32A-A5A2-40A2-A417-187AE8F932EE",
+    "ParallelTest": "A0-D1-F0",
+    "PathTakenForDomain": "A-D-F",
+    "PlatformStudentIdentifier": "R100000004R",
+    "ReportExclusionFlag": false,
+    "StudentPersonalRefId": "2F71D7C1-29B2-4FAD-9DB7-9FD80DC8804A",
+    "TestletList": {
+      "Testlet": [
+        {
+          "ItemResponseList": {
+            "ItemResponse": [
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-00",
+                "NAPTestItemRefId": "D9660081-EC37-4E20-B8FD-0F20896BA338",
+                "Response": "A",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 1
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-01",
+                "NAPTestItemRefId": "04F23B44-17E0-4D34-B321-C2ED8C477D43",
+                "Response": "C",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 2
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-02",
+                "NAPTestItemRefId": "F51E2743-62B0-491A-BE34-B3DC722E4A1F",
+                "Response": "gKqvdfwIYE",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 3
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-03",
+                "NAPTestItemRefId": "859CDE35-4236-47C2-B593-813084D3E67B",
+                "Response": "A",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 4
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-04",
+                "NAPTestItemRefId": "5A45B1B5-05B5-429A-9DA2-9757CCD18B99",
+                "Response": "isRnrsoOzv",
+                "ResponseCorrectness": "Incorrect",
+                "Score": 0,
+                "SequenceNumber": 5
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-05",
+                "NAPTestItemRefId": "FC1281E6-0CF0-4E01-B160-C9D83EDB1F97",
+                "Response": "A",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 6
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-06",
+                "NAPTestItemRefId": "A7F24BCE-4663-40CB-8587-24135B90345A",
+                "Response": "C",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 7
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-07",
+                "NAPTestItemRefId": "7ABC7320-56C2-401E-B287-EFD7D1E90E12",
+                "Response": "D",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 8
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-08",
+                "NAPTestItemRefId": "B2BC0B19-E52A-46C9-BD40-CD4576756746",
+                "Response": "B",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 9
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-09",
+                "NAPTestItemRefId": "ECF360FB-F7D6-4DB7-B76B-AA598E4C4981",
+                "Response": "B",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 10
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-10",
+                "NAPTestItemRefId": "EDCC84CA-78D7-41CC-9C82-7E5DEA8F35AA",
+                "Response": "aFdOmmNEcv",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 11
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-A-00-11",
+                "NAPTestItemRefId": "7786117B-2C8E-40D4-A38E-EE3858FCE1B7",
+                "Response": "iIauaAgmYC",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 12
+              }
+            ]
+          },
+          "NAPTestletLocalId": "NAPLAN-2017-0001-Reading-A-00",
+          "NAPTestletRefId": "1FD3A68E-530D-491F-920D-77F77074D159",
+          "TestletSubScore": 11
+        },
+        {
+          "ItemResponseList": {
+            "ItemResponse": [
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-00",
+                "NAPTestItemRefId": "8B89C8B9-6C05-42BA-A9D1-321B79A34241",
+                "Response": "ZENYKCkmWr",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 1
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-01",
+                "NAPTestItemRefId": "854F56CE-C30F-49D3-AD15-9774D5113519",
+                "Response": "C",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 2
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-02",
+                "NAPTestItemRefId": "7258B5BD-38E8-41A2-B27E-A89624DBCEC1",
+                "Response": "A",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 3
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-03",
+                "NAPTestItemRefId": "BB94CCDD-21BD-43B6-B252-B5F628C32F80",
+                "Response": "A",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 4
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-04",
+                "NAPTestItemRefId": "BD1F3E74-9362-4094-8902-FD865F76CB70",
+                "Response": "D",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 5
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-05",
+                "NAPTestItemRefId": "D3D22E43-C431-48F5-BAD6-723C923C864C",
+                "Response": "A",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 6
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-06",
+                "NAPTestItemRefId": "A5663CC8-27E3-4830-926C-3349465DAEE3",
+                "Response": "C",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 7
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-07",
+                "NAPTestItemRefId": "DCA323A6-3B29-4942-A979-C594E363277D",
+                "Response": "NtTIYMmIMC",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 8
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-08",
+                "NAPTestItemRefId": "35B98745-B527-4662-8891-CA12BED0E480",
+                "Response": "fFnySwRyen",
+                "ResponseCorrectness": "Incorrect",
+                "Score": 0,
+                "SequenceNumber": 9
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-09",
+                "NAPTestItemRefId": "34A77184-276A-4C8B-BDA7-8E9D5446C74A",
+                "Response": "D",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 10
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-10",
+                "NAPTestItemRefId": "B1E5EE81-6E58-4F71-9583-F1DDDE235892",
+                "Response": "OlHtaQNHoM",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 11
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-D-01-11",
+                "NAPTestItemRefId": "ED1E5B13-782C-4BF7-8E83-3F0893C2F856",
+                "Response": "C",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 12
+              }
+            ]
+          },
+          "NAPTestletLocalId": "NAPLAN-2017-0001-Reading-D-01",
+          "NAPTestletRefId": "953CDBD8-B5F2-4703-A4AB-3B394A33C228",
+          "TestletSubScore": 11
+        },
+        {
+          "ItemResponseList": {
+            "ItemResponse": [
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-00",
+                "NAPTestItemRefId": "D9AC94C9-461B-4E6D-9005-FCE134C5BF3E",
+                "Response": "B",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 1
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-01",
+                "NAPTestItemRefId": "B4603868-3026-4043-A1E9-83C1D663392D",
+                "Response": "cFGrURFLQJ",
+                "ResponseCorrectness": "Incorrect",
+                "Score": 0,
+                "SequenceNumber": 2
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-02",
+                "NAPTestItemRefId": "FB38C594-F4E4-4469-BBE5-4AF302171075",
+                "Response": "wXMrYIUEef",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 3
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-03",
+                "NAPTestItemRefId": "35732438-2182-45B1-9059-04FCB3567637",
+                "Response": "hZtAellWwR",
+                "ResponseCorrectness": "Incorrect",
+                "Score": 0,
+                "SequenceNumber": 4
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-04",
+                "NAPTestItemRefId": "602ECE01-57B0-48ED-90A5-070DAC7ED6CC",
+                "Response": "ufSagjiuzw",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 5
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-05",
+                "NAPTestItemRefId": "8B7CCBE1-E9CB-4AAC-97F1-514DCEF41CDA",
+                "Response": "eAnZrOBhEV",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 6
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-06",
+                "NAPTestItemRefId": "FD382A1F-D98D-4202-8DEE-99D11B230E78",
+                "Response": "GlMlPTIYIO",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 7
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-07",
+                "NAPTestItemRefId": "316EDF8E-9E96-4979-8B3A-EE3B3B0A5258",
+                "Response": "WHwIVewqtV",
+                "ResponseCorrectness": "Incorrect",
+                "Score": 0,
+                "SequenceNumber": 8
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-08",
+                "NAPTestItemRefId": "354069AF-929D-431B-A297-D3B78E356476",
+                "Response": "cAIJHatCZI",
+                "ResponseCorrectness": "NotInPath",
+                "Score": 0,
+                "SequenceNumber": 9
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-09",
+                "NAPTestItemRefId": "31CF0277-5AED-4D0D-BFC5-2235F7B4F674",
+                "Response": "ZcCCskdAXf",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 10
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-10",
+                "NAPTestItemRefId": "D91F3243-134C-4BA4-9F4B-E02D65671401",
+                "Response": "nKImzEMCpy",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 11
+              },
+              {
+                "ItemWeight": 1,
+                "LapsedTimeItem": "PT50S",
+                "NAPTestItemLocalId": "NAPLAN-2017-0001-Reading-F-00-11",
+                "NAPTestItemRefId": "EB7B780E-2C64-430E-9F44-B52DCD273E04",
+                "Response": "B",
+                "ResponseCorrectness": "Correct",
+                "Score": 1,
+                "SequenceNumber": 12
+              }
+            ]
+          },
+          "NAPTestletLocalId": "NAPLAN-2017-0001-Reading-F-00",
+          "NAPTestletRefId": "CC94B00C-5AAE-4B24-A58E-A4C4B04D0FD4",
+          "TestletSubScore": 8
+        }
+      ]
+    }
+  }
+}

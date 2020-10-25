@@ -1,0 +1,13 @@
+{
+  "StudentPeriodAttendance": {
+    "-RefId": "98157AA0-13BA-8C3D-00AA-012B359D7512",
+    "AttendanceCode": {
+      "Code": "802"
+    },
+    "AttendanceStatus": "01",
+    "Date": "2001-03-05",
+    "SchoolInfoRefId": "11737EA4-301C-ADCA-75C8-7214A7C46BDB",
+    "StudentPersonalRefId": "A75A0010-1A8C-301D-02E3-A05B359D0A00",
+    "TimetablePeriod": "P4"
+  }
+}

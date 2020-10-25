@@ -1,0 +1,19 @@
+{
+  "PaymentReceipt": {
+    "-RefId": "EDF4985A-BC34-58FE-DA75-493AB3812345",
+    "FinancialAccountRefIdList": {
+      "FinancialAccountRefId": [
+        "ED12345F-DA84-9727-5BC2-8AA349DD3721"
+      ]
+    },
+    "InvoiceRefId": "CA123458-47DE-A974-63FE-B238759FD123",
+    "ReceivedTransactionId": "XYZZY",
+    "TransactionAmount": {
+      "#content": 50,
+      "-Currency": "AUD",
+      "-Type": "Debit"
+    },
+    "TransactionDate": "1999-10-20",
+    "TransactionType": "GL payment"
+  }
+}

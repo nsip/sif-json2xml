@@ -1,0 +1,34 @@
+{
+  "StudentContactRelationship": {
+    "-StudentContactRelationshipRefId": "7572B261-0947-583A-463D-BB345291B332",
+    "ContactFlags": {
+      "AccessToRecords": "U",
+      "AttendanceContact": "N",
+      "DisciplinaryContact": "N",
+      "EmergencyContact": "Y",
+      "FamilyMail": "Y",
+      "FeesBilling": "Y",
+      "HasCustody": "N",
+      "InterventionOrder": "N",
+      "LivesWith": "N",
+      "ParentLegalGuardian": "Y",
+      "PickupRights": "Y",
+      "PrimaryCareProvider": "U",
+      "ReceivesAssessmentReport": "Y"
+    },
+    "ContactSequence": 1,
+    "ContactSequenceSource": "P",
+    "HouseholdList": {
+      "Household": [
+        "FamilyA",
+        "FamilyB"
+      ]
+    },
+    "MainlySpeaksEnglishAtHome": "U",
+    "Relationship": {
+      "Code": "01"
+    },
+    "StudentContactPersonalRefId": "6472B261-0947-583A-463D-BB345291B001",
+    "StudentPersonalRefId": "DEE34B35-9D75-101A-8C3D-00AA001A1652"
+  }
+}

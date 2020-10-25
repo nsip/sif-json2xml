@@ -1,0 +1,12 @@
+{
+  "EquipmentInfo": {
+    "-RefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
+    "EquipmentType": "OverheadProjector",
+    "LocalId": "OHP3",
+    "Name": "Overhead Projector 3",
+    "SIF_RefId": {
+      "#content": "B7A34E56-1C97-345C-0A4E-11BB112B2753",
+      "-SIF_RefObject": "SchoolInfo"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "LearningStandardDocument": {
+    "-RefId": "A5A575C7-8917-5101-B8E7-F08ED123A823",
+    "Authors": {
+      "Author": [
+        "Joe Bloggs"
+      ]
+    },
+    "Copyright": {
+      "Date": "2010-06-05",
+      "Holder": "ACARA"
+    },
+    "Description": "AIMS: The aim of the History curriculum is to instil in students, an appreciation in the diversity of the past and how they inform current developments etc etc. RATIONALE: History is essential for an informed citizenry and has always been a cornerstone of education.",
+    "DocumentDate": "2010-04-15",
+    "DocumentStatus": "Adopted",
+    "EndOfLifeDate": "2011-04-15",
+    "LearningStandardItemRefId": "667A87E2-1B4B-9470-CE61-568576DF921E",
+    "LocalAdoptionDate": "2011-01-06",
+    "OrganizationContactPoint": "http://www.acara.edu.au",
+    "Organizations": {
+      "Organization": [
+        "ACARA"
+      ]
+    },
+    "RelatedLearningStandards": {
+      "LearningStandardDocumentRefId": [
+        "B87A87E2-1B4B-9470-CE61-568576DF921E"
+      ]
+    },
+    "RepositoryDate": "2011-04-15",
+    "Source": "National",
+    "SubjectAreas": {
+      "ACStrandSubjectArea": [
+        {
+          "ACStrand": "H",
+          "SubjectArea": {
+            "Code": "Hist",
+            "OtherCodeList": {
+              "OtherCode": [
+                {
+                  "#content": "History",
+                  "-Codeset": "Text"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "Title": "Australian National Curriculum: History",
+    "YearLevels": {
+      "YearLevel": [
+        {
+          "Code": "11"
+        },
+        {
+          "Code": "12"
+        }
+      ]
+    }
+  }
+}

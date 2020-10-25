@@ -1,0 +1,50 @@
+{
+  "StudentSchoolEnrollment": {
+    "-RefId": "A8C3D3E3-4B35-9D75-101D-00AA001A1652",
+    "Advisor": {
+      "#content": "B359D3E3-4D75-101A-8C3D-00AA001A1652",
+      "-SIF_RefObject": "StaffPersonal"
+    },
+    "EntryDate": "2004-01-29",
+    "EntryType": {
+      "Code": "1838"
+    },
+    "ExitType": {
+      "Code": "1909",
+      "OtherCodeList": {
+        "OtherCode": [
+          {
+            "#content": "Victoria",
+            "-Codeset": "Local"
+          }
+        ]
+      }
+    },
+    "FTE": 1,
+    "FTPTStatus": "01",
+    "Homeroom": {
+      "#content": "D7510D3E-34B3-591A-8C3D-00AA001A1651",
+      "-SIF_RefObject": "RoomInfo"
+    },
+    "MembershipType": "01",
+    "PublishingPermissionList": {
+      "PublishingPermission": [
+        {
+          "PermissionCategory": "OKMediaRelease",
+          "PermissionValue": "N"
+        },
+        {
+          "PermissionCategory": "OKPrintedMaterial",
+          "PermissionValue": "Y"
+        }
+      ]
+    },
+    "SchoolInfoRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1651",
+    "SchoolYear": "2004",
+    "StudentPersonalRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+    "TimeFrame": "C",
+    "YearLevel": {
+      "Code": "10"
+    }
+  }
+}

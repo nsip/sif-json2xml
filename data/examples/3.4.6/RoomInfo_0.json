@@ -1,0 +1,22 @@
+{
+  "RoomInfo": {
+    "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+    "AvailableForTimetable": "Y",
+    "Building": "Main A",
+    "Capacity": 35,
+    "Description": "Room 101",
+    "HomeroomNumber": "10-HR-A",
+    "PhoneNumber": {
+      "-Type": "0096",
+      "Number": "(02) 9555-1234"
+    },
+    "RoomNumber": "101",
+    "SchoolInfoRefId": "A2E35B35-9D75-101A-8C3D-00AA001A0000",
+    "Size": 400,
+    "StaffList": {
+      "StaffPersonalRefId": [
+        "A8C3A2E3-5B35-9D75-101D-00AA001A0000"
+      ]
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "FinancialQuestionnaireCollection": {
+    "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+    "FQReportingList": {
+      "FQReporting": [
+        {
+          "ACARAId": "1234",
+          "AGRuleList": {
+            "AGRule": [
+              {
+                "AGRuleCode": "WR-076",
+                "AGRuleComment": "I ignored this rule because"
+              }
+            ]
+          },
+          "CommonwealthId": "012345",
+          "EntityContact": {
+            "Email": {
+              "#content": "jcitizen@school.vic.edu.au",
+              "-Type": "01"
+            },
+            "Name": {
+              "-Type": "LGL",
+              "FamilyName": "Citizen",
+              "GivenName": "John"
+            },
+            "PhoneNumber": {
+              "-Type": "0096",
+              "Number": "03 1234-5678"
+            },
+            "PositionTitle": "Auditor"
+          },
+          "EntityLevel": "School",
+          "EntityName": "XXX Secondary College",
+          "FQContextualQuestionList": {
+            "FQContextualQuestion": [
+              {
+                "FQAnswer": "Cash",
+                "FQContext": "GI.010"
+              },
+              {
+                "FQAnswer": "No",
+                "FQContext": "GI.015"
+              }
+            ]
+          },
+          "FQItemList": {
+            "FQItem": [
+              {
+                "BoardingAmount": 119827,
+                "DioceseAmount": 76543,
+                "FQItemCode": "RI.010",
+                "SystemAmount": 12345,
+                "TuitionAmount": 119827
+              },
+              {
+                "BoardingAmount": 119827,
+                "DioceseAmount": 76543,
+                "FQItemCode": "RI.020",
+                "SystemAmount": 12345,
+                "TuitionAmount": 119827
+              },
+              {
+                "BoardingAmount": 119827,
+                "DioceseAmount": 76543,
+                "FQItemCode": "RI.030",
+                "SystemAmount": 12345,
+                "TuitionAmount": 119827
+              }
+            ]
+          },
+          "LocalId": "01011234",
+          "SchoolInfoRefId": "C4D54B35-9D75-101A-8C3D-00AA001A1689",
+          "StateProvinceId": "01011234"
+        },
+        {
+          "ACARAId": "99007",
+          "AGRuleList": {
+            "AGRule": [
+              {
+                "AGRuleCode": "WR-076",
+                "AGRuleComment": "I ignored this rule because"
+              }
+            ]
+          },
+          "CommonwealthId": "12387",
+          "EntityContact": {
+            "Email": {
+              "#content": "jcitizen@school.vic.edu.au",
+              "-Type": "01"
+            },
+            "Name": {
+              "-Type": "LGL",
+              "FamilyName": "Citizen",
+              "GivenName": "John"
+            },
+            "PhoneNumber": {
+              "-Type": "0096",
+              "Number": "03 1234-5678"
+            },
+            "PositionTitle": "Auditor"
+          },
+          "EntityLevel": "School",
+          "EntityName": "ABCXYZ Secondary College",
+          "FQContextualQuestionList": {
+            "FQContextualQuestion": [
+              {
+                "FQAnswer": "Cash",
+                "FQContext": "GI.010"
+              },
+              {
+                "FQAnswer": "No",
+                "FQContext": "GI.015"
+              }
+            ]
+          },
+          "FQItemList": {
+            "FQItem": [
+              {
+                "BoardingAmount": 119827,
+                "DioceseAmount": 76543,
+                "FQItemCode": "RI.010",
+                "SystemAmount": 12345,
+                "TuitionAmount": 119827
+              },
+              {
+                "BoardingAmount": 119827,
+                "DioceseAmount": 76543,
+                "FQItemCode": "RI.020",
+                "SystemAmount": 12345,
+                "TuitionAmount": 119827
+              },
+              {
+                "BoardingAmount": 119827,
+                "DioceseAmount": 76543,
+                "FQItemCode": "RI.030",
+                "SystemAmount": 12345,
+                "TuitionAmount": 119827
+              }
+            ]
+          },
+          "LocalId": "01011234",
+          "SchoolInfoRefId": "C4D54B35-9D75-101A-8C3D-00AA001A1688",
+          "StateProvinceId": "45645567"
+        },
+        {
+          "AGRuleList": {
+            "AGRule": [
+              {
+                "AGRuleCode": "WR-076",
+                "AGRuleComment": "I ignored this rule because"
+              }
+            ]
+          },
+          "CommonwealthId": "12388",
+          "EntityContact": {
+            "Email": {
+              "#content": "jcitizeb@school.vic.edu.au",
+              "-Type": "01"
+            },
+            "Name": {
+              "-Type": "LGL",
+              "FamilyName": "Citizen",
+              "GivenName": "John"
+            },
+            "PhoneNumber": {
+              "-Type": "0096",
+              "Number": "03 1234-5678"
+            },
+            "PositionTitle": "Auditor"
+          },
+          "EntityLevel": "Diocese",
+          "EntityName": "Ballarat Diocese",
+          "FQContextualQuestionList": {
+            "FQContextualQuestion": [
+              {
+                "FQAnswer": "Cash",
+                "FQContext": "GI.010"
+              },
+              {
+                "FQAnswer": "No",
+                "FQContext": "GI.015"
+              }
+            ]
+          },
+          "FQItemList": {
+            "FQItem": [
+              {
+                "BoardingAmount": 119827,
+                "DioceseAmount": 76543,
+                "FQItemCode": "RI.010",
+                "SystemAmount": 12345,
+                "TuitionAmount": 119827
+              },
+              {
+                "BoardingAmount": 119827,
+                "DioceseAmount": 76543,
+                "FQItemCode": "RI.020",
+                "SystemAmount": 12345,
+                "TuitionAmount": 119827
+              },
+              {
+                "BoardingAmount": 119827,
+                "DioceseAmount": 76543,
+                "FQItemCode": "RI.030",
+                "SystemAmount": 12345,
+                "TuitionAmount": 119827
+              }
+            ]
+          },
+          "LocalId": "01011235",
+          "StateProvinceId": "45645568"
+        }
+      ]
+    },
+    "FQYear": "2018",
+    "ReportingAuthorityCommonwealthId": "012345",
+    "RoundCode": "FQ1",
+    "SoftwareVendorInfo": {
+      "SoftwareProduct": "MYOB",
+      "SoftwareVersion": "11.0"
+    }
+  }
+}
