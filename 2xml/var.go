@@ -68,7 +68,7 @@ var (
 
 	rx1       = rxMustCompile(`\n\s*<#content>`)
 	rx2       = rxMustCompile(`</#content>\n\s*`)
-	rx3       = rxMustCompile(`".+": ".*(\\n)+.*"`)
+	rx3       = rxMustCompile(`"\w+": "[^"]*(\\n)+[^"]*"`)
 	rxTag     = rxMustCompile(`<.+[> ]`)
 	rxAttr    = rxMustCompile(`.+="`)
 	rxReplNum = rxMustCompile(`@\d+#`)

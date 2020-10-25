@@ -5,7 +5,7 @@ shopt -s extglob
 
 ORIPATH=`pwd`
 
-# cd ./server/ && ./clean.sh && cd $ORIPATH && echo "server clean"
+cd ./server/ && ./clean.sh && cd $ORIPATH && echo "server clean"
 cd ./sif-spec/ && ./clean.sh && cd $ORIPATH && echo "sif-spec clean"
 
 rm -rf ./data/output/

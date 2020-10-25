@@ -227,7 +227,7 @@ func JSON2XML4LF(json string) (string, map[string]string) {
 // JSON2XML3RD : via 3rd lib converter, return Disordered, Formatted XML
 func JSON2XML3RD(jstr string) string {
 	var f interface{}
-	failOnErr("%v", json.Unmarshal([]byte(jstr), &f))
+	failOnErr("%v --- \n***\n%v\n***\n", json.Unmarshal([]byte(jstr), &f), jstr)
 	b, err := mxj.AnyXmlIndent(f, "", "    ", "")
 	failOnErr("%v", err)
 

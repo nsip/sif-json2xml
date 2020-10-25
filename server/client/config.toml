@@ -1,0 +1,13 @@
+Service = "sif-json2xml"
+
+[Route]
+  Convert = "/sif-json2xml/0.0.0/convert"
+  Help = "/"
+
+[Server]
+  IP = "192.168.31.168"
+  Port = 1325
+  Protocol = "http"
+
+[Access]
+  Timeout = 10
