@@ -228,7 +228,8 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 
 		/// DEBUG ///
 		// if sContains(jstr, "A5A575C7-8917-5101-B8E7-F08ED123A823") {
-		// 	ioutil.WriteFile("./debug.json", []byte(jstr), 0666)
+			// ioutil.WriteFile("./debug.json", []byte(jstr), 0666)
+			// fPln("break")
 		// }
 		/// DEBUG ///
 
@@ -243,21 +244,22 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 		}
 		///
 
-		for i, objson := range jsonContGrp {
+		for i, jsonObj := range jsonContGrp {
 			obj := jsonObjNames[i]
 			// logGrp.Do("cvt2json.JSON2XML")
 
-			objson = jt.MkSglEleBlk(jsonObjNames[i], objson, false)
+			jsonObj = jt.MkSglEleBlk(jsonObjNames[i], jsonObj, false)
 
 			/// DEBUG ///
-			// if sContains(objson, "LearningStandardDocument") {
-			// 	ioutil.WriteFile("./debug.json", []byte(jstr), 0666)
+			// if sContains(jsonObj, "A5A575C7-8917-5101-B8E7-F08ED123A823") {
+			// 	ioutil.WriteFile("./debug.json", []byte(jsonObj), 0666)
+			// 	fPln("break")
 			// }
 			/// DEBUG ///
 
 			/// ----------------------------- ///
 
-			// objsif, svApplied, err := cvt.JSON2XML(objson, sv)
+			// xmlObj, svApplied, err := cvt.JSON2XML(jsonObj, sv)
 			// if err != nil {
 			// 	status = http.StatusInternalServerError
 			// 	RetSB.Reset()
@@ -269,8 +271,8 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 			/// ----------------------------- ///
 
 			// Trace [cvt.JSON2XML]
-			results = jaegertracing.TraceFunction(c, cvt.JSON2XML, objson, sv)
-			objsif := results[0].Interface().(string)
+			results = jaegertracing.TraceFunction(c, cvt.JSON2XML, jsonObj, sv)
+			xmlObj := results[0].Interface().(string)
 			if !results[2].IsNil() {
 				status = http.StatusInternalServerError
 				RetSB.Reset()
@@ -279,9 +281,16 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 			}
 			logGrp.Do(obj + ":" + results[1].Interface().(string) + " applied")
 
+			/// DEBUG ///
+			// if sContains(xmlObj, "A5A575C7-8917-5101-B8E7-F08ED123A823") {
+			// 	ioutil.WriteFile("./debug.xml", []byte(xmlObj), 0666)
+			// 	fPln("break")
+			// }
+			/// DEBUG ///
+
 			/// ----------------------------- ///
 
-			RetSB.WriteString(objsif)
+			RetSB.WriteString(xmlObj)
 			RetSB.WriteString("\n")
 		}
 

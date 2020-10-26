@@ -10,7 +10,7 @@ W=`tput sgr0`
 printf "\n"
 
 ip="192.168.31.168:1325/"        ### 
-base=$ip"sif-json2xml/0.0.0/"    ###
+base=$ip"sif-json2xml/v0.1.0/"    ###
 
 title='SIF-JSON2XML all APIs'
 url=$ip
@@ -33,7 +33,7 @@ SIFJFile=./data/examples/siftest347.json
 title='Convert Test @ '$SIFJFile
 url=$base"convert?sv=$sv&wrap" ###
 file="@"$SIFJFile
-scode=`curl -X POST $url -d $file -w "%{http_code}" -s -o /dev/null`
+scode=`curl -X POST $url --data-binary $file -w "%{http_code}" -s -o /dev/null`
 if [ $scode -ne 200 ]; then
     echo "${R}${title}${W}"
     exit 1
@@ -45,8 +45,8 @@ xmlname=`basename $SIFJFile .json`.xml
 outdir=./data/output/
 mkdir -p $outdir
 outfile=$outdir"$xmlname"
-echo "curl -X POST $url -d $file"
-curl -X POST $url -d $file > $outfile
+echo "curl -X POST $url --data-binary $file"
+curl -X POST $url --data-binary $file > $outfile
 cat $outfile
 printf "\n"
 

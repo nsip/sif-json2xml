@@ -1267,7 +1267,7 @@
         "Date": "2010-06-05",
         "Holder": "ACARA"
       },
-      "Description": "AIMS: The aim of the History curriculum is to instil in students, an appreciation in the diversity of the past and how they inform current developments etc etc.RATIONALE: History is essential for an informed citizenry and has always been a cornerstone of education.",
+      "Description": "AIMS: The aim of the History curriculum is to instil in students, an appreciation in the diversity of the past and how they inform current developments etc etc.\nRATIONALE: History is essential for an informed citizenry and has always been a cornerstone of education.",
       "DocumentDate": "2010-04-15",
       "DocumentStatus": "Adopted",
       "EndOfLifeDate": "2011-04-15",
@@ -3381,7 +3381,7 @@
                   ]
                 }
               },
-              "AttendanceNote": "Left for Orthodontist appt. and returned to school\t\t\t\t\t\tafterward",
+              "AttendanceNote": "Left for Orthodontist appt. and returned to school\n\t\t\t\t\t\tafterward",
               "AttendanceStatus": "01",
               "DurationValue": 0.167,
               "EndTime": "12:05:00",

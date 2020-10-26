@@ -1,7 +1,7 @@
 Service = "sif-json2xml"
 
 [Route]
-  Convert = "/sif-json2xml/0.0.0/convert"
+  Convert = "/sif-json2xml/v0.1.0/convert"
   Help = "/"
 
 [Server]
