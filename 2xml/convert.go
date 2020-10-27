@@ -421,6 +421,12 @@ func JSON2XML(json, sifver string) (sif, sv string, err error) {
 	}
 
 	ResetAll()
+
+	// "@Attribute" => "-Attribute"
+	json = rxXMLAttr.ReplaceAllStringFunc(json, func(m string) string {
+		return sReplace(m, `"@`, `"-`, 1)
+	})
+
 	jsonWithCode, mCodeStr := JSON2XML4LF(json)
 	mRepl := mapsMerge(mOldNew, mCodeStr).(map[string]string)
 	return JSON2XMLRepl(AddSIFSpec(JSON2XML3RD(jsonWithCode), string(bytes)), mRepl), ver, nil

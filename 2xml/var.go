@@ -72,6 +72,7 @@ var (
 	rxTag     = rxMustCompile(`<.+[> ]`)
 	rxAttr    = rxMustCompile(`.+="`)
 	rxReplNum = rxMustCompile(`@\d+#`)
+	rxXMLAttr = rxMustCompile(`"@\w+":\s*`)
 
 	TrvsGrpViaSpec []string                    // from SIF Spec
 	mPathAttrs     = make(map[string][]string) // key: spec path, value: attribute-value

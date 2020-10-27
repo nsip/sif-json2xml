@@ -5,217 +5,31 @@ import "github.com/cdutwhu/gonfig"
 // CfgL2J346 : AUTO Created From /home/qmiao/Desktop/sif-json2xml/sif-spec/3.4.6/toml/List2JSON.toml
 type CfgL2J346 struct {
 	Version string
-	CensusCollection struct {
-		LIST []string
-	}
-	GradingAssignment struct {
-		LIST []string
-	}
-	LearningStandardDocument struct {
-		LIST []string
-	}
-	NAPTestlet struct {
-		LIST []string
-	}
-	PersonalisedPlan struct {
-		LIST []string
-	}
-	VendorInfo struct {
-		LIST []string
-	}
-	AggregateStatisticFact struct {
-		LIST []string
-	}
-	CalendarDate struct {
-		LIST []string
-	}
-	WellbeingEvent struct {
-		LIST []string
-	}
-	AddressCollection struct {
-		LIST []string
-	}
-	RoomInfo struct {
-		LIST []string
-	}
-	ScheduledActivity struct {
-		LIST []string
-	}
-	StudentActivityParticipation struct {
-		LIST []string
-	}
-	TimeTableSubject struct {
-		LIST []string
-	}
 	Debtor struct {
-		LIST []string
-	}
-	NAPEventStudentLink struct {
-		LIST []string
-	}
-	StudentSectionEnrollment struct {
-		LIST []string
-	}
-	WellbeingResponse struct {
-		LIST []string
-	}
-	SchoolInfo struct {
-		LIST []string
-	}
-	SectionInfo struct {
-		LIST []string
-	}
-	ResourceBooking struct {
-		LIST []string
-	}
-	StaffAssignment struct {
-		LIST []string
-	}
-	StudentParticipation struct {
-		LIST []string
-	}
-	TermInfo struct {
-		LIST []string
-	}
-	AggregateStatisticInfo struct {
-		LIST []string
-	}
-	Journal struct {
-		LIST []string
-	}
-	NAPCodeFrame struct {
-		LIST []string
-	}
-	SchoolCourseInfo struct {
-		LIST []string
-	}
-	SchoolPrograms struct {
-		LIST []string
-	}
-	StaffPersonal struct {
-		LIST []string
-	}
-	AggregateCharacteristicInfo struct {
-		LIST []string
-	}
-	LearningStandardItem struct {
-		LIST []string
-	}
-	PurchaseOrder struct {
-		LIST []string
-	}
-	StudentContactPersonal struct {
-		LIST []string
-	}
-	StudentDailyAttendance struct {
-		LIST []string
-	}
-	ChargedLocationInfo struct {
-		LIST []string
-	}
-	FinancialQuestionnaireCollection struct {
-		LIST []string
-	}
-	StudentAttendanceSummary struct {
-		LIST []string
-	}
-	WellbeingPersonLink struct {
-		LIST []string
-	}
-	Identity struct {
-		LIST []string
-	}
-	NAPTest struct {
-		LIST []string
-	}
-	NAPTestItem struct {
-		LIST []string
-	}
-	PersonPicture struct {
-		LIST []string
-	}
-	PaymentReceipt struct {
-		LIST []string
-	}
-	StudentActivityInfo struct {
-		LIST []string
-	}
-	StudentAttendanceTimeList struct {
-		LIST []string
-	}
-	StudentPeriodAttendance struct {
-		LIST []string
-	}
-	Activity struct {
-		LIST []string
-	}
-	FinancialAccount struct {
-		LIST []string
-	}
-	NAPStudentResponseSet struct {
-		LIST []string
-	}
-	ResourceUsage struct {
-		LIST []string
-	}
-	StudentScoreJudgementAgainstStandard struct {
-		LIST []string
-	}
-	TeachingGroup struct {
-		LIST []string
-	}
-	TimeTable struct {
-		LIST []string
-	}
-	Invoice struct {
-		LIST []string
-	}
-	LearningResource struct {
-		LIST []string
-	}
-	SessionInfo struct {
-		LIST []string
-	}
-	StudentSchoolEnrollment struct {
-		LIST []string
-	}
-	CollectionRound struct {
-		LIST []string
-	}
-	NAPTestScoreSummary struct {
-		LIST []string
-	}
-	TimeTableContainer struct {
-		LIST []string
-	}
-	WellbeingCharacteristic struct {
 		LIST []string
 	}
 	LEAInfo struct {
 		LIST []string
 	}
-	StudentGrade struct {
+	SchoolInfo struct {
 		LIST []string
 	}
-	EquipmentInfo struct {
+	StudentContactPersonal struct {
 		LIST []string
 	}
-	WellbeingAppeal struct {
+	StudentPeriodAttendance struct {
 		LIST []string
 	}
-	StudentPersonal struct {
+	TimeTableContainer struct {
 		LIST []string
 	}
-	WellbeingAlert struct {
-		LIST []string
-	}
-	CalendarSummary struct {
+	CensusCollection struct {
 		LIST []string
 	}
 	CollectionStatus struct {
 		LIST []string
 	}
-	StudentContactRelationship struct {
+	Journal struct {
 		LIST []string
 	}
 	SystemRole struct {
@@ -224,10 +38,196 @@ type CfgL2J346 struct {
 	TimeTableCell struct {
 		LIST []string
 	}
-	GradingAssignmentScore struct {
+	LearningResource struct {
+		LIST []string
+	}
+	StudentActivityParticipation struct {
+		LIST []string
+	}
+	StudentAttendanceSummary struct {
+		LIST []string
+	}
+	AggregateStatisticFact struct {
+		LIST []string
+	}
+	GradingAssignment struct {
+		LIST []string
+	}
+	NAPCodeFrame struct {
+		LIST []string
+	}
+	WellbeingEvent struct {
+		LIST []string
+	}
+	NAPTestItem struct {
+		LIST []string
+	}
+	NAPTestScoreSummary struct {
+		LIST []string
+	}
+	StudentParticipation struct {
+		LIST []string
+	}
+	StudentPersonal struct {
+		LIST []string
+	}
+	StudentScoreJudgementAgainstStandard struct {
+		LIST []string
+	}
+	AddressCollection struct {
+		LIST []string
+	}
+	AggregateCharacteristicInfo struct {
 		LIST []string
 	}
 	MarkValueInfo struct {
+		LIST []string
+	}
+	WellbeingPersonLink struct {
+		LIST []string
+	}
+	FinancialQuestionnaireCollection struct {
+		LIST []string
+	}
+	RoomInfo struct {
+		LIST []string
+	}
+	StudentDailyAttendance struct {
+		LIST []string
+	}
+	StudentSchoolEnrollment struct {
+		LIST []string
+	}
+	TermInfo struct {
+		LIST []string
+	}
+	CalendarDate struct {
+		LIST []string
+	}
+	ChargedLocationInfo struct {
+		LIST []string
+	}
+	Identity struct {
+		LIST []string
+	}
+	NAPStudentResponseSet struct {
+		LIST []string
+	}
+	StudentActivityInfo struct {
+		LIST []string
+	}
+	TimeTable struct {
+		LIST []string
+	}
+	WellbeingAlert struct {
+		LIST []string
+	}
+	CollectionRound struct {
+		LIST []string
+	}
+	Invoice struct {
+		LIST []string
+	}
+	NAPEventStudentLink struct {
+		LIST []string
+	}
+	SessionInfo struct {
+		LIST []string
+	}
+	StudentSectionEnrollment struct {
+		LIST []string
+	}
+	CalendarSummary struct {
+		LIST []string
+	}
+	LearningStandardItem struct {
+		LIST []string
+	}
+	PersonalisedPlan struct {
+		LIST []string
+	}
+	NAPTestlet struct {
+		LIST []string
+	}
+	ResourceBooking struct {
+		LIST []string
+	}
+	SectionInfo struct {
+		LIST []string
+	}
+	Activity struct {
+		LIST []string
+	}
+	EquipmentInfo struct {
+		LIST []string
+	}
+	NAPTest struct {
+		LIST []string
+	}
+	PurchaseOrder struct {
+		LIST []string
+	}
+	TimeTableSubject struct {
+		LIST []string
+	}
+	SchoolPrograms struct {
+		LIST []string
+	}
+	StudentAttendanceTimeList struct {
+		LIST []string
+	}
+	StudentGrade struct {
+		LIST []string
+	}
+	TeachingGroup struct {
+		LIST []string
+	}
+	FinancialAccount struct {
+		LIST []string
+	}
+	PaymentReceipt struct {
+		LIST []string
+	}
+	ScheduledActivity struct {
+		LIST []string
+	}
+	StaffAssignment struct {
+		LIST []string
+	}
+	StudentContactRelationship struct {
+		LIST []string
+	}
+	VendorInfo struct {
+		LIST []string
+	}
+	WellbeingCharacteristic struct {
+		LIST []string
+	}
+	AggregateStatisticInfo struct {
+		LIST []string
+	}
+	PersonPicture struct {
+		LIST []string
+	}
+	ResourceUsage struct {
+		LIST []string
+	}
+	StaffPersonal struct {
+		LIST []string
+	}
+	WellbeingAppeal struct {
+		LIST []string
+	}
+	WellbeingResponse struct {
+		LIST []string
+	}
+	GradingAssignmentScore struct {
+		LIST []string
+	}
+	LearningStandardDocument struct {
+		LIST []string
+	}
+	SchoolCourseInfo struct {
 		LIST []string
 	}
 }
@@ -235,100 +235,25 @@ type CfgL2J346 struct {
 // CfgB2J346 : AUTO Created From /home/qmiao/Desktop/sif-json2xml/sif-spec/3.4.6/toml/Bool2JSON.toml
 type CfgB2J346 struct {
 	Version string
-	PurchaseOrder struct {
-		BOOLEAN []string
-	}
-	SessionInfo struct {
-		BOOLEAN []string
-	}
-	StudentAttendanceTimeList struct {
-		BOOLEAN []string
-	}
-	StudentGrade struct {
-		BOOLEAN []string
-	}
-	WellbeingEvent struct {
-		BOOLEAN []string
-	}
-	AggregateStatisticFact struct {
-		BOOLEAN []string
-	}
-	ChargedLocationInfo struct {
-		BOOLEAN []string
-	}
-	Invoice struct {
-		BOOLEAN []string
-	}
-	CalendarDate struct {
-		BOOLEAN []string
-	}
-	RoomInfo struct {
-		BOOLEAN []string
-	}
-	WellbeingAppeal struct {
-		BOOLEAN []string
-	}
-	WellbeingPersonLink struct {
-		BOOLEAN []string
-	}
-	StudentDailyAttendance struct {
-		BOOLEAN []string
-	}
-	GradingAssignmentScore struct {
-		BOOLEAN []string
-	}
-	ResourceBooking struct {
+	NAPTestScoreSummary struct {
 		BOOLEAN []string
 	}
 	StaffPersonal struct {
 		BOOLEAN []string
 	}
-	TimeTableContainer struct {
+	VendorInfo struct {
 		BOOLEAN []string
 	}
-	ScheduledActivity struct {
+	CensusCollection struct {
 		BOOLEAN []string
 	}
-	StudentScoreJudgementAgainstStandard struct {
+	GradingAssignmentScore struct {
 		BOOLEAN []string
 	}
-	TimeTableCell struct {
+	LearningStandardDocument struct {
 		BOOLEAN []string
 	}
-	NAPTestScoreSummary struct {
-		BOOLEAN []string
-	}
-	FinancialQuestionnaireCollection struct {
-		BOOLEAN []string
-	}
-	Identity struct {
-		BOOLEAN []string
-	}
-	NAPTestItem struct {
-		BOOLEAN []string
-	}
-	PersonalisedPlan struct {
-		BOOLEAN []string
-	}
-	StaffAssignment struct {
-		BOOLEAN []string
-	}
-	StudentSchoolEnrollment struct {
-		BOOLEAN []string
-	}
-	TeachingGroup struct {
-		BOOLEAN []string
-	}
-	Activity struct {
-		BOOLEAN []string
-	}
-	Journal struct {
-		BOOLEAN []string
-	}
-	LearningResource struct {
-		BOOLEAN []string
-	}
-	StudentAttendanceSummary struct {
+	StudentDailyAttendance struct {
 		BOOLEAN []string
 	}
 	StudentPeriodAttendance struct {
@@ -337,112 +262,73 @@ type CfgB2J346 struct {
 	TimeTableSubject struct {
 		BOOLEAN []string
 	}
-	WellbeingAlert struct {
+	StudentGrade struct {
 		BOOLEAN []string
 	}
-	WellbeingCharacteristic struct {
-		BOOLEAN []string
-	}
-	NAPStudentResponseSet struct {
-		BOOLEAN []string
-	}
-	SectionInfo struct {
-		BOOLEAN []string
-	}
-	StudentActivityParticipation struct {
-		BOOLEAN []string
-	}
-	Debtor struct {
-		BOOLEAN []string
-	}
-	MarkValueInfo struct {
-		BOOLEAN []string
-	}
-	ResourceUsage struct {
-		BOOLEAN []string
-	}
-	LearningStandardItem struct {
-		BOOLEAN []string
-	}
-	NAPTestlet struct {
-		BOOLEAN []string
-	}
-	PersonPicture struct {
-		BOOLEAN []string
-	}
-	SchoolInfo struct {
-		BOOLEAN []string
-	}
-	StudentActivityInfo struct {
-		BOOLEAN []string
-	}
-	AddressCollection struct {
-		BOOLEAN []string
-	}
-	CollectionRound struct {
-		BOOLEAN []string
-	}
-	LearningStandardDocument struct {
-		BOOLEAN []string
-	}
-	StudentContactPersonal struct {
-		BOOLEAN []string
-	}
-	SystemRole struct {
-		BOOLEAN []string
-	}
-	EquipmentInfo struct {
-		BOOLEAN []string
-	}
-	SchoolCourseInfo struct {
-		BOOLEAN []string
-	}
-	StudentParticipation struct {
-		BOOLEAN []string
-	}
-	TermInfo struct {
-		BOOLEAN []string
-	}
-	AggregateCharacteristicInfo struct {
-		BOOLEAN []string
-	}
-	LEAInfo struct {
-		BOOLEAN []string
-	}
-	StudentContactRelationship struct {
-		BOOLEAN []string
-	}
-	PaymentReceipt struct {
-		BOOLEAN []string
-	}
-	CalendarSummary struct {
-		BOOLEAN []string
-	}
-	GradingAssignment struct {
-		BOOLEAN []string
-	}
-	NAPEventStudentLink struct {
-		BOOLEAN []string
-	}
-	FinancialAccount struct {
-		BOOLEAN []string
-	}
-	StudentPersonal struct {
-		BOOLEAN []string
-	}
-	VendorInfo struct {
-		BOOLEAN []string
-	}
-	WellbeingResponse struct {
-		BOOLEAN []string
-	}
-	CollectionStatus struct {
+	LearningResource struct {
 		BOOLEAN []string
 	}
 	NAPCodeFrame struct {
 		BOOLEAN []string
 	}
-	StudentSectionEnrollment struct {
+	NAPTest struct {
+		BOOLEAN []string
+	}
+	RoomInfo struct {
+		BOOLEAN []string
+	}
+	StaffAssignment struct {
+		BOOLEAN []string
+	}
+	StudentActivityInfo struct {
+		BOOLEAN []string
+	}
+	StudentActivityParticipation struct {
+		BOOLEAN []string
+	}
+	WellbeingPersonLink struct {
+		BOOLEAN []string
+	}
+	WellbeingAlert struct {
+		BOOLEAN []string
+	}
+	AddressCollection struct {
+		BOOLEAN []string
+	}
+	CalendarDate struct {
+		BOOLEAN []string
+	}
+	CalendarSummary struct {
+		BOOLEAN []string
+	}
+	StudentAttendanceTimeList struct {
+		BOOLEAN []string
+	}
+	StudentPersonal struct {
+		BOOLEAN []string
+	}
+	TermInfo struct {
+		BOOLEAN []string
+	}
+	TimeTableContainer struct {
+		BOOLEAN []string
+	}
+	WellbeingAppeal struct {
+		BOOLEAN []string
+	}
+	EquipmentInfo struct {
+		BOOLEAN []string
+	}
+	Journal struct {
+		BOOLEAN []string
+	}
+	MarkValueInfo struct {
+		BOOLEAN []string
+	}
+	NAPTestItem struct {
+		BOOLEAN []string
+	}
+	ResourceBooking struct {
 		BOOLEAN []string
 	}
 	SchoolPrograms struct {
@@ -451,13 +337,127 @@ type CfgB2J346 struct {
 	TimeTable struct {
 		BOOLEAN []string
 	}
+	CollectionRound struct {
+		BOOLEAN []string
+	}
+	PurchaseOrder struct {
+		BOOLEAN []string
+	}
+	ScheduledActivity struct {
+		BOOLEAN []string
+	}
+	FinancialAccount struct {
+		BOOLEAN []string
+	}
+	NAPEventStudentLink struct {
+		BOOLEAN []string
+	}
+	NAPStudentResponseSet struct {
+		BOOLEAN []string
+	}
+	PersonalisedPlan struct {
+		BOOLEAN []string
+	}
+	SectionInfo struct {
+		BOOLEAN []string
+	}
+	StudentAttendanceSummary struct {
+		BOOLEAN []string
+	}
+	ChargedLocationInfo struct {
+		BOOLEAN []string
+	}
+	StudentSchoolEnrollment struct {
+		BOOLEAN []string
+	}
 	AggregateStatisticInfo struct {
 		BOOLEAN []string
 	}
-	CensusCollection struct {
+	Identity struct {
 		BOOLEAN []string
 	}
-	NAPTest struct {
+	LEAInfo struct {
+		BOOLEAN []string
+	}
+	LearningStandardItem struct {
+		BOOLEAN []string
+	}
+	PersonPicture struct {
+		BOOLEAN []string
+	}
+	SchoolInfo struct {
+		BOOLEAN []string
+	}
+	StudentScoreJudgementAgainstStandard struct {
+		BOOLEAN []string
+	}
+	WellbeingResponse struct {
+		BOOLEAN []string
+	}
+	FinancialQuestionnaireCollection struct {
+		BOOLEAN []string
+	}
+	NAPTestlet struct {
+		BOOLEAN []string
+	}
+	TeachingGroup struct {
+		BOOLEAN []string
+	}
+	PaymentReceipt struct {
+		BOOLEAN []string
+	}
+	StudentContactRelationship struct {
+		BOOLEAN []string
+	}
+	StudentSectionEnrollment struct {
+		BOOLEAN []string
+	}
+	SystemRole struct {
+		BOOLEAN []string
+	}
+	SchoolCourseInfo struct {
+		BOOLEAN []string
+	}
+	StudentParticipation struct {
+		BOOLEAN []string
+	}
+	Debtor struct {
+		BOOLEAN []string
+	}
+	ResourceUsage struct {
+		BOOLEAN []string
+	}
+	TimeTableCell struct {
+		BOOLEAN []string
+	}
+	WellbeingCharacteristic struct {
+		BOOLEAN []string
+	}
+	WellbeingEvent struct {
+		BOOLEAN []string
+	}
+	CollectionStatus struct {
+		BOOLEAN []string
+	}
+	GradingAssignment struct {
+		BOOLEAN []string
+	}
+	Invoice struct {
+		BOOLEAN []string
+	}
+	SessionInfo struct {
+		BOOLEAN []string
+	}
+	Activity struct {
+		BOOLEAN []string
+	}
+	AggregateCharacteristicInfo struct {
+		BOOLEAN []string
+	}
+	AggregateStatisticFact struct {
+		BOOLEAN []string
+	}
+	StudentContactPersonal struct {
 		BOOLEAN []string
 	}
 }
@@ -465,187 +465,118 @@ type CfgB2J346 struct {
 // CfgN2J346 : AUTO Created From /home/qmiao/Desktop/sif-json2xml/sif-spec/3.4.6/toml/Num2JSON.toml
 type CfgN2J346 struct {
 	Version string
-	CensusCollection struct {
-		NUMERIC []string
-	}
-	Identity struct {
-		NUMERIC []string
-	}
-	NAPCodeFrame struct {
-		NUMERIC []string
-	}
-	ResourceUsage struct {
-		NUMERIC []string
-	}
-	StudentContactPersonal struct {
-		NUMERIC []string
-	}
-	StudentPersonal struct {
-		NUMERIC []string
-	}
-	TeachingGroup struct {
-		NUMERIC []string
-	}
-	AddressCollection struct {
-		NUMERIC []string
-	}
-	CollectionRound struct {
-		NUMERIC []string
-	}
-	CollectionStatus struct {
-		NUMERIC []string
-	}
-	NAPTest struct {
-		NUMERIC []string
-	}
-	ResourceBooking struct {
-		NUMERIC []string
-	}
-	AggregateStatisticFact struct {
-		NUMERIC []string
-	}
-	StudentAttendanceSummary struct {
-		NUMERIC []string
-	}
-	StudentScoreJudgementAgainstStandard struct {
-		NUMERIC []string
-	}
-	StudentSectionEnrollment struct {
-		NUMERIC []string
-	}
-	WellbeingAppeal struct {
-		NUMERIC []string
-	}
-	AggregateStatisticInfo struct {
-		NUMERIC []string
-	}
-	ChargedLocationInfo struct {
-		NUMERIC []string
-	}
-	Debtor struct {
-		NUMERIC []string
-	}
-	FinancialAccount struct {
-		NUMERIC []string
-	}
-	SchoolPrograms struct {
-		NUMERIC []string
-	}
-	StaffAssignment struct {
-		NUMERIC []string
-	}
-	WellbeingResponse struct {
-		NUMERIC []string
-	}
-	GradingAssignment struct {
-		NUMERIC []string
-	}
-	PersonalisedPlan struct {
-		NUMERIC []string
-	}
-	StudentSchoolEnrollment struct {
-		NUMERIC []string
-	}
-	TermInfo struct {
-		NUMERIC []string
-	}
-	TimeTableContainer struct {
-		NUMERIC []string
-	}
-	FinancialQuestionnaireCollection struct {
-		NUMERIC []string
-	}
-	Journal struct {
-		NUMERIC []string
-	}
-	NAPEventStudentLink struct {
-		NUMERIC []string
-	}
-	NAPStudentResponseSet struct {
-		NUMERIC []string
-	}
-	TimeTableSubject struct {
-		NUMERIC []string
-	}
-	Invoice struct {
-		NUMERIC []string
-	}
-	MarkValueInfo struct {
-		NUMERIC []string
-	}
-	PersonPicture struct {
-		NUMERIC []string
-	}
-	StaffPersonal struct {
-		NUMERIC []string
-	}
-	TimeTable struct {
-		NUMERIC []string
-	}
-	WellbeingAlert struct {
-		NUMERIC []string
-	}
-	WellbeingCharacteristic struct {
-		NUMERIC []string
-	}
-	CalendarDate struct {
-		NUMERIC []string
-	}
-	LearningStandardDocument struct {
-		NUMERIC []string
-	}
-	StudentDailyAttendance struct {
-		NUMERIC []string
-	}
-	TimeTableCell struct {
-		NUMERIC []string
-	}
-	Activity struct {
-		NUMERIC []string
-	}
-	EquipmentInfo struct {
-		NUMERIC []string
-	}
-	NAPTestScoreSummary struct {
-		NUMERIC []string
-	}
 	PurchaseOrder struct {
-		NUMERIC []string
-	}
-	RoomInfo struct {
 		NUMERIC []string
 	}
 	SchoolCourseInfo struct {
 		NUMERIC []string
 	}
-	StudentContactRelationship struct {
+	StudentAttendanceSummary struct {
 		NUMERIC []string
 	}
-	SystemRole struct {
+	StudentDailyAttendance struct {
 		NUMERIC []string
 	}
-	LEAInfo struct {
+	WellbeingAlert struct {
 		NUMERIC []string
 	}
-	LearningStandardItem struct {
-		NUMERIC []string
-	}
-	SectionInfo struct {
-		NUMERIC []string
-	}
-	SessionInfo struct {
-		NUMERIC []string
-	}
-	StudentActivityParticipation struct {
+	Journal struct {
 		NUMERIC []string
 	}
 	StudentAttendanceTimeList struct {
 		NUMERIC []string
 	}
-	StudentGrade struct {
+	AddressCollection struct {
+		NUMERIC []string
+	}
+	LearningStandardItem struct {
+		NUMERIC []string
+	}
+	StaffAssignment struct {
+		NUMERIC []string
+	}
+	StudentParticipation struct {
+		NUMERIC []string
+	}
+	WellbeingCharacteristic struct {
+		NUMERIC []string
+	}
+	ChargedLocationInfo struct {
+		NUMERIC []string
+	}
+	PersonalisedPlan struct {
 		NUMERIC []string
 	}
 	ScheduledActivity struct {
+		NUMERIC []string
+	}
+	SectionInfo struct {
+		NUMERIC []string
+	}
+	TermInfo struct {
+		NUMERIC []string
+	}
+	CollectionRound struct {
+		NUMERIC []string
+	}
+	MarkValueInfo struct {
+		NUMERIC []string
+	}
+	Debtor struct {
+		NUMERIC []string
+	}
+	TimeTable struct {
+		NUMERIC []string
+	}
+	WellbeingResponse struct {
+		NUMERIC []string
+	}
+	CensusCollection struct {
+		NUMERIC []string
+	}
+	TimeTableSubject struct {
+		NUMERIC []string
+	}
+	AggregateStatisticInfo struct {
+		NUMERIC []string
+	}
+	CalendarSummary struct {
+		NUMERIC []string
+	}
+	CollectionStatus struct {
+		NUMERIC []string
+	}
+	NAPEventStudentLink struct {
+		NUMERIC []string
+	}
+	ResourceBooking struct {
+		NUMERIC []string
+	}
+	StudentContactRelationship struct {
+		NUMERIC []string
+	}
+	WellbeingEvent struct {
+		NUMERIC []string
+	}
+	WellbeingPersonLink struct {
+		NUMERIC []string
+	}
+	Activity struct {
+		NUMERIC []string
+	}
+	CalendarDate struct {
+		NUMERIC []string
+	}
+	NAPCodeFrame struct {
+		NUMERIC []string
+	}
+	StudentActivityInfo struct {
+		NUMERIC []string
+	}
+	StudentScoreJudgementAgainstStandard struct {
+		NUMERIC []string
+	}
+	SystemRole struct {
 		NUMERIC []string
 	}
 	VendorInfo struct {
@@ -654,40 +585,109 @@ type CfgN2J346 struct {
 	AggregateCharacteristicInfo struct {
 		NUMERIC []string
 	}
-	CalendarSummary struct {
+	GradingAssignment struct {
 		NUMERIC []string
 	}
-	LearningResource struct {
+	NAPStudentResponseSet struct {
+		NUMERIC []string
+	}
+	StudentContactPersonal struct {
+		NUMERIC []string
+	}
+	TeachingGroup struct {
+		NUMERIC []string
+	}
+	FinancialQuestionnaireCollection struct {
+		NUMERIC []string
+	}
+	LEAInfo struct {
+		NUMERIC []string
+	}
+	ResourceUsage struct {
+		NUMERIC []string
+	}
+	SchoolPrograms struct {
+		NUMERIC []string
+	}
+	StudentPersonal struct {
+		NUMERIC []string
+	}
+	TimeTableContainer struct {
+		NUMERIC []string
+	}
+	EquipmentInfo struct {
+		NUMERIC []string
+	}
+	FinancialAccount struct {
+		NUMERIC []string
+	}
+	AggregateStatisticFact struct {
 		NUMERIC []string
 	}
 	NAPTestlet struct {
 		NUMERIC []string
 	}
-	PaymentReceipt struct {
+	PersonPicture struct {
 		NUMERIC []string
 	}
-	SchoolInfo struct {
+	StudentGrade struct {
 		NUMERIC []string
 	}
-	WellbeingPersonLink struct {
+	StudentSchoolEnrollment struct {
 		NUMERIC []string
 	}
-	GradingAssignmentScore struct {
+	TimeTableCell struct {
+		NUMERIC []string
+	}
+	NAPTestScoreSummary struct {
+		NUMERIC []string
+	}
+	Identity struct {
+		NUMERIC []string
+	}
+	Invoice struct {
 		NUMERIC []string
 	}
 	NAPTestItem struct {
 		NUMERIC []string
 	}
-	StudentActivityInfo struct {
+	GradingAssignmentScore struct {
 		NUMERIC []string
 	}
-	StudentParticipation struct {
+	SchoolInfo struct {
+		NUMERIC []string
+	}
+	SessionInfo struct {
+		NUMERIC []string
+	}
+	StaffPersonal struct {
 		NUMERIC []string
 	}
 	StudentPeriodAttendance struct {
 		NUMERIC []string
 	}
-	WellbeingEvent struct {
+	WellbeingAppeal struct {
+		NUMERIC []string
+	}
+	LearningStandardDocument struct {
+		NUMERIC []string
+	}
+	NAPTest struct {
+		NUMERIC []string
+	}
+	PaymentReceipt struct {
+		NUMERIC []string
+	}
+	RoomInfo struct {
+		NUMERIC []string
+	}
+	StudentActivityParticipation struct {
+		NUMERIC []string
+	}
+	StudentSectionEnrollment struct {
+		NUMERIC []string
+	}
+	LearningResource struct {
 		NUMERIC []string
 	}
 }
@@ -695,55 +695,70 @@ type CfgN2J346 struct {
 // CfgL2J347 : AUTO Created From /home/qmiao/Desktop/sif-json2xml/sif-spec/3.4.7/toml/List2JSON.toml
 type CfgL2J347 struct {
 	Version string
-	Invoice struct {
+	ResourceBooking struct {
+		LIST []string
+	}
+	ResourceUsage struct {
+		LIST []string
+	}
+	StudentActivityParticipation struct {
+		LIST []string
+	}
+	WellbeingAppeal struct {
+		LIST []string
+	}
+	PurchaseOrder struct {
+		LIST []string
+	}
+	LibraryPatronStatus struct {
+		LIST []string
+	}
+	PersonalisedPlan struct {
+		LIST []string
+	}
+	SchoolCourseInfo struct {
+		LIST []string
+	}
+	StudentAttendanceCollection struct {
+		LIST []string
+	}
+	StudentGrade struct {
 		LIST []string
 	}
 	TeachingGroup struct {
 		LIST []string
 	}
-	WellbeingEvent struct {
-		LIST []string
-	}
-	ChargedLocationInfo struct {
-		LIST []string
-	}
-	Debtor struct {
-		LIST []string
-	}
-	StudentContactPersonal struct {
-		LIST []string
-	}
-	StudentSectionEnrollment struct {
-		LIST []string
-	}
-	TimeTable struct {
-		LIST []string
-	}
-	Activity struct {
-		LIST []string
-	}
-	StaffPersonal struct {
-		LIST []string
-	}
-	CalendarSummary struct {
-		LIST []string
-	}
-	RoomInfo struct {
-		LIST []string
-	}
-	SchoolInfo struct {
-		LIST []string
-	}
 	WellbeingPersonLink struct {
 		LIST []string
 	}
-	AggregateStatisticFact struct {
+	AddressCollection struct {
+		LIST []string
+	}
+	WellbeingResponse struct {
+		LIST []string
+	}
+	StudentPeriodAttendance struct {
+		LIST []string
+	}
+	StudentSchoolEnrollment struct {
+		LIST []string
+	}
+	GradingAssignmentScore struct {
 		LIST []string
 	}
 	CalendarDate struct {
 		LIST []string
 	}
-	ScheduledActivity struct {
+	ChargedLocationInfo struct {
+		LIST []string
+	}
+	NAPTestScoreSummary struct {
+		LIST []string
+	}
+	SchoolPrograms struct {
+		LIST []string
+	}
+	Activity struct {
 		LIST []string
 	}
 	SessionInfo struct {
@@ -752,7 +767,70 @@ type CfgL2J347 struct {
 	StudentAttendanceSummary struct {
 		LIST []string
 	}
+	SystemRole struct {
+		LIST []string
+	}
+	FinancialQuestionnaireCollection struct {
+		LIST []string
+	}
+	CollectionRound struct {
+		LIST []string
+	}
+	LearningResource struct {
+		LIST []string
+	}
+	VendorInfo struct {
+		LIST []string
+	}
+	CensusCollection struct {
+		LIST []string
+	}
+	SchoolInfo struct {
+		LIST []string
+	}
+	TimeTableContainer struct {
+		LIST []string
+	}
+	FinancialAccount struct {
+		LIST []string
+	}
+	StudentAttendanceTimeList struct {
+		LIST []string
+	}
 	StudentContactRelationship struct {
+		LIST []string
+	}
+	WellbeingCharacteristic struct {
+		LIST []string
+	}
+	WellbeingEvent struct {
+		LIST []string
+	}
+	CollectionStatus struct {
+		LIST []string
+	}
+	Journal struct {
+		LIST []string
+	}
+	StudentSectionEnrollment struct {
+		LIST []string
+	}
+	WellbeingAlert struct {
+		LIST []string
+	}
+	GradingAssignment struct {
+		LIST []string
+	}
+	ScheduledActivity struct {
+		LIST []string
+	}
+	StudentContactPersonal struct {
+		LIST []string
+	}
+	Identity struct {
+		LIST []string
+	}
+	StaffPersonal struct {
 		LIST []string
 	}
 	StudentScoreJudgementAgainstStandard struct {
@@ -761,61 +839,58 @@ type CfgL2J347 struct {
 	TermInfo struct {
 		LIST []string
 	}
-	AggregateCharacteristicInfo struct {
+	AggregateStatisticInfo struct {
 		LIST []string
 	}
-	NAPTestScoreSummary struct {
+	MarkValueInfo struct {
 		LIST []string
 	}
-	WellbeingAlert struct {
+	PersonPicture struct {
 		LIST []string
 	}
-	TimeTableContainer struct {
+	SectionInfo struct {
 		LIST []string
 	}
-	VendorInfo struct {
+	StaffAssignment struct {
 		LIST []string
 	}
-	WellbeingAppeal struct {
+	StudentDailyAttendance struct {
 		LIST []string
 	}
-	WellbeingResponse struct {
+	StudentParticipation struct {
 		LIST []string
 	}
-	PurchaseOrder struct {
+	CalendarSummary struct {
 		LIST []string
 	}
-	TimeTableSubject struct {
+	EquipmentInfo struct {
 		LIST []string
 	}
-	ResourceUsage struct {
+	LearningStandardDocument struct {
 		LIST []string
 	}
 	NAPEventStudentLink struct {
 		LIST []string
 	}
-	PersonalisedPlan struct {
+	NAPTestlet struct {
 		LIST []string
 	}
-	LearningResource struct {
+	TimeTable struct {
+		LIST []string
+	}
+	AggregateStatisticFact struct {
 		LIST []string
 	}
 	NAPTestItem struct {
 		LIST []string
 	}
-	NAPTestlet struct {
+	StudentPersonal struct {
 		LIST []string
 	}
-	AggregateStatisticInfo struct {
+	TimeTableSubject struct {
 		LIST []string
 	}
-	CensusCollection struct {
-		LIST []string
-	}
-	SchoolCourseInfo struct {
-		LIST []string
-	}
-	LearningStandardDocument struct {
+	AggregateCharacteristicInfo struct {
 		LIST []string
 	}
 	NAPCodeFrame struct {
@@ -824,106 +899,31 @@ type CfgL2J347 struct {
 	PaymentReceipt struct {
 		LIST []string
 	}
-	SchoolPrograms struct {
-		LIST []string
-	}
-	StaffAssignment struct {
-		LIST []string
-	}
-	CollectionRound struct {
-		LIST []string
-	}
-	LearningStandardItem struct {
-		LIST []string
-	}
-	ResourceBooking struct {
-		LIST []string
-	}
-	StudentDailyAttendance struct {
+	RoomInfo struct {
 		LIST []string
 	}
 	TimeTableCell struct {
 		LIST []string
 	}
-	WellbeingCharacteristic struct {
-		LIST []string
-	}
-	AddressCollection struct {
+	Debtor struct {
 		LIST []string
 	}
 	LEAInfo struct {
 		LIST []string
 	}
-	NAPTest struct {
-		LIST []string
-	}
-	PersonPicture struct {
-		LIST []string
-	}
-	StudentActivityParticipation struct {
-		LIST []string
-	}
-	StudentAttendanceTimeList struct {
-		LIST []string
-	}
-	StudentGrade struct {
-		LIST []string
-	}
-	StudentPeriodAttendance struct {
-		LIST []string
-	}
-	CollectionStatus struct {
-		LIST []string
-	}
-	Identity struct {
-		LIST []string
-	}
-	FinancialAccount struct {
-		LIST []string
-	}
-	StudentParticipation struct {
-		LIST []string
-	}
-	GradingAssignmentScore struct {
-		LIST []string
-	}
-	SectionInfo struct {
-		LIST []string
-	}
-	Journal struct {
-		LIST []string
-	}
-	LibraryPatronStatus struct {
-		LIST []string
-	}
-	StudentAttendanceCollection struct {
-		LIST []string
-	}
-	StudentPersonal struct {
-		LIST []string
-	}
-	EquipmentInfo struct {
-		LIST []string
-	}
-	FinancialQuestionnaireCollection struct {
+	LearningStandardItem struct {
 		LIST []string
 	}
 	NAPStudentResponseSet struct {
 		LIST []string
 	}
+	NAPTest struct {
+		LIST []string
+	}
 	StudentActivityInfo struct {
 		LIST []string
 	}
-	StudentSchoolEnrollment struct {
-		LIST []string
-	}
-	SystemRole struct {
-		LIST []string
-	}
-	GradingAssignment struct {
-		LIST []string
-	}
-	MarkValueInfo struct {
+	Invoice struct {
 		LIST []string
 	}
 }
@@ -931,58 +931,22 @@ type CfgL2J347 struct {
 // CfgB2J347 : AUTO Created From /home/qmiao/Desktop/sif-json2xml/sif-spec/3.4.7/toml/Bool2JSON.toml
 type CfgB2J347 struct {
 	Version string
-	CollectionStatus struct {
+	CalendarSummary struct {
 		BOOLEAN []string
 	}
-	GradingAssignmentScore struct {
+	Identity struct {
 		BOOLEAN []string
 	}
-	PaymentReceipt struct {
+	Invoice struct {
 		BOOLEAN []string
 	}
-	StudentAttendanceTimeList struct {
-		BOOLEAN []string
-	}
-	StudentGrade struct {
-		BOOLEAN []string
-	}
-	AggregateStatisticInfo struct {
-		BOOLEAN []string
-	}
-	Journal struct {
-		BOOLEAN []string
-	}
-	SessionInfo struct {
-		BOOLEAN []string
-	}
-	StaffAssignment struct {
-		BOOLEAN []string
-	}
-	WellbeingAppeal struct {
-		BOOLEAN []string
-	}
-	WellbeingCharacteristic struct {
-		BOOLEAN []string
-	}
-	LearningStandardItem struct {
-		BOOLEAN []string
-	}
-	PersonalisedPlan struct {
-		BOOLEAN []string
-	}
-	StudentPeriodAttendance struct {
+	StudentAttendanceCollection struct {
 		BOOLEAN []string
 	}
 	TermInfo struct {
 		BOOLEAN []string
 	}
-	TimeTable struct {
-		BOOLEAN []string
-	}
-	TimeTableSubject struct {
-		BOOLEAN []string
-	}
-	ChargedLocationInfo struct {
+	GradingAssignment struct {
 		BOOLEAN []string
 	}
 	LibraryPatronStatus struct {
@@ -991,166 +955,136 @@ type CfgB2J347 struct {
 	NAPStudentResponseSet struct {
 		BOOLEAN []string
 	}
-	StaffPersonal struct {
-		BOOLEAN []string
-	}
-	StudentDailyAttendance struct {
-		BOOLEAN []string
-	}
-	PurchaseOrder struct {
-		BOOLEAN []string
-	}
-	SectionInfo struct {
-		BOOLEAN []string
-	}
-	StudentContactRelationship struct {
-		BOOLEAN []string
-	}
-	TimeTableCell struct {
-		BOOLEAN []string
-	}
-	NAPEventStudentLink struct {
-		BOOLEAN []string
-	}
-	StudentActivityInfo struct {
-		BOOLEAN []string
-	}
-	SystemRole struct {
-		BOOLEAN []string
-	}
-	FinancialAccount struct {
-		BOOLEAN []string
-	}
-	LEAInfo struct {
-		BOOLEAN []string
-	}
-	StudentSchoolEnrollment struct {
-		BOOLEAN []string
-	}
-	VendorInfo struct {
-		BOOLEAN []string
-	}
-	WellbeingAlert struct {
-		BOOLEAN []string
-	}
-	WellbeingPersonLink struct {
-		BOOLEAN []string
-	}
-	EquipmentInfo struct {
-		BOOLEAN []string
-	}
-	Identity struct {
-		BOOLEAN []string
-	}
-	StudentContactPersonal struct {
-		BOOLEAN []string
-	}
-	NAPTestItem struct {
-		BOOLEAN []string
-	}
-	ResourceUsage struct {
-		BOOLEAN []string
-	}
-	Activity struct {
-		BOOLEAN []string
-	}
-	AggregateStatisticFact struct {
-		BOOLEAN []string
-	}
-	CalendarDate struct {
+	SchoolCourseInfo struct {
 		BOOLEAN []string
 	}
 	CensusCollection struct {
 		BOOLEAN []string
 	}
-	CollectionRound struct {
+	ChargedLocationInfo struct {
 		BOOLEAN []string
 	}
-	Debtor struct {
+	FinancialAccount struct {
 		BOOLEAN []string
 	}
 	FinancialQuestionnaireCollection struct {
 		BOOLEAN []string
 	}
-	RoomInfo struct {
-		BOOLEAN []string
-	}
-	StudentParticipation struct {
-		BOOLEAN []string
-	}
-	StudentScoreJudgementAgainstStandard struct {
-		BOOLEAN []string
-	}
-	WellbeingResponse struct {
-		BOOLEAN []string
-	}
-	StudentAttendanceSummary struct {
-		BOOLEAN []string
-	}
-	SchoolPrograms struct {
-		BOOLEAN []string
-	}
-	CalendarSummary struct {
-		BOOLEAN []string
-	}
-	GradingAssignment struct {
-		BOOLEAN []string
-	}
-	Invoice struct {
-		BOOLEAN []string
-	}
 	LearningResource struct {
 		BOOLEAN []string
 	}
-	NAPTestScoreSummary struct {
+	WellbeingAlert struct {
 		BOOLEAN []string
 	}
-	ResourceBooking struct {
-		BOOLEAN []string
-	}
-	SchoolCourseInfo struct {
-		BOOLEAN []string
-	}
-	AddressCollection struct {
+	CollectionRound struct {
 		BOOLEAN []string
 	}
 	MarkValueInfo struct {
 		BOOLEAN []string
 	}
-	NAPTest struct {
-		BOOLEAN []string
-	}
-	StudentAttendanceCollection struct {
-		BOOLEAN []string
-	}
-	AggregateCharacteristicInfo struct {
-		BOOLEAN []string
-	}
-	NAPTestlet struct {
-		BOOLEAN []string
-	}
-	StudentSectionEnrollment struct {
-		BOOLEAN []string
-	}
-	TeachingGroup struct {
-		BOOLEAN []string
-	}
 	NAPCodeFrame struct {
+		BOOLEAN []string
+	}
+	ResourceBooking struct {
+		BOOLEAN []string
+	}
+	StudentPeriodAttendance struct {
+		BOOLEAN []string
+	}
+	AggregateStatisticInfo struct {
+		BOOLEAN []string
+	}
+	EquipmentInfo struct {
+		BOOLEAN []string
+	}
+	LearningStandardItem struct {
+		BOOLEAN []string
+	}
+	RoomInfo struct {
+		BOOLEAN []string
+	}
+	StudentGrade struct {
+		BOOLEAN []string
+	}
+	TimeTableSubject struct {
+		BOOLEAN []string
+	}
+	WellbeingCharacteristic struct {
+		BOOLEAN []string
+	}
+	Activity struct {
+		BOOLEAN []string
+	}
+	CalendarDate struct {
+		BOOLEAN []string
+	}
+	CollectionStatus struct {
+		BOOLEAN []string
+	}
+	SessionInfo struct {
+		BOOLEAN []string
+	}
+	StaffAssignment struct {
 		BOOLEAN []string
 	}
 	ScheduledActivity struct {
 		BOOLEAN []string
 	}
-	TimeTableContainer struct {
+	WellbeingResponse struct {
 		BOOLEAN []string
 	}
-	WellbeingEvent struct {
+	TimeTableContainer struct {
 		BOOLEAN []string
 	}
 	LearningStandardDocument struct {
 		BOOLEAN []string
 	}
+	NAPTest struct {
+		BOOLEAN []string
+	}
+	NAPTestScoreSummary struct {
+		BOOLEAN []string
+	}
 	PersonPicture struct {
+		BOOLEAN []string
+	}
+	StudentDailyAttendance struct {
+		BOOLEAN []string
+	}
+	ResourceUsage struct {
+		BOOLEAN []string
+	}
+	SectionInfo struct {
+		BOOLEAN []string
+	}
+	VendorInfo struct {
+		BOOLEAN []string
+	}
+	PurchaseOrder struct {
+		BOOLEAN []string
+	}
+	StudentAttendanceSummary struct {
+		BOOLEAN []string
+	}
+	StudentContactPersonal struct {
+		BOOLEAN []string
+	}
+	StudentContactRelationship struct {
+		BOOLEAN []string
+	}
+	StudentScoreJudgementAgainstStandard struct {
+		BOOLEAN []string
+	}
+	StudentPersonal struct {
+		BOOLEAN []string
+	}
+	Debtor struct {
+		BOOLEAN []string
+	}
+	LEAInfo struct {
+		BOOLEAN []string
+	}
+	NAPEventStudentLink struct {
 		BOOLEAN []string
 	}
 	SchoolInfo struct {
@@ -1159,7 +1093,73 @@ type CfgB2J347 struct {
 	StudentActivityParticipation struct {
 		BOOLEAN []string
 	}
-	StudentPersonal struct {
+	AggregateCharacteristicInfo struct {
+		BOOLEAN []string
+	}
+	Journal struct {
+		BOOLEAN []string
+	}
+	PaymentReceipt struct {
+		BOOLEAN []string
+	}
+	AddressCollection struct {
+		BOOLEAN []string
+	}
+	GradingAssignmentScore struct {
+		BOOLEAN []string
+	}
+	StudentActivityInfo struct {
+		BOOLEAN []string
+	}
+	TeachingGroup struct {
+		BOOLEAN []string
+	}
+	AggregateStatisticFact struct {
+		BOOLEAN []string
+	}
+	SchoolPrograms struct {
+		BOOLEAN []string
+	}
+	SystemRole struct {
+		BOOLEAN []string
+	}
+	WellbeingAppeal struct {
+		BOOLEAN []string
+	}
+	WellbeingEvent struct {
+		BOOLEAN []string
+	}
+	NAPTestItem struct {
+		BOOLEAN []string
+	}
+	NAPTestlet struct {
+		BOOLEAN []string
+	}
+	PersonalisedPlan struct {
+		BOOLEAN []string
+	}
+	StaffPersonal struct {
+		BOOLEAN []string
+	}
+	StudentSectionEnrollment struct {
+		BOOLEAN []string
+	}
+	WellbeingPersonLink struct {
+		BOOLEAN []string
+	}
+	StudentAttendanceTimeList struct {
+		BOOLEAN []string
+	}
+	StudentParticipation struct {
+		BOOLEAN []string
+	}
+	StudentSchoolEnrollment struct {
+		BOOLEAN []string
+	}
+	TimeTable struct {
+		BOOLEAN []string
+	}
+	TimeTableCell struct {
 		BOOLEAN []string
 	}
 }
@@ -1167,139 +1167,64 @@ type CfgB2J347 struct {
 // CfgN2J347 : AUTO Created From /home/qmiao/Desktop/sif-json2xml/sif-spec/3.4.7/toml/Num2JSON.toml
 type CfgN2J347 struct {
 	Version string
-	TimeTableContainer struct {
-		NUMERIC []string
-	}
-	ChargedLocationInfo struct {
-		NUMERIC []string
-	}
-	CollectionStatus struct {
-		NUMERIC []string
-	}
-	LEAInfo struct {
-		NUMERIC []string
-	}
-	NAPTestlet struct {
-		NUMERIC []string
-	}
-	PaymentReceipt struct {
-		NUMERIC []string
-	}
-	ResourceUsage struct {
-		NUMERIC []string
-	}
-	FinancialAccount struct {
-		NUMERIC []string
-	}
-	NAPTest struct {
-		NUMERIC []string
-	}
-	SchoolInfo struct {
-		NUMERIC []string
-	}
-	StudentAttendanceSummary struct {
-		NUMERIC []string
-	}
-	StudentPeriodAttendance struct {
-		NUMERIC []string
-	}
-	Identity struct {
-		NUMERIC []string
-	}
-	Journal struct {
-		NUMERIC []string
-	}
-	RoomInfo struct {
-		NUMERIC []string
-	}
-	TermInfo struct {
-		NUMERIC []string
-	}
-	NAPTestScoreSummary struct {
-		NUMERIC []string
-	}
-	PersonalisedPlan struct {
-		NUMERIC []string
-	}
-	PurchaseOrder struct {
-		NUMERIC []string
-	}
-	SectionInfo struct {
-		NUMERIC []string
-	}
-	AddressCollection struct {
-		NUMERIC []string
-	}
-	AggregateStatisticFact struct {
-		NUMERIC []string
-	}
-	TeachingGroup struct {
+	CalendarSummary struct {
 		NUMERIC []string
 	}
 	StudentGrade struct {
 		NUMERIC []string
 	}
-	WellbeingAppeal struct {
+	NAPTest struct {
 		NUMERIC []string
 	}
-	Debtor struct {
+	TimeTableCell struct {
 		NUMERIC []string
 	}
-	Invoice struct {
-		NUMERIC []string
-	}
-	NAPCodeFrame struct {
-		NUMERIC []string
-	}
-	PersonPicture struct {
-		NUMERIC []string
-	}
-	StaffPersonal struct {
-		NUMERIC []string
-	}
-	StudentAttendanceCollection struct {
-		NUMERIC []string
-	}
-	WellbeingPersonLink struct {
-		NUMERIC []string
-	}
-	SystemRole struct {
-		NUMERIC []string
-	}
-	WellbeingEvent struct {
-		NUMERIC []string
-	}
-	EquipmentInfo struct {
-		NUMERIC []string
-	}
-	LearningResource struct {
+	TimeTableContainer struct {
 		NUMERIC []string
 	}
 	LearningStandardDocument struct {
 		NUMERIC []string
 	}
-	ScheduledActivity struct {
+	MarkValueInfo struct {
 		NUMERIC []string
 	}
-	SchoolPrograms struct {
+	WellbeingAppeal struct {
 		NUMERIC []string
 	}
-	StudentParticipation struct {
+	SystemRole struct {
 		NUMERIC []string
 	}
-	WellbeingResponse struct {
+	TimeTable struct {
 		NUMERIC []string
 	}
-	TimeTableSubject struct {
+	AddressCollection struct {
 		NUMERIC []string
 	}
-	FinancialQuestionnaireCollection struct {
+	ChargedLocationInfo struct {
 		NUMERIC []string
 	}
-	LearningStandardItem struct {
+	Journal struct {
 		NUMERIC []string
 	}
-	LibraryPatronStatus struct {
+	PaymentReceipt struct {
+		NUMERIC []string
+	}
+	PersonalisedPlan struct {
+		NUMERIC []string
+	}
+	StudentActivityParticipation struct {
+		NUMERIC []string
+	}
+	WellbeingAlert struct {
+		NUMERIC []string
+	}
+	Activity struct {
+		NUMERIC []string
+	}
+	CollectionRound struct {
+		NUMERIC []string
+	}
+	Identity struct {
 		NUMERIC []string
 	}
 	NAPEventStudentLink struct {
@@ -1308,52 +1233,19 @@ type CfgN2J347 struct {
 	StudentAttendanceTimeList struct {
 		NUMERIC []string
 	}
-	TimeTable struct {
+	StudentSectionEnrollment struct {
 		NUMERIC []string
 	}
-	GradingAssignmentScore struct {
+	TeachingGroup struct {
 		NUMERIC []string
 	}
-	SchoolCourseInfo struct {
+	FinancialAccount struct {
 		NUMERIC []string
 	}
-	SessionInfo struct {
+	LibraryPatronStatus struct {
 		NUMERIC []string
 	}
-	WellbeingAlert struct {
-		NUMERIC []string
-	}
-	CollectionRound struct {
-		NUMERIC []string
-	}
-	MarkValueInfo struct {
-		NUMERIC []string
-	}
-	StudentContactRelationship struct {
-		NUMERIC []string
-	}
-	NAPTestItem struct {
-		NUMERIC []string
-	}
-	StaffAssignment struct {
-		NUMERIC []string
-	}
-	StudentActivityParticipation struct {
-		NUMERIC []string
-	}
-	AggregateCharacteristicInfo struct {
-		NUMERIC []string
-	}
-	CalendarSummary struct {
-		NUMERIC []string
-	}
-	GradingAssignment struct {
-		NUMERIC []string
-	}
-	StudentDailyAttendance struct {
-		NUMERIC []string
-	}
-	VendorInfo struct {
+	PersonPicture struct {
 		NUMERIC []string
 	}
 	ResourceBooking struct {
@@ -1362,40 +1254,148 @@ type CfgN2J347 struct {
 	StudentScoreJudgementAgainstStandard struct {
 		NUMERIC []string
 	}
+	WellbeingEvent struct {
+		NUMERIC []string
+	}
+	WellbeingPersonLink struct {
+		NUMERIC []string
+	}
+	WellbeingResponse struct {
+		NUMERIC []string
+	}
+	LEAInfo struct {
+		NUMERIC []string
+	}
+	StaffPersonal struct {
+		NUMERIC []string
+	}
+	StudentParticipation struct {
+		NUMERIC []string
+	}
 	StudentPersonal struct {
 		NUMERIC []string
 	}
-	StudentSchoolEnrollment struct {
+	Invoice struct {
 		NUMERIC []string
 	}
-	StudentSectionEnrollment struct {
+	SchoolInfo struct {
 		NUMERIC []string
 	}
-	TimeTableCell struct {
+	StaffAssignment struct {
 		NUMERIC []string
 	}
-	Activity struct {
+	CollectionStatus struct {
 		NUMERIC []string
 	}
-	CalendarDate struct {
-		NUMERIC []string
-	}
-	StudentActivityInfo struct {
-		NUMERIC []string
-	}
-	AggregateStatisticInfo struct {
-		NUMERIC []string
-	}
-	CensusCollection struct {
-		NUMERIC []string
-	}
-	NAPStudentResponseSet struct {
+	StudentAttendanceSummary struct {
 		NUMERIC []string
 	}
 	StudentContactPersonal struct {
 		NUMERIC []string
 	}
+	StudentContactRelationship struct {
+		NUMERIC []string
+	}
+	VendorInfo struct {
+		NUMERIC []string
+	}
+	AggregateStatisticFact struct {
+		NUMERIC []string
+	}
+	AggregateStatisticInfo struct {
+		NUMERIC []string
+	}
+	ResourceUsage struct {
+		NUMERIC []string
+	}
+	SectionInfo struct {
+		NUMERIC []string
+	}
+	FinancialQuestionnaireCollection struct {
+		NUMERIC []string
+	}
+	LearningStandardItem struct {
+		NUMERIC []string
+	}
+	SchoolCourseInfo struct {
+		NUMERIC []string
+	}
+	Debtor struct {
+		NUMERIC []string
+	}
+	GradingAssignmentScore struct {
+		NUMERIC []string
+	}
+	NAPTestlet struct {
+		NUMERIC []string
+	}
+	RoomInfo struct {
+		NUMERIC []string
+	}
+	NAPCodeFrame struct {
+		NUMERIC []string
+	}
+	StudentActivityInfo struct {
+		NUMERIC []string
+	}
+	StudentAttendanceCollection struct {
+		NUMERIC []string
+	}
 	WellbeingCharacteristic struct {
+		NUMERIC []string
+	}
+	StudentDailyAttendance struct {
+		NUMERIC []string
+	}
+	StudentPeriodAttendance struct {
+		NUMERIC []string
+	}
+	AggregateCharacteristicInfo struct {
+		NUMERIC []string
+	}
+	CensusCollection struct {
+		NUMERIC []string
+	}
+	EquipmentInfo struct {
+		NUMERIC []string
+	}
+	ScheduledActivity struct {
+		NUMERIC []string
+	}
+	NAPTestScoreSummary struct {
+		NUMERIC []string
+	}
+	PurchaseOrder struct {
+		NUMERIC []string
+	}
+	SchoolPrograms struct {
+		NUMERIC []string
+	}
+	StudentSchoolEnrollment struct {
+		NUMERIC []string
+	}
+	CalendarDate struct {
+		NUMERIC []string
+	}
+	GradingAssignment struct {
+		NUMERIC []string
+	}
+	LearningResource struct {
+		NUMERIC []string
+	}
+	NAPStudentResponseSet struct {
+		NUMERIC []string
+	}
+	TermInfo struct {
+		NUMERIC []string
+	}
+	NAPTestItem struct {
+		NUMERIC []string
+	}
+	SessionInfo struct {
+		NUMERIC []string
+	}
+	TimeTableSubject struct {
 		NUMERIC []string
 	}
 }

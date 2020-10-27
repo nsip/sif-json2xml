@@ -228,8 +228,8 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 
 		/// DEBUG ///
 		// if sContains(jstr, "A5A575C7-8917-5101-B8E7-F08ED123A823") {
-			// ioutil.WriteFile("./debug.json", []byte(jstr), 0666)
-			// fPln("break")
+		// ioutil.WriteFile("./debug.json", []byte(jstr), 0666)
+		// fPln("break")
 		// }
 		/// DEBUG ///
 
@@ -300,7 +300,7 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 			warnGrp.Do(Ret + " --> Failed")
 		} else {
 			if wrapped {
-				Ret = sReplaceAll(out4ret, "~~~", RetSB.String())
+				Ret = sReplaceAll(out4ret, "~~~", "\n"+RetSB.String())
 			} else {
 				Ret = RetSB.String()
 			}

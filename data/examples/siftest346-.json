@@ -2,13 +2,13 @@
   "sif": {
     "Activity": [
       {
-        "@RefId": "C27E1FCF-C163-485F-BEF0-F36F18A0493A",
+        "-RefId": "C27E1FCF-C163-485F-BEF0-F36F18A0493A",
         "ActivityTime": {
           "CreationDate": "2002-06-15",
           "DueDate": "2002-09-12",
           "Duration": {
             "#content": 30,
-            "@Units": "minute"
+            "-Units": "minute"
           },
           "FinishDate": "2002-09-12",
           "StartDate": "2002-09-10"
@@ -16,7 +16,7 @@
         "ActivityWeight": 5,
         "AssessmentRefId": "03EDB29E-8116-B450-0435-FA87E42A0AD2",
         "Evaluation": {
-          "@EvaluationType": "Inline",
+          "-EvaluationType": "Inline",
           "Description": "Students should be able to correctly identify all major characters."
         },
         "LearningResources": {
@@ -36,20 +36,20 @@
           "SourceObject": [
             {
               "#content": "A71ADBD3-D93D-A64B-7166-E420D50EDABC",
-              "@SIF_RefObject": "Lesson"
+              "-SIF_RefObject": "Lesson"
             }
           ]
         },
         "Title": "Shakespeare Essay - Much Ado About Nothing"
       },
       {
-        "@RefId": "C27E1FCF-C163-485F-BEF0-F36F18A0493A",
+        "-RefId": "C27E1FCF-C163-485F-BEF0-F36F18A0493B",
         "ActivityTime": {
           "CreationDate": "2002-06-15",
           "DueDate": "2002-09-12",
           "Duration": {
             "#content": 30,
-            "@Units": "minute"
+            "-Units": "minute"
           },
           "FinishDate": "2002-09-12",
           "StartDate": "2002-09-10"
@@ -57,7 +57,7 @@
         "ActivityWeight": 5,
         "AssessmentRefId": "03EDB29E-8116-B450-0435-FA87E42A0AD2",
         "Evaluation": {
-          "@EvaluationType": "Inline",
+          "-EvaluationType": "Inline",
           "Description": "Students should be able to correctly identify all major characters."
         },
         "LearningResources": {
@@ -91,19 +91,19 @@
           "SourceObject": [
             {
               "#content": "A71ADBD3-D93D-A64B-7166-E420D50EDABC",
-              "@SIF_RefObject": "Lesson"
+              "-SIF_RefObject": "Lesson"
             }
           ]
         },
         "Title": "Shakespeare Essay - Much Ado About Nothing"
       },
       {
-        "@RefId": "C27E1FCF-C163-485F-BEF0-F36F18A0493A",
+        "-RefId": "C27E1FCF-C163-485F-BEF0-F36F18A0493C",
         "ActivityTime": {
           "CreationDate": "2002-06-15",
           "DueDate": "2002-09-12",
           "Duration": {
-            "@Units": "minute",
+            "-Units": "minute",
             "value": ""
           },
           "FinishDate": "2002-09-12",
@@ -112,7 +112,7 @@
         "ActivityWeight": 5,
         "AssessmentRefId": "03EDB29E-8116-B450-0435-FA87E42A0AD2",
         "Evaluation": {
-          "@EvaluationType": "Inline",
+          "-EvaluationType": "Inline",
           "Description": "Students should be able to correctly identify all major characters."
         },
         "LearningResources": {
@@ -131,7 +131,7 @@
         "SourceObjects": {
           "SourceObject": [
             {
-              "@SIF_RefObject": "Lesson",
+              "-SIF_RefObject": "Lesson",
               "value": ""
             }
           ]
@@ -139,7 +139,7 @@
         "Title": "Shakespeare Essay - Much Ado About Nothing"
       },
       {
-        "@RefId": "C27E1FCF-C163-485F-BEF0-F36F18A0493A",
+        "-RefId": "C27E1FCF-C163-485F-BEF0-F36F18A0493D",
         "ActivityTime": {
           "CreationDate": "2002-06-15",
           "DueDate": "2002-09-12",
@@ -150,7 +150,7 @@
         "ActivityWeight": 5,
         "AssessmentRefId": "03EDB29E-8116-B450-0435-FA87E42A0AD2",
         "Evaluation": {
-          "@EvaluationType": "Inline",
+          "-EvaluationType": "Inline",
           "Description": "Students should be able to correctly identify all major characters."
         },
         "LearningResources": {
@@ -184,7 +184,7 @@
           "SourceObject": [
             {
               "#content": "A71ADBD3-D93D-A64B-7166-E420D50EDABC",
-              "@SIF_RefObject": "Lesson"
+              "-SIF_RefObject": "Lesson"
             }
           ]
         },
@@ -192,7 +192,7 @@
       }
     ],
     "AddressCollection": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "AddressCollectionReportingList": {
         "AddressCollectionReporting": [
           {
@@ -217,8 +217,8 @@
                   "Parent1": {
                     "AddressSameAsStudent": "Y",
                     "ParentAddress": {
-                      "@Role": "012B",
-                      "@Type": "0123",
+                      "-Role": "012B",
+                      "-Type": "0123",
                       "City": "Chicago",
                       "PostalCode": "60611",
                       "StateProvince": "WA",
@@ -228,7 +228,7 @@
                       }
                     },
                     "ParentName": {
-                      "@Type": "LGL",
+                      "-Type": "LGL",
                       "FamilyName": "Miller",
                       "GivenName": "James",
                       "PreferredGivenName": "Jim"
@@ -237,8 +237,8 @@
                   "Parent2": {
                     "AddressSameAsStudent": "Y",
                     "ParentAddress": {
-                      "@Role": "012B",
-                      "@Type": "0123",
+                      "-Role": "012B",
+                      "-Type": "0123",
                       "City": "Chicago",
                       "PostalCode": "60611",
                       "StateProvince": "WA",
@@ -248,7 +248,7 @@
                       }
                     },
                     "ParentName": {
-                      "@Type": "LGL",
+                      "-Type": "LGL",
                       "FamilyName": "Miller",
                       "GivenName": "Samantha",
                       "PreferredGivenName": "Sam"
@@ -256,8 +256,8 @@
                   },
                   "ReportingParent2": "Y",
                   "StudentAddress": {
-                    "@Role": "012B",
-                    "@Type": "0123",
+                    "-Role": "012B",
+                    "-Type": "0123",
                     "City": "Chicago",
                     "PostalCode": "60611",
                     "StateProvince": "WA",
@@ -272,17 +272,17 @@
             "CommonwealthId": "012345",
             "EntityContact": {
               "Email": {
-                "#content": "jcitizen@school.vic.edu.au",
-                "@Type": "01"
+                "#content": "jmiller@lsc.vic.edu.au",
+                "-Type": "01"
               },
               "Name": {
-                "@Type": "LGL",
-                "FamilyName": "Citizen",
-                "GivenName": "John"
+                "-Type": "LGL",
+                "FamilyName": "Miller",
+                "GivenName": "James"
               },
               "PhoneNumber": {
-                "@Type": "0096",
-                "Number": "03 1234-2678"
+                "-Type": "0096",
+                "Number": "03 9637-2000"
               },
               "PositionTitle": "Auditor"
             },
@@ -299,12 +299,12 @@
       }
     },
     "AggregateCharacteristicInfo": {
-      "@RefId": "06AF1D69-FB06-4AB3-8898-3505714F18FB",
+      "-RefId": "06AF1D69-FB06-4AB3-8898-3505714F18FB",
       "Description": "Sex",
       "ElementName": "StudentPersonal/PersonInfo/Demographics/Sex"
     },
     "AggregateStatisticFact": {
-      "@RefId": "3A4E2822-C696-433B-812B-49DEAE557E41",
+      "-RefId": "3A4E2822-C696-433B-812B-49DEAE557E41",
       "AggregateStatisticInfoRefId": "91A4209F-7F4F-4F4B-9DC8-D21CEFD1DC2F",
       "Characteristics": {
         "AggregateCharacteristicInfoRefId": [
@@ -315,27 +315,27 @@
       "Value": 27
     },
     "AggregateStatisticInfo": {
-      "@RefId": "A5DECBD3-161B-4F5D-9F46-EBA64C87B002",
+      "-RefId": "A5DECBD3-161B-4F5D-9F46-EBA64C87B002",
       "ApprovalDate": "2002-09-01",
       "CalculationRule": {
         "#content": "Number of students scoring at Reading Proficiency Level 1",
-        "@Type": "Description"
+        "-Type": "Description"
       },
       "ExclusionRules": {
         "ExclusionRule": [
           {
             "#content": "N less than 10",
-            "@Type": "SampleSize"
+            "-Type": "SampleSize"
           }
         ]
       },
       "ExpirationDate": "2006-06-30",
       "Location": {
-        "@Type": "School",
+        "-Type": "School",
         "LocationName": "Green River High School",
         "LocationRefId": {
           "#content": "279BCEE5-515E-4C1A-AC3A-765D1F069BC3",
-          "@SIF_RefObject": "SchoolInfo"
+          "-SIF_RefObject": "SchoolInfo"
         }
       },
       "Measure": "Count",
@@ -343,7 +343,7 @@
       "StatisticName": "Read Proficiency L1"
     },
     "CalendarDate": {
-      "@CalendarDateRefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
+      "-CalendarDateRefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
       "CalendarDateType": {
         "Code": "INST"
       },
@@ -361,7 +361,7 @@
       }
     },
     "CalendarSummary": {
-      "@RefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
+      "-RefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
       "DaysInSession": 180,
       "Description": "Elementary School Calendar",
       "EndDate": "2009-12-31",
@@ -389,124 +389,132 @@
       }
     },
     "CensusCollection": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "CensusReportingList": {
         "CensusReporting": [
           {
+            "ACARAId": "1234",
+            "AGContextualQuestionList": {
+              "AGContextualQuestion": [
+                {
+                  "AGAnswer": "Yes",
+                  "AGContextCode": "NGSC001"
+                },
+                {
+                  "AGAnswer": "Yes",
+                  "AGContextCode": "NGSC002"
+                },
+                {
+                  "AGAnswer": "No",
+                  "AGContextCode": "NGSC003"
+                },
+                {
+                  "AGAnswer": "Yes",
+                  "AGContextCode": "NGSC004"
+                },
+                {
+                  "AGAnswer": "Yes",
+                  "AGContextCode": "NGSC005"
+                }
+              ]
+            },
             "CensusStaffList": {
               "CensusStaff": [
                 {
-                  "CohortGender": "M",
-                  "CohortIndigenousType": "N",
                   "Headcount": 5,
-                  "JobFTE": 1,
+                  "IndigenousStatus": "4",
                   "PrimaryFTE": 0.5,
                   "SecondaryFTE": 0.5,
+                  "Sex": "1",
                   "StaffActivity": {
                     "Code": "1100"
-                  },
-                  "StaffCohortId": "1"
+                  }
                 },
                 {
-                  "CohortGender": "F",
-                  "CohortIndigenousType": "N",
                   "Headcount": 6,
-                  "JobFTE": 1,
+                  "IndigenousStatus": "4",
                   "PrimaryFTE": 1,
                   "SecondaryFTE": 0,
+                  "Sex": "2",
                   "StaffActivity": {
                     "Code": "1100"
-                  },
-                  "StaffCohortId": "2"
+                  }
                 },
                 {
-                  "CohortGender": "M",
-                  "CohortIndigenousType": "I",
-                  "Headcount": 6,
-                  "JobFTE": 1,
+                  "Headcount": 5,
+                  "IndigenousStatus": "1",
                   "PrimaryFTE": 0,
                   "SecondaryFTE": 1,
+                  "Sex": "1",
                   "StaffActivity": {
                     "Code": "1100"
-                  },
-                  "StaffCohortId": "3"
+                  }
                 },
                 {
-                  "CohortGender": "M",
-                  "CohortIndigenousType": "I",
                   "Headcount": 1,
-                  "JobFTE": 1,
+                  "IndigenousStatus": "1",
                   "PrimaryFTE": 0,
                   "SecondaryFTE": 1,
+                  "Sex": "1",
                   "StaffActivity": {
                     "Code": "1103"
-                  },
-                  "StaffCohortId": "4"
+                  }
                 }
               ]
             },
             "CensusStudentList": {
               "CensusStudent": [
                 {
+                  "AustralianCitizenshipStatus": "2",
+                  "BoardingStatus": "D",
                   "CensusAge": 13,
-                  "CohortGender": "M",
-                  "CohortIndigenousType": "I",
-                  "DisabilityCategory": "None",
-                  "DisabilityLevelOfAdjustment": "None",
-                  "EducationMode": "D",
+                  "DistanceEducationStudent": "N",
+                  "FFPOS": "1",
                   "FTE": 1,
                   "Headcount": 1,
-                  "OverseasStudent": "Y",
-                  "StudentCohortId": "1",
-                  "StudentOnVisa": "N",
+                  "IndigenousStatus": "1",
+                  "Sex": "1",
                   "YearLevel": {
                     "Code": "7"
                   }
                 },
                 {
+                  "AustralianCitizenshipStatus": "2",
+                  "BoardingStatus": "D",
                   "CensusAge": 13,
-                  "CohortGender": "F",
-                  "CohortIndigenousType": "I",
-                  "DisabilityCategory": "None",
-                  "DisabilityLevelOfAdjustment": "None",
-                  "EducationMode": "D",
+                  "DistanceEducationStudent": "N",
+                  "FFPOS": "1",
                   "FTE": 1,
                   "Headcount": 1,
-                  "OverseasStudent": "Y",
-                  "StudentCohortId": "2",
-                  "StudentOnVisa": "N",
+                  "IndigenousStatus": "1",
+                  "Sex": "2",
                   "YearLevel": {
                     "Code": "7"
                   }
                 },
                 {
+                  "AustralianCitizenshipStatus": "2",
+                  "BoardingStatus": "D",
                   "CensusAge": 13,
-                  "CohortGender": "M",
-                  "CohortIndigenousType": "N",
-                  "DisabilityCategory": "None",
-                  "DisabilityLevelOfAdjustment": "None",
-                  "EducationMode": "D",
+                  "DistanceEducationStudent": "N",
+                  "FFPOS": "2",
                   "FTE": 1,
                   "Headcount": 120,
-                  "OverseasStudent": "N",
-                  "StudentCohortId": "3",
-                  "StudentOnVisa": "N",
-                  "YearLevel": {
-                    "Code": "7"
-                  }
+                  "IndigenousStatus": "4",
+                  "Sex": "1"
                 },
                 {
+                  "AustralianCitizenshipStatus": "2",
+                  "BoardingStatus": "D",
                   "CensusAge": 13,
-                  "CohortGender": "M",
-                  "CohortIndigenousType": "I",
                   "DisabilityCategory": "Sensory",
                   "DisabilityLevelOfAdjustment": "Substantial",
-                  "EducationMode": "D",
+                  "DistanceEducationStudent": "N",
+                  "FFPOS": "1",
                   "FTE": 1,
                   "Headcount": 1,
-                  "OverseasStudent": "N",
-                  "StudentCohortId": "4",
-                  "StudentOnVisa": "N",
+                  "IndigenousStatus": "1",
+                  "Sex": "1",
                   "YearLevel": {
                     "Code": "7"
                   }
@@ -516,22 +524,47 @@
             "CommonwealthId": "012345",
             "EntityContact": {
               "Email": {
-                "#content": "jcitizen@school.vic.edu.au",
-                "@Type": "01"
+                "#content": "jmiller@lsc.vic.edu.au",
+                "-Type": "01"
               },
               "Name": {
-                "@Type": "LGL",
-                "FamilyName": "Citizen",
+                "-Type": "LGL",
+                "FamilyName": "Miller",
                 "GivenName": "James"
               },
               "PhoneNumber": {
-                "@Type": "0096",
-                "Number": "03 1234-2678"
+                "-Type": "0096",
+                "Number": "03 9637-2000"
               },
               "PositionTitle": "Auditor"
             },
             "EntityLevel": "School",
-            "EntityName": "XXX Secondary College"
+            "EntityName": "XXX Secondary College",
+            "LocalId": "01011234",
+            "SchoolInfoRefId": "C4D54B35-9D75-101A-8C3D-00AA001A1689",
+            "StateProvinceId": "01011234",
+            "YearLevels": {
+              "YearLevel": [
+                {
+                  "Code": "7"
+                },
+                {
+                  "Code": "8"
+                },
+                {
+                  "Code": "9"
+                },
+                {
+                  "Code": "10"
+                },
+                {
+                  "Code": "11"
+                },
+                {
+                  "Code": "12"
+                }
+              ]
+            }
           }
         ]
       },
@@ -544,14 +577,14 @@
       }
     },
     "ChargedLocationInfo": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "LocalId": "2343LHS",
       "LocationType": "School",
       "Name": "Lincoln High School",
       "SiteCategory": "Other"
     },
     "CollectionRound": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "AGCollection": "STATS",
       "AGRoundList": {
         "AGRound": [
@@ -574,7 +607,7 @@
       "CollectionYear": "2018"
     },
     "CollectionStatus": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "AGCollection": "FQ",
       "AGReportingObjectResponseList": {
         "AGReportingObjectResponse": [
@@ -623,12 +656,12 @@
       "SubmittedBy": "XXXXXXXX"
     },
     "Debtor": {
-      "@RefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
+      "-RefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
       "AddressList": {
         "Address": [
           {
-            "@Role": "2382",
-            "@Type": "0123",
+            "-Role": "2382",
+            "-Type": "0123",
             "City": "Chicago",
             "Country": "8104",
             "PostalCode": "60611",
@@ -641,24 +674,24 @@
       },
       "BilledEntity": {
         "#content": "8B231144-301C-4D3B-95D4-8BB74C866AE1",
-        "@SIF_RefObject": "StudentContactPersonal"
+        "-SIF_RefObject": "StudentContactPersonal"
       },
       "BillingName": "Flintstone Family Trust",
       "BillingNote": "Do not invoice under parent's real name.",
       "Discount": "10.0"
     },
     "EquipmentInfo": {
-      "@RefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
+      "-RefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
       "EquipmentType": "OverheadProjector",
       "LocalId": "OHP3",
       "Name": "Overhead Projector 3",
       "SIF_RefId": {
         "#content": "B7A34E56-1C97-345C-0A4E-11BB112B2753",
-        "@SIF_RefObject": "SchoolInfo"
+        "-SIF_RefObject": "SchoolInfo"
       }
     },
     "FinancialAccount": {
-      "@RefId": "EEC8FC12-8D2C-4EE3-94A8-6C5395024EDE",
+      "-RefId": "EEC8FC12-8D2C-4EE3-94A8-6C5395024EDE",
       "AccountCode": "001-002-0034",
       "AccountNumber": "9990001",
       "ClassType": "Asset",
@@ -669,7 +702,7 @@
       "Name": "Purchased Foods"
     },
     "FinancialQuestionnaireCollection": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "FQReportingList": {
         "FQReporting": [
           {
@@ -685,17 +718,17 @@
             "CommonwealthId": "012345",
             "EntityContact": {
               "Email": {
-                "#content": "jcitizen@school.vic.edu.au",
-                "@Type": "01"
+                "#content": "jmiller@lsc.vic.edu.au",
+                "-Type": "01"
               },
               "Name": {
-                "@Type": "LGL",
-                "FamilyName": "Citizen",
-                "GivenName": "John"
+                "-Type": "LGL",
+                "FamilyName": "Miller",
+                "GivenName": "James"
               },
               "PhoneNumber": {
-                "@Type": "0096",
-                "Number": "03 1234-5678"
+                "-Type": "0096",
+                "Number": "03 9637-2000"
               },
               "PositionTitle": "Auditor"
             },
@@ -755,17 +788,17 @@
             "CommonwealthId": "12387",
             "EntityContact": {
               "Email": {
-                "#content": "jcitizen@school.vic.edu.au",
-                "@Type": "01"
+                "#content": "jmiller@lsc.vic.edu.au",
+                "-Type": "01"
               },
               "Name": {
-                "@Type": "LGL",
-                "FamilyName": "Citizen",
-                "GivenName": "John"
+                "-Type": "LGL",
+                "FamilyName": "Miller",
+                "GivenName": "James"
               },
               "PhoneNumber": {
-                "@Type": "0096",
-                "Number": "03 1234-5678"
+                "-Type": "0096",
+                "Number": "03 9637-2000"
               },
               "PositionTitle": "Auditor"
             },
@@ -824,17 +857,17 @@
             "CommonwealthId": "12388",
             "EntityContact": {
               "Email": {
-                "#content": "jcitizeb@school.vic.edu.au",
-                "@Type": "01"
+                "#content": "jmiller@lsc.vic.edu.au",
+                "-Type": "01"
               },
               "Name": {
-                "@Type": "LGL",
-                "FamilyName": "Citizen",
-                "GivenName": "John"
+                "-Type": "LGL",
+                "FamilyName": "Miller",
+                "GivenName": "James"
               },
               "PhoneNumber": {
-                "@Type": "0096",
-                "Number": "03 1234-5678"
+                "-Type": "0096",
+                "Number": "03 9637-2000"
               },
               "PositionTitle": "Auditor"
             },
@@ -891,7 +924,7 @@
       }
     },
     "GradingAssignment": {
-      "@RefId": "359D7510-1AD0-A9D7-A8C3-DAD0A85103A2",
+      "-RefId": "359D7510-1AD0-A9D7-A8C3-DAD0A85103A2",
       "CreateDate": "2000-11-21",
       "Description": "Pop Quiz",
       "DetailedDescriptionURL": "http://www.assignmentinfo.com/assignment1.pdf",
@@ -903,7 +936,7 @@
       "Weight": "1.0"
     },
     "GradingAssignmentScore": {
-      "@RefId": "359D7510-1AD0-A9D7-A8C3-DAD0A85103A2",
+      "-RefId": "359D7510-1AD0-A9D7-A8C3-DAD0A85103A2",
       "GradingAssignmentRefId": "359D7510-1AD0-A9D7-A8C3-DAD0A85105D2",
       "SchoolInfoRefId": "11737EA4-301C-ADCA-75C8-7214A7C46BDB",
       "ScorePoints": "45",
@@ -913,39 +946,39 @@
     },
     "Identity": [
       {
-        "@RefId": "4286194F-43ED-43C1-8EE2-F0A27C4BEF86",
+        "-RefId": "4286194F-43ED-43C1-8EE2-F0A27C4BEF86",
         "AuthenticationSource": "AUAccessShibboleth",
         "AuthenticationSourceGlobalUID": "A9A6CB2B-C493-4427-8C1F-D6587D448B35",
         "IdentityAssertions": {
           "IdentityAssertion": [
             {
               "#content": "john.doe@asdf.edu.au",
-              "@SchemaName": "eduPersonPrincipalName"
+              "-SchemaName": "eduPersonPrincipalName"
             }
           ]
         },
         "SIF_RefId": {
           "#content": "23B08571-E4D6-45C3-B82A-3E52E5349925",
-          "@SIF_RefObject": "StudentPersonal"
+          "-SIF_RefObject": "StudentPersonal"
         }
       },
       {
-        "@RefId": "4286194F-43ED-43C1-8EE2-F0A27C4BEF86",
+        "-RefId": "4286194F-43ED-43C1-8EE2-F0A27C4BEF86",
         "AuthenticationSource": "MSActiveDirectory",
         "AuthenticationSourceGlobalUID": "23A08571-E4D6-45C3-B82A-3E52E5349925",
         "IdentityAssertions": {
           "IdentityAssertion": [
             {
               "#content": "user01",
-              "@SchemaName": "sAmAccountName"
+              "-SchemaName": "sAmAccountName"
             },
             {
               "#content": "user01@asdf.edu.au",
-              "@SchemaName": "userPrincipalName"
+              "-SchemaName": "userPrincipalName"
             },
             {
               "#content": "cn=User01,cn=Users,dc=org",
-              "@SchemaName": "distinguishedName"
+              "-SchemaName": "distinguishedName"
             }
           ]
         },
@@ -963,46 +996,46 @@
           "Password": [
             {
               "#content": "UGFzc3cwcmQ=",
-              "@Algorithm": "SHA1",
-              "@KeyName": " "
+              "-Algorithm": "SHA1",
+              "-KeyName": " "
             }
           ]
         },
         "SIF_RefId": {
           "#content": "23B08571-E4D6-45C3-B82A-3E52E5349925",
-          "@SIF_RefObject": "StudentPersonal"
+          "-SIF_RefObject": "StudentPersonal"
         }
       },
       {
-        "@RefId": "4286194F-43ED-43C1-8EE2-F0A27C4BEF86",
+        "-RefId": "4286194F-43ED-43C1-8EE2-F0A27C4BEF86",
         "AuthenticationSource": "OpenID",
         "AuthenticationSourceGlobalUID": "A9A6CB2B-C493-4427-8C1F-D6587D448B35",
         "IdentityAssertions": {
           "IdentityAssertion": [
             {
               "#content": "http://verisign.org/p/alice",
-              "@SchemaName": "openid.identity"
+              "-SchemaName": "openid.identity"
             },
             {
               "#content": "http://verisign.org",
-              "@SchemaName": "openid.server"
+              "-SchemaName": "openid.server"
             }
           ]
         },
         "SIF_RefId": {
           "#content": "23B08571-E4D6-45C3-B82A-3E52E5349925",
-          "@SIF_RefObject": "StudentPersonal"
+          "-SIF_RefObject": "StudentPersonal"
         }
       }
     ],
     "Invoice": {
-      "@RefId": "CA123458-47DE-A974-63FE-B238759FD123",
+      "-RefId": "CA123458-47DE-A974-63FE-B238759FD123",
       "AccountingPeriod": "200004",
       "ApprovedBy": "Fred Flintstone",
       "BilledAmount": {
         "#content": 50,
-        "@Currency": "AUD",
-        "@Type": "Debit"
+        "-Currency": "AUD",
+        "-Type": "Debit"
       },
       "BillingDate": "1999-10-12",
       "CreatedBy": "Peter Rabbit",
@@ -1013,22 +1046,22 @@
       },
       "InvoicedEntity": {
         "#content": "BA497254-965F-DA48-965A-BCE4589EA421",
-        "@SIF_RefObject": "Debtor"
+        "-SIF_RefObject": "Debtor"
       },
       "ItemDetail": "5 Widgets",
       "Ledger": "Family",
       "TaxAmount": {
         "#content": 5,
-        "@Currency": "AUD"
+        "-Currency": "AUD"
       },
       "TaxRate": 10,
       "TransactionDescription": "Activity Fees"
     },
     "Journal": {
-      "@RefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
+      "-RefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
       "Amount": {
         "#content": 7,
-        "@Currency": "AUD"
+        "-Currency": "AUD"
       },
       "CreatedBy": "Fred Flintstone",
       "CreatedDate": "2015-02-01",
@@ -1036,7 +1069,7 @@
       "DebitFinancialAccountRefId": "8B231144-301C-4D3B-95D4-8BB74C866AE1"
     },
     "LEAInfo": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "CommonwealthId": "4215750",
       "EducationAgencyType": {
         "Code": "01"
@@ -1050,12 +1083,12 @@
                 "Email": [
                   {
                     "#content": "drseuss@edumail.vic.edu.au",
-                    "@Type": "01"
+                    "-Type": "01"
                   }
                 ]
               },
               "Name": {
-                "@Type": "LGL",
+                "-Type": "LGL",
                 "FamilyName": "Smith",
                 "FullName": "Theo Smith",
                 "GivenName": "Theo"
@@ -1063,7 +1096,7 @@
               "PhoneNumberList": {
                 "PhoneNumber": [
                   {
-                    "@Type": "0096",
+                    "-Type": "0096",
                     "Number": "(03) 9745 7455"
                   }
                 ]
@@ -1081,7 +1114,7 @@
       "PhoneNumberList": {
         "PhoneNumber": [
           {
-            "@Type": "0096",
+            "-Type": "0096",
             "Number": "(03) 9745 7455"
           }
         ]
@@ -1090,7 +1123,7 @@
       "StateProvinceId": "EMR"
     },
     "LearningResource": {
-      "@RefId": "6938D88F-82A3-7EFD-8889-2429EC6AB1B5",
+      "-RefId": "6938D88F-82A3-7EFD-8889-2429EC6AB1B5",
       "AgreementDate": "2002-06-05",
       "Approvals": {
         "Approval": [
@@ -1108,7 +1141,7 @@
               "AssociatedObject": [
                 {
                   "#content": "667A87E2-1B4B-9470-CE61-568576DF921E",
-                  "@SIF_RefObject": "LearningResource"
+                  "-SIF_RefObject": "LearningResource"
                 }
               ]
             },
@@ -1127,8 +1160,8 @@
         "Contact": [
           {
             "Address": {
-              "@Role": "012A",
-              "@Type": "0123",
+              "-Role": "012A",
+              "-Type": "0123",
               "City": "Brisbane",
               "Country": "1101",
               "PostalCode": "4002",
@@ -1140,10 +1173,10 @@
             },
             "Email": {
               "#content": "info@QPAC.edu.au",
-              "@Type": "01"
+              "-Type": "01"
             },
             "PhoneNumber": {
-              "@Type": "0096",
+              "-Type": "0096",
               "ListedStatus": "Y",
               "Number": "(555) 555-1234"
             }
@@ -1154,11 +1187,11 @@
       "Evaluations": {
         "Evaluation": [
           {
-            "@RefId": "F1BC63DF-D02C-CED6-54EF-558E84904E01",
+            "-RefId": "F1BC63DF-D02C-CED6-54EF-558E84904E01",
             "Date": "2001-06-15",
             "Description": "This resource references QLD curriculum standards",
             "Name": {
-              "@Type": "LGL",
+              "-Type": "LGL",
               "FamilyName": "Doe",
               "GivenName": "Joan"
             }
@@ -1174,7 +1207,7 @@
       },
       "Location": {
         "#content": "http://www.artsedge/QPAC/curric/86_u_dreams/489_words.pdf",
-        "@ReferenceType": "URI"
+        "-ReferenceType": "URI"
       },
       "MediaTypes": {
         "MediaType": [
@@ -1193,7 +1226,7 @@
                 "OtherCode": [
                   {
                     "#content": "Revolutions",
-                    "@Codeset": "Text"
+                    "-Codeset": "Text"
                   }
                 ]
               }
@@ -1217,14 +1250,14 @@
       }
     },
     "LearningResourcePackage": {
-      "@RefId": "C7DE8668-5968-459F-BF9F-ED22A0E1EA6E",
+      "-RefId": "C7DE8668-5968-459F-BF9F-ED22A0E1EA6E",
       "BinaryData": {
         "#content": "0000 0000 0010 0100",
-        "@MIMEType": "text/html;charset=utf-16"
+        "-MIMEType": "text/html;charset=utf-16"
       }
     },
     "LearningStandardDocument": {
-      "@RefId": "A5A575C7-8917-5101-B8E7-F08ED123A823",
+      "-RefId": "A5A575C7-8917-5101-B8E7-F08ED123A823",
       "Authors": {
         "Author": [
           "Joe Bloggs"
@@ -1234,7 +1267,7 @@
         "Date": "2010-06-05",
         "Holder": "ACARA"
       },
-      "Description": "AIMS: The aim of the History curriculum is to instil in students, an appreciation in the diversity of the past and how they inform current developments etc etc. RATIONALE: History is essential for an informed citizenry and has always been a cornerstone of education.",
+      "Description": "AIMS: The aim of the History curriculum is to instil in students, an appreciation in the diversity of the past and how they inform current developments etc etc.\nRATIONALE: History is essential for an informed citizenry and has always been a cornerstone of education.",
       "DocumentDate": "2010-04-15",
       "DocumentStatus": "Adopted",
       "EndOfLifeDate": "2011-04-15",
@@ -1263,7 +1296,7 @@
                 "OtherCode": [
                   {
                     "#content": "History",
-                    "@Codeset": "Text"
+                    "-Codeset": "Text"
                   }
                 ]
               }
@@ -1284,7 +1317,7 @@
       }
     },
     "LearningStandardItem": {
-      "@RefId": "A5D75F78-9175-101B-8C7E-08EA123A8234",
+      "-RefId": "A5D75F78-9175-101B-8C7E-08EA123A8234",
       "ACStrandSubjectArea": {
         "ACStrand": "M",
         "SubjectArea": {
@@ -1293,7 +1326,7 @@
             "OtherCode": [
               {
                 "#content": "Mathematics",
-                "@Codeset": "Text"
+                "-Codeset": "Text"
               }
             ]
           }
@@ -1309,15 +1342,15 @@
         "LearningStandardItemRefId": [
           {
             "#content": "869670E8-540A-4350-9515-AFB767FADD9A",
-            "@RelationshipType": "Content"
+            "-RelationshipType": "Content"
           },
           {
             "#content": "B14FDAB4-37CA-4565-A976-5A5B824545C4",
-            "@RelationshipType": "State"
+            "-RelationshipType": "State"
           },
           {
             "#content": "D5440A11-F5A4-4AC1-9202-61ECBE5A29F6",
-            "@RelationshipType": "ContentElaboration"
+            "-RelationshipType": "ContentElaboration"
           }
         ]
       },
@@ -1334,7 +1367,7 @@
               "OtherCode": [
                 {
                   "#content": "Mathematics",
-                  "@Codeset": "Text"
+                  "-Codeset": "Text"
                 }
               ]
             }
@@ -1383,172 +1416,8 @@
         ]
       }
     },
-    "LibraryPatronStatus": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
-      "ElectronicIdList": {
-        "ElectronicId": [
-          {
-            "#content": "P 7676",
-            "@Type": "01"
-          },
-          {
-            "#content": "200606300007676JJI",
-            "@Type": "02"
-          },
-          {
-            "#content": "1234",
-            "@Type": "03"
-          },
-          {
-            "#content": "0EF3098055921FEDC008FEEB",
-            "@Type": "04"
-          }
-        ]
-      },
-      "FineAmount": 1,
-      "LibraryType": "S",
-      "MessageList": {
-        "Message": [
-          {
-            "@Priority": "Normal",
-            "Text": "This is a normal message."
-          },
-          {
-            "@Priority": "Urgent",
-            "Sent": "2006-01-12T14:01:00-05:00",
-            "Text": "This is an URGENT message!"
-          }
-        ]
-      },
-      "NumberOfCheckouts": 1,
-      "NumberOfFines": 1,
-      "NumberOfOverdues": 1,
-      "NumberOfRefunds": 1,
-      "PatronLocalId": "MAR01",
-      "PatronRefId": "5DE34B35-9D75-101A-8C3D-00AA001A1652",
-      "PatronRefObject": "StudentPersonal",
-      "RefundAmount": 28.9,
-      "TransactionList": {
-        "Transaction": [
-          {
-            "CheckoutInfo": {
-              "ReturnBy": "2006-01-04T23:59:59-05:00"
-            },
-            "FineInfoList": {
-              "FineInfo": [
-                {
-                  "@Type": "Overdue",
-                  "Amount": 0.5,
-                  "Assessed": "2006-01-06T13:19:00-05:00",
-                  "Description": "ESTIMATED FINE FOR OVERDUE ITEM"
-                }
-              ]
-            },
-            "ItemInfo": {
-              "@Type": "LibraryMaterial",
-              "Author": "Brian Jacques",
-              "CallNumber": "YA JACQ",
-              "ElectronicId": {
-                "#content": "T 311",
-                "@Type": "01"
-              },
-              "Price": 6.99,
-              "Title": "Redwall"
-            }
-          },
-          {
-            "HoldInfoList": {
-              "HoldInfo": [
-                {
-                  "@Type": "Ready",
-                  "DateNeeded": "2006-01-16",
-                  "DatePlaced": "2005-12-18",
-                  "Expires": "2006-02-01",
-                  "MadeAvailable": "2006-01-05"
-                }
-              ]
-            },
-            "ItemInfo": {
-              "@Type": "LibraryMaterial",
-              "Author": "Brian Jacques",
-              "CallNumber": "YA JACQ",
-              "ElectronicId": {
-                "#content": "T 1211",
-                "@Type": "01"
-              },
-              "Price": 7.49,
-              "Title": "Mossflower"
-            }
-          },
-          {
-            "HoldInfoList": {
-              "HoldInfo": [
-                {
-                  "@Type": "NotReady",
-                  "DatePlaced": "2005-12-18"
-                }
-              ]
-            },
-            "ItemInfo": {
-              "@Type": "LibraryMaterial",
-              "Author": "Brian Jacques",
-              "Title": "The Bellmaker"
-            }
-          },
-          {
-            "CheckoutInfo": {
-              "ReturnBy": "2006-06-15T23:59:59-05:00"
-            },
-            "ItemInfo": {
-              "@Type": "Textbook",
-              "Author": "Larson, Boswell, Kanold and Stiff",
-              "ElectronicId": {
-                "#content": "98770000178215",
-                "@Type": "01"
-              },
-              "Price": 57.18,
-              "Title": "Passport to Algebra and Geometry"
-            }
-          },
-          {
-            "FineInfoList": {
-              "FineInfo": [
-                {
-                  "@Type": "Refund",
-                  "Amount": 28.9,
-                  "Assessed": "2006-01-02T09:29:00-05:00",
-                  "Description": "Lost item returned"
-                }
-              ]
-            },
-            "ItemInfo": {
-              "@Type": "LibraryMaterial",
-              "Author": "JK Rowlings",
-              "ElectronicId": {
-                "#content": "T 99321",
-                "@Type": "01"
-              },
-              "Title": "Harry Potter and the Goblet of Fire"
-            }
-          },
-          {
-            "FineInfoList": {
-              "FineInfo": [
-                {
-                  "@Type": "Other",
-                  "Amount": 1,
-                  "Assessed": "2006-01-04T10:14:00-05:00",
-                  "Description": "Running in library",
-                  "Reference": "42"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
     "MarkValueInfo": {
-      "@RefId": "11737E21-4A7C-46BD-BA43-01CADCA75C87",
+      "-RefId": "11737E21-4A7C-46BD-BA43-01CADCA75C87",
       "Name": "Letter Grades",
       "SchoolInfoRefId": "A137D78A-E00B-C744-EF90-F2871CEB90A2",
       "ValidLetterMarkList": {
@@ -1577,7 +1446,7 @@
       }
     },
     "NAPCodeFrame": {
-      "@RefId": "09381381-641E-4034-A54B-9A84D7B54426",
+      "-RefId": "09381381-641E-4034-A54B-9A84D7B54426",
       "NAPTestRefId": "CE9FFC50-33B4-4F19-8DD5-62579B681A63",
       "TestContent": {
         "Domain": "Reading",
@@ -2129,7 +1998,7 @@
       }
     },
     "NAPEventStudentLink": {
-      "@RefId": "2014F046-0C95-4613-8ACD-8A6CA8227C7A",
+      "-RefId": "2014F046-0C95-4613-8ACD-8A6CA8227C7A",
       "DOBRange": "false",
       "Date": "2017-06-01",
       "Device": "iPad",
@@ -2153,7 +2022,7 @@
       "System": "0001"
     },
     "NAPStudentResponseSet": {
-      "@RefId": "D90E7E40-33B2-44FA-9BA0-FAACA9D95487",
+      "-RefId": "D90E7E40-33B2-44FA-9BA0-FAACA9D95487",
       "CalibrationSampleFlag": "false",
       "DomainScore": {
         "PlausibleScaledValueList": {
@@ -2574,7 +2443,7 @@
       }
     },
     "NAPTest": {
-      "@RefId": "27BD7B5B-19F2-48A9-B645-FD6569E7654E",
+      "-RefId": "27BD7B5B-19F2-48A9-B645-FD6569E7654E",
       "TestContent": {
         "Domain": "Reading",
         "DomainBands": {
@@ -2620,7 +2489,7 @@
       }
     },
     "NAPTestItem": {
-      "@RefId": "31CA1A02-4E53-4A29-AE1E-807489C30827",
+      "-RefId": "31CA1A02-4E53-4A29-AE1E-807489C30827",
       "TestItemContent": {
         "ContentDescriptionList": {
           "ContentDescription": [
@@ -2648,7 +2517,7 @@
       }
     },
     "NAPTestScoreSummary": {
-      "@RefId": "E2721E52-7661-4A51-BF16-B4CAF12DC2F8",
+      "-RefId": "E2721E52-7661-4A51-BF16-B4CAF12DC2F8",
       "DomainBottomNational60Percent": "376",
       "DomainJurisdictionAverage": "402",
       "DomainNationalAverage": "399",
@@ -2660,7 +2529,7 @@
       "SchoolInfoRefId": "A35CE161-BFDB-4460-952B-7F87789A739C"
     },
     "NAPTestlet": {
-      "@RefId": "42DE5F3F-DA32-4DA6-8966-4C8FA176E4B4",
+      "-RefId": "42DE5F3F-DA32-4DA6-8966-4C8FA176E4B4",
       "NAPTestLocalId": "NAPLAN-2017-0004-Language Conventions: Grammar and Punctuation",
       "NAPTestRefId": "FBB8A444-1891-4701-B306-F3CED219369C",
       "TestItemList": {
@@ -2736,7 +2605,7 @@
       }
     },
     "PaymentReceipt": {
-      "@RefId": "EDF4985A-BC34-58FE-DA75-493AB3812345",
+      "-RefId": "EDF4985A-BC34-58FE-DA75-493AB3812345",
       "FinancialAccountRefIdList": {
         "FinancialAccountRefId": [
           "ED12345F-DA84-9727-5BC2-8AA349DD3721"
@@ -2746,22 +2615,22 @@
       "ReceivedTransactionId": "XYZZY",
       "TransactionAmount": {
         "#content": 50,
-        "@Currency": "AUD",
-        "@Type": "Debit"
+        "-Currency": "AUD",
+        "-Type": "Debit"
       },
       "TransactionDate": "1999-10-20",
       "TransactionType": "GL payment"
     },
     "PersonPicture": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "OKToPublish": "Y",
       "ParentObjectRefId": {
         "#content": "AA648462-8886-24AA-5294-BC638017320B",
-        "@SIF_RefObject": "StudentPersonal"
+        "-SIF_RefObject": "StudentPersonal"
       },
       "PictureSource": {
         "#content": "http://www.schoolsite.com/pictures/2007/1234.jpg",
-        "@Type": "01"
+        "-Type": "01"
       },
       "PublishingPermissionList": {
         "PublishingPermission": [
@@ -2782,7 +2651,7 @@
       "SchoolYear": "2007"
     },
     "PersonalisedPlan": {
-      "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+      "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
       "PersonalisedPlanCategory": "M",
       "PersonalisedPlanEndDate": "2019-11-10",
       "PersonalisedPlanNotes": "This Student is allergic to cashews.",
@@ -2792,7 +2661,7 @@
       "StudentPersonalRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652"
     },
     "PurchaseOrder": {
-      "@RefId": "ED12345F-DA84-9727-5BC2-8AA349DD3721",
+      "-RefId": "ED12345F-DA84-9727-5BC2-8AA349DD3721",
       "ChargedLocationInfoRefId": "ED12345F-DA84-9727-5BC2-8AA349DD3722",
       "EmployeePersonalRefId": "AD12345F-DA84-9727-5BC2-8AA349DD3721",
       "FormNumber": "00342",
@@ -2805,7 +2674,7 @@
                   "AccountCode": "10-1100-610",
                   "Amount": {
                     "#content": 70,
-                    "@Currency": "AUD"
+                    "-Currency": "AUD"
                   }
                 }
               ]
@@ -2815,7 +2684,7 @@
             "Quantity": "10",
             "UnitCost": {
               "#content": 7,
-              "@Currency": "AUD"
+              "-Currency": "AUD"
             }
           }
         ]
@@ -2823,7 +2692,7 @@
       "VendorInfoRefId": "BD12345F-DA84-9727-5BC2-8AA349DD3723"
     },
     "ResourceBooking": {
-      "@RefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
+      "-RefId": "B5739375-800A-C4CC-6385-0BB2754114AA",
       "Booker": "98157AA0-13BA-8C3D-00AA-012B359D7512",
       "FinishDateTime": "2011-01-01T17:30:00",
       "FromPeriod": "3",
@@ -2831,14 +2700,14 @@
       "ResourceLocalId": "ZXY789",
       "ResourceRefId": {
         "#content": "B7A34E56-1C97-345C-0A4E-11BB112B2753",
-        "@SIF_RefObject": "LearningResource"
+        "-SIF_RefObject": "LearningResource"
       },
       "ScheduledActivityRefId": "A75A0010-1A8C-301D-02E3-A05B359D0A00",
       "StartDateTime": "2011-01-01T16:30:00",
       "ToPeriod": "3"
     },
     "ResourceUsage": {
-      "@RefId": "4286194F-43ED-43C1-8EE2-F0A27C4BEF87",
+      "-RefId": "4286194F-43ED-43C1-8EE2-F0A27C4BEF87",
       "ResourceReportColumnList": {
         "ResourceReportColumn": [
           {
@@ -2866,26 +2735,26 @@
           {
             "CurrentCost": {
               "#content": 5.43,
-              "@Currency": "AUD"
+              "-Currency": "AUD"
             },
             "EndDate": "2011-04-17",
             "ReportRow": "name.surename.1,null,Year 10 Test,47,2",
             "SIF_RefId": {
               "#content": "23B08571-E4D6-45C3-B82A-3E52E5349925",
-              "@SIF_RefObject": "StudentPersonal"
+              "-SIF_RefObject": "StudentPersonal"
             },
             "StartDate": "2011-03-18"
           },
           {
             "CurrentCost": {
               "#content": 0,
-              "@Currency": "AUD"
+              "-Currency": "AUD"
             },
             "EndDate": "2011-04-17",
             "ReportRow": "name.surename.2,cost waived,Year 10 Test,93,4",
             "SIF_RefId": {
               "#content": "23B08571-E4D3-45C3-B82A-3E52E5349925",
-              "@SIF_RefObject": "StaffPersonal"
+              "-SIF_RefObject": "StaffPersonal"
             },
             "StartDate": "2011-03-18"
           }
@@ -2898,14 +2767,14 @@
       "SchoolInfoRefId": "23B08571-E4D6-45C3-B82A-3E52E5349925"
     },
     "RoomInfo": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "AvailableForTimetable": "Y",
       "Building": "Main A",
       "Capacity": 35,
       "Description": "Room 101",
       "HomeroomNumber": "10-HR-A",
       "PhoneNumber": {
-        "@Type": "0096",
+        "-Type": "0096",
         "Number": "(02) 9555-1234"
       },
       "RoomNumber": "101",
@@ -2918,7 +2787,7 @@
       }
     },
     "ScheduledActivity": {
-      "@RefId": "BD3E34B3-59D7-5101-A8C3-D00AA001A165",
+      "-RefId": "BD3E34B3-59D7-5101-A8C3-D00AA001A165",
       "ActivityDate": "2014-10-10",
       "ActivityType": "Incursion",
       "DayId": "1",
@@ -2967,7 +2836,7 @@
       "TimeTableRefId": "2A7F0D96-3E99-4B83-A958-690C360A36C2"
     },
     "SchoolCourseInfo": {
-      "@RefId": "9D75101A-8C3D-00AA-001A-0000A2E35B35",
+      "-RefId": "9D75101A-8C3D-00AA-001A-0000A2E35B35",
       "CoreAcademicCourse": "N",
       "CourseCode": "CS101",
       "CourseCredits": "2",
@@ -2988,7 +2857,7 @@
       }
     },
     "SchoolInfo": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "ARIA": 1,
       "Campus": {
         "AdminStatus": "Y",
@@ -3006,19 +2875,19 @@
       "OperationalStatus": "O",
       "OtherLEA": {
         "#content": "AA648462-8886-24AA-5294-BC638017320B",
-        "@SIF_RefObject": "LEAInfo"
+        "-SIF_RefObject": "LEAInfo"
       },
       "PhoneNumberList": {
         "PhoneNumber": [
           {
-            "@Type": "0096",
+            "-Type": "0096",
             "Number": "03 9637-2000"
           }
         ]
       },
       "PrincipalInfo": {
         "ContactName": {
-          "@Type": "LGL",
+          "-Type": "LGL",
           "FamilyName": "Mason",
           "FullName": "Mr Frank Mason Jr.",
           "GivenName": "Francis",
@@ -3036,8 +2905,8 @@
           {
             "ContactInfo": {
               "Address": {
-                "@Role": "012B",
-                "@Type": "0123",
+                "-Role": "012B",
+                "-Type": "0123",
                 "City": "Carnegie",
                 "Country": "1101",
                 "GridLocation": {
@@ -3054,16 +2923,16 @@
                 "Email": [
                   {
                     "#content": "jmiller@lsc.vic.edu.au",
-                    "@Type": "01"
+                    "-Type": "01"
                   },
                   {
                     "#content": "jmiller@yahoo.com.au",
-                    "@Type": "02"
+                    "-Type": "02"
                   }
                 ]
               },
               "Name": {
-                "@Type": "LGL",
+                "-Type": "LGL",
                 "FamilyName": "Miller",
                 "FullName": "Mr James Mark Miller Jr.",
                 "GivenName": "James",
@@ -3074,7 +2943,7 @@
               "PhoneNumberList": {
                 "PhoneNumber": [
                   {
-                    "@Type": "0096",
+                    "-Type": "0096",
                     "Extension": "72345",
                     "ListedStatus": "Y",
                     "Number": "03 9637-2000"
@@ -3136,7 +3005,7 @@
       }
     },
     "SchoolPrograms": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "SchoolInfoRefId": "73648462-8886-24AA-5294-BC6380173276",
       "SchoolProgramList": {
         "Program": [
@@ -3153,7 +3022,7 @@
       "SchoolYear": "2009"
     },
     "SectionInfo": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "LanguageOfInstruction": {
         "Code": "1201"
       },
@@ -3164,7 +3033,7 @@
           "OtherCode": [
             {
               "#content": "NSW DEC",
-              "@Codeset": "Text"
+              "-Codeset": "Text"
             }
           ]
         }
@@ -3173,7 +3042,7 @@
         "Code": "0605"
       },
       "SchoolCourseInfoOverride": {
-        "@Override": "Yes",
+        "-Override": "Yes",
         "CourseCode": "CS101A",
         "CourseTitle": "Graphics Basics",
         "DistrictCourseCode": "CS101A",
@@ -3185,7 +3054,7 @@
             "OtherCode": [
               {
                 "#content": "Graphic Arts for Beginners",
-                "@Codeset": "Text"
+                "-Codeset": "Text"
               }
             ]
           }
@@ -3195,7 +3064,7 @@
       "SchoolYear": "2013"
     },
     "SessionInfo": {
-      "@RefId": "98157AA0-13BA-8C3D-00AA-012B359D7512",
+      "-RefId": "98157AA0-13BA-8C3D-00AA-012B359D7512",
       "DayId": "1",
       "FinishTime": "13:30:00",
       "LocalId": "2",
@@ -3212,7 +3081,7 @@
       "TimeTableSubjectLocalId": "10MA1"
     },
     "StaffAssignment": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "AvailableForTimetable": "Y",
       "CasualReliefTeacher": "N",
       "Description": "VCE English Teacher",
@@ -3252,12 +3121,12 @@
       }
     },
     "StaffPersonal": {
-      "@RefId": "D3E34F41-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34F41-9D75-101A-8C3D-00AA001A1652",
       "ElectronicIdList": {
         "ElectronicId": [
           {
             "#content": "206655",
-            "@Type": "01"
+            "-Type": "01"
           }
         ]
       },
@@ -3278,7 +3147,7 @@
         "OtherId": [
           {
             "#content": "333333333",
-            "@Type": "0004"
+            "-Type": "0004"
           }
         ]
       },
@@ -3286,8 +3155,8 @@
         "AddressList": {
           "Address": [
             {
-              "@Role": "012A",
-              "@Type": "0123",
+              "-Role": "012A",
+              "-Type": "0123",
               "City": "Yarra Glenn",
               "Country": "1101",
               "PostalCode": "9999",
@@ -3298,8 +3167,8 @@
               }
             },
             {
-              "@Role": "1073",
-              "@Type": "0123A",
+              "-Role": "1073",
+              "-Type": "0123A",
               "City": "Home Town",
               "Country": "1101",
               "PostalCode": "9999",
@@ -3370,16 +3239,16 @@
           "Email": [
             {
               "#content": "fsmith@yahoo.com",
-              "@Type": "01"
+              "-Type": "01"
             },
             {
               "#content": "freddy@gmail.com",
-              "@Type": "02"
+              "-Type": "02"
             }
           ]
         },
         "Name": {
-          "@Type": "LGL",
+          "-Type": "LGL",
           "FamilyName": "Smith",
           "FullName": "Fred Smith",
           "GivenName": "Fred"
@@ -3387,13 +3256,13 @@
         "OtherNames": {
           "Name": [
             {
-              "@Type": "AKA",
+              "-Type": "AKA",
               "FamilyName": "Anderson",
               "FullName": "Samuel Anderson",
               "GivenName": "Samuel"
             },
             {
-              "@Type": "PRF",
+              "-Type": "PRF",
               "FamilyName": "Rowinski",
               "FullName": "Sam Rowinski",
               "GivenName": "Sam"
@@ -3403,13 +3272,13 @@
         "PhoneNumberList": {
           "PhoneNumber": [
             {
-              "@Type": "0096",
+              "-Type": "0096",
               "Extension": "72289",
               "ListedStatus": "Y",
               "Number": "03 9637-2289"
             },
             {
-              "@Type": "0888",
+              "-Type": "0888",
               "ListedStatus": "N",
               "Number": "0437-765-234"
             }
@@ -3420,15 +3289,15 @@
       "Title": "Principal"
     },
     "StudentActivityInfo": {
-      "@RefId": "6472B261-0947-583A-463D-BB345291B001",
+      "-RefId": "6472B261-0947-583A-463D-BB345291B001",
       "CurricularStatus": "0750",
       "Description": "Group of middle school students promoting reading",
       "Location": {
-        "@Type": "Classroom",
+        "-Type": "Classroom",
         "LocationName": "Beaconhills Middle School Library",
         "LocationRefId": {
           "#content": "94758261-0947-583A-CEB2-BB345291BAAA",
-          "@SIF_RefObject": "RoomInfo"
+          "-SIF_RefObject": "RoomInfo"
         }
       },
       "StudentActivityLevel": "Middle School",
@@ -3438,7 +3307,7 @@
           "OtherCode": [
             {
               "#content": "MBook",
-              "@Codeset": "Local"
+              "-Codeset": "Local"
             }
           ]
         }
@@ -3462,7 +3331,7 @@
       }
     },
     "StudentActivityParticipation": {
-      "@RefId": "9ECC9683-0E02-406F-926C-1C4D3542D122",
+      "-RefId": "9ECC9683-0E02-406F-926C-1C4D3542D122",
       "ParticipationComment": "First year of participation",
       "RecognitionList": {
         "Recognition": [
@@ -3475,196 +3344,8 @@
       "StudentActivityInfoRefId": "6472B261-0947-583A-463D-BB345291B001",
       "StudentPersonalRefId": "646C5D4A-C829-4886-A02B-971695C7BC06"
     },
-    "StudentAttendanceCollection": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1653",
-      "ReportingAuthorityCommonwealthId": "012345",
-      "RoundCode": "Semester1",
-      "SoftwareVendorInfo": {
-        "SoftwareProduct": "Software",
-        "SoftwareVersion": "Websys 1.0"
-      },
-      "StudentAttendanceCollectionReportingList": {
-        "StudentAttendanceCollectionReporting": [
-          {
-            "CommonwealthId": "24680",
-            "EntityContact": {
-              "Email": {
-                "#content": "jcitizen@school.vic.edu.au",
-                "@Type": "01"
-              },
-              "Name": {
-                "@Type": "LGL",
-                "FamilyName": "Citizen",
-                "GivenName": "John"
-              },
-              "PhoneNumber": {
-                "@Type": "0096",
-                "Number": "03 1234-5678"
-              },
-              "PositionTitle": "BusinessManager"
-            },
-            "EntityName": "XXX Secondary College",
-            "StatsCohortYearLevelList": {
-              "StatsCohortYearLevel": [
-                {
-                  "CohortYearLevel": {
-                    "Code": "1"
-                  },
-                  "StatsCohortList": {
-                    "StatsCohort": [
-                      {
-                        "AttendanceDays": 3400,
-                        "AttendanceGTE90Percent": 20,
-                        "AttendanceLess90Percent": 10,
-                        "CohortGender": "M",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 3600,
-                        "PossibleSchoolDaysGT90PercentAttendance": 2400,
-                        "StatsCohortId": "1000",
-                        "StatsIndigenousStudentType": "T"
-                      },
-                      {
-                        "AttendanceDays": 3300,
-                        "AttendanceGTE90Percent": 20,
-                        "AttendanceLess90Percent": 10,
-                        "CohortGender": "F",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 3600,
-                        "PossibleSchoolDaysGT90PercentAttendance": 2400,
-                        "StatsCohortId": "1001",
-                        "StatsIndigenousStudentType": "T"
-                      },
-                      {
-                        "AttendanceDays": 118,
-                        "AttendanceGTE90Percent": 1,
-                        "AttendanceLess90Percent": 0,
-                        "CohortGender": "X",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 120,
-                        "PossibleSchoolDaysGT90PercentAttendance": 120,
-                        "StatsCohortId": "1002",
-                        "StatsIndigenousStudentType": "T"
-                      },
-                      {
-                        "AttendanceDays": 235,
-                        "AttendanceGTE90Percent": 2,
-                        "AttendanceLess90Percent": 0,
-                        "CohortGender": "M",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 240,
-                        "PossibleSchoolDaysGT90PercentAttendance": 240,
-                        "StatsCohortId": "1003",
-                        "StatsIndigenousStudentType": "I"
-                      },
-                      {
-                        "AttendanceDays": 120,
-                        "AttendanceGTE90Percent": 1,
-                        "AttendanceLess90Percent": 0,
-                        "CohortGender": "F",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 120,
-                        "PossibleSchoolDaysGT90PercentAttendance": 120,
-                        "StatsCohortId": "1004",
-                        "StatsIndigenousStudentType": "I"
-                      },
-                      {
-                        "AttendanceDays": 80,
-                        "AttendanceGTE90Percent": 0,
-                        "AttendanceLess90Percent": 1,
-                        "CohortGender": "X",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 120,
-                        "PossibleSchoolDaysGT90PercentAttendance": 0,
-                        "StatsCohortId": "1005",
-                        "StatsIndigenousStudentType": "I"
-                      }
-                    ]
-                  }
-                },
-                {
-                  "CohortYearLevel": {
-                    "Code": "2"
-                  },
-                  "StatsCohortList": {
-                    "StatsCohort": [
-                      {
-                        "AttendanceDays": 1200,
-                        "AttendanceGTE90Percent": 20,
-                        "AttendanceLess90Percent": 10,
-                        "CohortGender": "M",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 1200,
-                        "PossibleSchoolDaysGT90PercentAttendance": 2400,
-                        "StatsCohortId": "1006",
-                        "StatsIndigenousStudentType": "T"
-                      },
-                      {
-                        "AttendanceDays": 120,
-                        "AttendanceGTE90Percent": 20,
-                        "AttendanceLess90Percent": 10,
-                        "CohortGender": "F",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 3600,
-                        "PossibleSchoolDaysGT90PercentAttendance": 2400,
-                        "StatsCohortId": "1007",
-                        "StatsIndigenousStudentType": "T"
-                      },
-                      {
-                        "AttendanceDays": 99,
-                        "AttendanceGTE90Percent": 1,
-                        "AttendanceLess90Percent": 0,
-                        "CohortGender": "X",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 100,
-                        "PossibleSchoolDaysGT90PercentAttendance": 100,
-                        "StatsCohortId": "1008",
-                        "StatsIndigenousStudentType": "T"
-                      },
-                      {
-                        "AttendanceDays": 580,
-                        "AttendanceGTE90Percent": 4,
-                        "AttendanceLess90Percent": 1,
-                        "CohortGender": "M",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 600,
-                        "PossibleSchoolDaysGT90PercentAttendance": 480,
-                        "StatsCohortId": "1009",
-                        "StatsIndigenousStudentType": "I"
-                      },
-                      {
-                        "AttendanceDays": 710,
-                        "AttendanceGTE90Percent": 6,
-                        "AttendanceLess90Percent": 0,
-                        "CohortGender": "F",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 720,
-                        "PossibleSchoolDaysGT90PercentAttendance": 720,
-                        "StatsCohortId": "1010",
-                        "StatsIndigenousStudentType": "I"
-                      },
-                      {
-                        "AttendanceDays": 120,
-                        "AttendanceGTE90Percent": 1,
-                        "AttendanceLess90Percent": 0,
-                        "CohortGender": "X",
-                        "DaysInReferencePeriod": 120,
-                        "PossibleSchoolDays": 120,
-                        "PossibleSchoolDaysGT90PercentAttendance": 120,
-                        "StatsCohortId": "1011",
-                        "StatsIndigenousStudentType": "I"
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "StudentAttendanceCollectionYear": "2020"
-    },
     "StudentAttendanceSummary": {
-      "@StudentAttendanceSummaryRefId": "D3476FAE-8647-384B-DA24-31EDA3583211",
+      "-StudentAttendanceSummaryRefId": "D3476FAE-8647-384B-DA24-31EDA3583211",
       "DaysAttended": "178",
       "DaysInMembership": "180",
       "DaysTardy": "3",
@@ -3681,7 +3362,7 @@
     },
     "StudentAttendanceTimeList": [
       {
-        "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+        "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
         "AttendanceTimes": {
           "AttendanceTime": [
             {
@@ -3691,16 +3372,16 @@
                   "OtherCode": [
                     {
                       "#content": "S",
-                      "@Codeset": "Local"
+                      "-Codeset": "Local"
                     },
                     {
                       "#content": "C",
-                      "@Codeset": "Text"
+                      "-Codeset": "Text"
                     }
                   ]
                 }
               },
-              "AttendanceNote": "Left for Orthodontist appt. and returned to school afterward",
+              "AttendanceNote": "Left for Orthodontist appt. and returned to school\n\t\t\t\t\t\tafterward",
               "AttendanceStatus": "01",
               "DurationValue": 0.167,
               "EndTime": "12:05:00",
@@ -3732,7 +3413,7 @@
         "StudentPersonalRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652"
       },
       {
-        "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+        "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
         "AttendanceTimes": {
           "AttendanceTime": [
             {
@@ -3914,7 +3595,7 @@
       }
     ],
     "StudentContactPersonal": {
-      "@RefId": "7C834EA9-EDA1-2090-347F-83297E1C290F",
+      "-RefId": "7C834EA9-EDA1-2090-347F-83297E1C290F",
       "EmploymentType": "4",
       "LocalId": "P1234567",
       "NonSchoolEducation": "6",
@@ -3922,11 +3603,11 @@
         "OtherId": [
           {
             "#content": "098765",
-            "@Type": "Health Care Card"
+            "-Type": "Health Care Card"
           },
           {
             "#content": "123456789",
-            "@Type": "Seniors Card"
+            "-Type": "Seniors Card"
           }
         ]
       },
@@ -3934,8 +3615,8 @@
         "AddressList": {
           "Address": [
             {
-              "@Role": "012B",
-              "@Type": "0123",
+              "-Role": "012B",
+              "-Type": "0123",
               "City": "Yarra Glenn",
               "Country": "1101",
               "PostalCode": "9999",
@@ -3946,8 +3627,8 @@
               }
             },
             {
-              "@Role": "013A",
-              "@Type": "0123A",
+              "-Role": "013A",
+              "-Type": "0123A",
               "City": "Home Town",
               "Country": "1101",
               "PostalCode": "9999",
@@ -3984,12 +3665,10 @@
           },
           "IndigenousStatus": "3",
           "LanguageList": {
-            "Language": [
-              {
-                "Code": "0001",
-                "LanguageType": "1"
-              }
-            ]
+            "Language": {
+              "Code": "0001",
+              "LanguageType": "1"
+            }
           },
           "PermanentResident": "P",
           "PlaceOfBirth": "Clayton",
@@ -4018,16 +3697,16 @@
           "Email": [
             {
               "#content": "fsmith@yahoo.com",
-              "@Type": "01"
+              "-Type": "01"
             },
             {
               "#content": "freddy@gmail.com",
-              "@Type": "02"
+              "-Type": "02"
             }
           ]
         },
         "Name": {
-          "@Type": "LGL",
+          "-Type": "LGL",
           "FamilyName": "Smith",
           "FullName": "Fred Smith",
           "GivenName": "Fred"
@@ -4035,13 +3714,13 @@
         "OtherNames": {
           "Name": [
             {
-              "@Type": "AKA",
+              "-Type": "AKA",
               "FamilyName": "Anderson",
               "FullName": "Samuel Anderson",
               "GivenName": "Samuel"
             },
             {
-              "@Type": "PRF",
+              "-Type": "PRF",
               "FamilyName": "Rowinski",
               "FullName": "Sam Rowinski",
               "GivenName": "Sam"
@@ -4051,13 +3730,13 @@
         "PhoneNumberList": {
           "PhoneNumber": [
             {
-              "@Type": "0096",
+              "-Type": "0096",
               "Extension": "72289",
               "ListedStatus": "Y",
               "Number": "03 9637-2289"
             },
             {
-              "@Type": "0888",
+              "-Type": "0888",
               "ListedStatus": "N",
               "Number": "0437-765-234"
             }
@@ -4067,7 +3746,7 @@
       "SchoolEducationalLevel": "3"
     },
     "StudentContactRelationship": {
-      "@StudentContactRelationshipRefId": "7572B261-0947-583A-463D-BB345291B332",
+      "-StudentContactRelationshipRefId": "7572B261-0947-583A-463D-BB345291B332",
       "ContactFlags": {
         "AccessToRecords": "U",
         "AttendanceContact": "N",
@@ -4099,18 +3778,18 @@
       "StudentPersonalRefId": "DEE34B35-9D75-101A-8C3D-00AA001A1652"
     },
     "StudentDailyAttendance": {
-      "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+      "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
       "AttendanceCode": {
         "Code": "200",
         "OtherCodeList": {
           "OtherCode": [
             {
               "#content": "S",
-              "@Codeset": "Local"
+              "-Codeset": "Local"
             },
             {
               "#content": "C",
-              "@Codeset": "Text"
+              "-Codeset": "Text"
             }
           ]
         }
@@ -4126,7 +3805,7 @@
       "TimeOut": "12:05:00"
     },
     "StudentGrade": {
-      "@RefId": "359D7510-1AD0-A9D7-A8C3-DAD0A85103A2",
+      "-RefId": "359D7510-1AD0-A9D7-A8C3-DAD0A85103A2",
       "Grade": {
         "Letter": "C",
         "Narrative": "Johnny is only achieving average performance.",
@@ -4137,10 +3816,10 @@
       "StudentPersonalRefId": "A137D78A-E00B-C744-EF90-F2871CEB90A2"
     },
     "StudentParticipation": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "ManagingSchool": {
         "#content": "D93F4D18-3A42-C1A4-B3D1-1CC002B163A2",
-        "@SIF_RefObject": "SchoolInfo"
+        "-SIF_RefObject": "SchoolInfo"
       },
       "ParticipationContact": "John Mason",
       "ProgramFundingSources": {
@@ -4155,7 +3834,7 @@
       "StudentPersonalRefId": "A2E34F59-A742-C1A4-B3D1-1CC002B163A2"
     },
     "StudentPeriodAttendance": {
-      "@RefId": "98157AA0-13BA-8C3D-00AA-012B359D7512",
+      "-RefId": "98157AA0-13BA-8C3D-00AA-012B359D7512",
       "AttendanceCode": {
         "Code": "802"
       },
@@ -4166,13 +3845,13 @@
       "TimetablePeriod": "P4"
     },
     "StudentPersonal": {
-      "@RefId": "7C834EA9-EDA1-2090-347F-83297E1C290C",
+      "-RefId": "7C834EA9-EDA1-2090-347F-83297E1C290C",
       "AcceptableUsePolicy": "Y",
       "AlertMessages": {
         "AlertMessage": [
           {
             "#content": "Mother is legal guardian",
-            "@Type": "Legal"
+            "-Type": "Legal"
           }
         ]
       },
@@ -4185,11 +3864,11 @@
         "ElectronicId": [
           {
             "#content": "ZZZZZZ21",
-            "@Type": "03"
+            "-Type": "03"
           },
           {
             "#content": "ZZZZZZ22",
-            "@Type": "03"
+            "-Type": "03"
           }
         ]
       },
@@ -4215,11 +3894,11 @@
         "MedicalAlertMessage": [
           {
             "#content": "Student has Peanut Allergy",
-            "@Severity": "Severe"
+            "-Severity": "Severe"
           },
           {
             "#content": "Student has Diabetes",
-            "@Severity": "Moderate"
+            "-Severity": "Moderate"
           }
         ]
       },
@@ -4246,11 +3925,11 @@
         "OtherId": [
           {
             "#content": "888rdgf",
-            "@Type": "PreviousNAPPlatformStudentId"
+            "-Type": "PreviousNAPPlatformStudentId"
           },
           {
             "#content": "1234",
-            "@Type": "DiocesanStudentId"
+            "-Type": "DiocesanStudentId"
           }
         ]
       },
@@ -4258,8 +3937,8 @@
         "AddressList": {
           "Address": [
             {
-              "@Role": "2382",
-              "@Type": "0123",
+              "-Role": "2382",
+              "-Type": "0123",
               "City": "Yarra Glenn",
               "Country": "1101",
               "PostalCode": "9999",
@@ -4270,8 +3949,8 @@
               }
             },
             {
-              "@Role": "013A",
-              "@Type": "0123A",
+              "-Role": "013A",
+              "-Type": "0123A",
               "City": "Home Town",
               "Country": "1101",
               "PostalCode": "9999",
@@ -4353,16 +4032,16 @@
           "Email": [
             {
               "#content": "fsmith@yahoo.com",
-              "@Type": "01"
+              "-Type": "01"
             },
             {
               "#content": "freddy@gmail.com",
-              "@Type": "02"
+              "-Type": "02"
             }
           ]
         },
         "Name": {
-          "@Type": "LGL",
+          "-Type": "LGL",
           "FamilyName": "Smith",
           "FullName": "Fred Smith",
           "GivenName": "Fred"
@@ -4370,13 +4049,13 @@
         "OtherNames": {
           "Name": [
             {
-              "@Type": "AKA",
+              "-Type": "AKA",
               "FamilyName": "Anderson",
               "FullName": "Samuel Anderson",
               "GivenName": "Samuel"
             },
             {
-              "@Type": "PRF",
+              "-Type": "PRF",
               "FamilyName": "Rowinski",
               "FullName": "Sam Rowinski",
               "GivenName": "Sam"
@@ -4386,13 +4065,13 @@
         "PhoneNumberList": {
           "PhoneNumber": [
             {
-              "@Type": "0096",
+              "-Type": "0096",
               "Extension": "72289",
               "ListedStatus": "Y",
               "Number": "03 9637-2289"
             },
             {
-              "@Type": "0888",
+              "-Type": "0888",
               "ListedStatus": "N",
               "Number": "0437-765-234"
             }
@@ -4405,10 +4084,10 @@
       "YoungCarersRole": "N"
     },
     "StudentSchoolEnrollment": {
-      "@RefId": "A8C3D3E3-4B35-9D75-101D-00AA001A1652",
+      "-RefId": "A8C3D3E3-4B35-9D75-101D-00AA001A1652",
       "Advisor": {
         "#content": "B359D3E3-4D75-101A-8C3D-00AA001A1652",
-        "@SIF_RefObject": "StaffPersonal"
+        "-SIF_RefObject": "StaffPersonal"
       },
       "EntryDate": "2004-01-29",
       "EntryType": {
@@ -4420,7 +4099,7 @@
           "OtherCode": [
             {
               "#content": "Victoria",
-              "@Codeset": "Local"
+              "-Codeset": "Local"
             }
           ]
         }
@@ -4429,7 +4108,7 @@
       "FTPTStatus": "01",
       "Homeroom": {
         "#content": "D7510D3E-34B3-591A-8C3D-00AA001A1651",
-        "@SIF_RefObject": "RoomInfo"
+        "-SIF_RefObject": "RoomInfo"
       },
       "MembershipType": "01",
       "PublishingPermissionList": {
@@ -4454,7 +4133,7 @@
     },
     "StudentScoreJudgementAgainstStandard": [
       {
-        "@RefId": "5810E283-E928-459C-BBA7-6EFE1963F784",
+        "-RefId": "5810E283-E928-459C-BBA7-6EFE1963F784",
         "CurriculumCode": "AUSVELS",
         "CurriculumNodeCode": "MATNUM",
         "ManagedPathwayLocalCode": "MPOMP",
@@ -4471,7 +4150,7 @@
         }
       },
       {
-        "@RefId": "5810E283-E928-459C-BBA7-6EFE1963F784",
+        "-RefId": "5810E283-E928-459C-BBA7-6EFE1963F784",
         "ClassLocalId": "MAT10A",
         "CurriculumCode": "AUSVELS",
         "CurriculumNodeCode": "MATNUM",
@@ -4490,7 +4169,7 @@
       }
     ],
     "StudentSectionEnrollment": {
-      "@RefId": "983AC165-9879-3002-C3D0-0AA00456789D",
+      "-RefId": "983AC165-9879-3002-C3D0-0AA00456789D",
       "EntryDate": "2013-02-02",
       "ExitDate": "2013-11-15",
       "SchoolYear": "2013",
@@ -4498,33 +4177,33 @@
       "StudentPersonalRefId": "CAE29316-5987-101A-8C3D-00AA00456789"
     },
     "SystemRole": {
-      "@RefId": "4286194F-43ED-43C1-8EE2-F0A27C4BEF86",
+      "-RefId": "4286194F-43ED-43C1-8EE2-F0A27C4BEF86",
       "SIF_RefId": {
         "#content": "23B08571-E4D6-45C3-B82A-3E52E5349925",
-        "@SIF_RefObject": "Identity"
+        "-SIF_RefObject": "Identity"
       },
       "SystemContextList": {
         "SystemContext": [
           {
-            "@SystemId": "LearningPlatformSystem1",
+            "-SystemId": "LearningPlatformSystem1",
             "RoleList": {
               "Role": [
                 {
-                  "@RoleId": "Admin",
+                  "-RoleId": "Admin",
                   "RoleScopeList": {
                     "RoleScope": [
                       {
                         "RoleScopeName": "SchoolGroupName1",
                         "RoleScopeRefId": {
                           "#content": "23B08571-E4D6-45C3-B82A-3E52E5349912",
-                          "@SIF_RefObject": "SchoolInfo"
+                          "-SIF_RefObject": "SchoolInfo"
                         }
                       },
                       {
                         "RoleScopeName": "ClassName1",
                         "RoleScopeRefId": {
                           "#content": "23B08571-E4D6-45C3-B82A-3E52E5349945",
-                          "@SIF_RefObject": "TeachingGroup"
+                          "-SIF_RefObject": "TeachingGroup"
                         }
                       }
                     ]
@@ -4534,18 +4213,18 @@
             }
           },
           {
-            "@SystemId": "ContentManagement",
+            "-SystemId": "ContentManagement",
             "RoleList": {
               "Role": [
                 {
-                  "@RoleId": "User",
+                  "-RoleId": "User",
                   "RoleScopeList": {
                     "RoleScope": [
                       {
                         "RoleScopeName": "SchoolName1",
                         "RoleScopeRefId": {
                           "#content": "23B08571-E4D6-45C3-B82A-3E52E5349923",
-                          "@SIF_RefObject": "StudentActivityParticipation"
+                          "-SIF_RefObject": "StudentActivityParticipation"
                         }
                       }
                     ]
@@ -4558,7 +4237,7 @@
       }
     },
     "TeachingGroup": {
-      "@RefId": "64A309DA-063A-2E35-B359-D75101A8C3D1",
+      "-RefId": "64A309DA-063A-2E35-B359-D75101A8C3D1",
       "Block": "6",
       "CurriculumLevel": "VELS Level 5",
       "LocalId": "20087ASPN",
@@ -4570,7 +4249,7 @@
         "TeachingGroupStudent": [
           {
             "Name": {
-              "@Type": "LGL",
+              "-Type": "LGL",
               "FamilyName": "Smith",
               "GivenName": "Peter"
             },
@@ -4579,7 +4258,7 @@
           },
           {
             "Name": {
-              "@Type": "LGL",
+              "-Type": "LGL",
               "FamilyName": "Smith",
               "GivenName": "Jennifer"
             },
@@ -4588,7 +4267,7 @@
           },
           {
             "Name": {
-              "@Type": "LGL",
+              "-Type": "LGL",
               "FamilyName": "Smith",
               "GivenName": "Terence"
             },
@@ -4602,7 +4281,7 @@
           {
             "Association": "Class Teacher",
             "Name": {
-              "@Type": "LGL",
+              "-Type": "LGL",
               "FamilyName": "Smith",
               "GivenName": "Thomas"
             },
@@ -4612,7 +4291,7 @@
           {
             "Association": "Integration Aide",
             "Name": {
-              "@Type": "LGL",
+              "-Type": "LGL",
               "FamilyName": "Long",
               "GivenName": "Tamara"
             },
@@ -4635,7 +4314,7 @@
       }
     },
     "TermInfo": {
-      "@RefId": "7E59D751-01A8-0A70-0163-75DE097A0726",
+      "-RefId": "7E59D751-01A8-0A70-0163-75DE097A0726",
       "Description": "First Term 2012",
       "EndDate": "2012-04-01",
       "RelativeDuration": "0.2500",
@@ -4647,7 +4326,7 @@
       "Track": "PreK"
     },
     "TimeTable": {
-      "@RefId": "64A309DA-063A-2E35-B359-D75101A8C3D0",
+      "-RefId": "64A309DA-063A-2E35-B359-D75101A8C3D0",
       "DaysPerCycle": 5,
       "EndDate": "2008-06-20",
       "LocalId": "2008S1",
@@ -4730,7 +4409,7 @@
       "Title": "2008 Semester 1"
     },
     "TimeTableCell": {
-      "@RefId": "64A309DA-063A-2E35-B359-D75101A8C3D1",
+      "-RefId": "64A309DA-063A-2E35-B359-D75101A8C3D1",
       "CellType": "T",
       "DayId": "1",
       "PeriodId": "1",
@@ -4775,7 +4454,7 @@
       "TimeTableSubjectRefId": "22860091-7192-45B4-AB0C-F5B9DC19DE5C"
     },
     "TimeTableSubject": {
-      "@RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
+      "-RefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "AcademicYear": {
         "Code": "7"
       },
@@ -4786,12 +4465,12 @@
       "SubjectType": "E"
     },
     "VendorInfo": {
-      "@RefId": "AB3647C5-6865-4CF4-5678-DD34EF564E22",
+      "-RefId": "AB3647C5-6865-4CF4-5678-DD34EF564E22",
       "ABN": "56402325367",
       "ContactInfo": {
         "Address": {
-          "@Role": "2382",
-          "@Type": "0123",
+          "-Role": "2382",
+          "-Type": "0123",
           "City": "Chicago",
           "Country": "8104",
           "PostalCode": "60611",
@@ -4804,19 +4483,19 @@
           "Email": [
             {
               "#content": "jdr@ABC.com",
-              "@Type": "01"
+              "-Type": "01"
             }
           ]
         },
         "Name": {
-          "@Type": "LGL",
+          "-Type": "LGL",
           "FamilyName": "Brown",
           "GivenName": "James"
         },
         "PhoneNumberList": {
           "PhoneNumber": [
             {
-              "@Type": "0096",
+              "-Type": "0096",
               "Number": "(312) 555-1234"
             }
           ]
@@ -4827,7 +4506,7 @@
       "RegisteredForGST": "Y"
     },
     "WellbeingAlert": {
-      "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+      "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
       "Date": "2017-11-01",
       "SchoolInfoRefId": "CA285746-359D-7510-1A8C-36432A901A16",
       "StudentPersonalRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
@@ -4836,7 +4515,7 @@
       "WellbeingAlertStartDate": "2017-11-01"
     },
     "WellbeingAppeal": {
-      "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+      "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
       "AppealNotes": "This Appeal was successful.",
       "AppealStatusCode": "SU",
       "Date": "2017-11-01",
@@ -4845,7 +4524,7 @@
       "WellbeingResponseRefId": "BC385746-359D-7510-1A8C-36432A901A36"
     },
     "WellbeingCharacteristic": {
-      "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+      "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
       "SchoolInfoRefId": "CA285746-359D-7510-1A8C-36432A901A16",
       "StudentPersonalRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
       "WellbeingCharacteristicCategory": "S",
@@ -4855,7 +4534,7 @@
     },
     "WellbeingEvent": [
       {
-        "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+        "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
         "SchoolInfoRefId": "CA285746-359D-7510-1A8C-36432A901A16",
         "StudentPersonalRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
         "WellbeingEventCategoryClass": "P",
@@ -4863,7 +4542,7 @@
         "WellbeingEventTimePeriod": "AM"
       },
       {
-        "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+        "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
         "EventId": "Yard-10",
         "ReportingStaffRefId": "3FFB63B4-CFEF-4820-8501-E7D1E54555CB",
         "SchoolInfoRefId": "CA285746-359D-7510-1A8C-36432A901A16",
@@ -4886,7 +4565,7 @@
         "WellbeingEventTimePeriod": "AM"
       },
       {
-        "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+        "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
         "EventId": "Yard-10",
         "GroupIndicator": true,
         "ReportingStaffRefId": "3FFB63B4-CFEF-4820-8501-E7D1E54555CB",
@@ -4911,7 +4590,7 @@
     ],
     "WellbeingPersonLink": [
       {
-        "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+        "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
         "FollowUpActionList": {
           "FollowUpAction": [
             {
@@ -4923,13 +4602,13 @@
         "HowInvolved": "Victim",
         "PersonRefId": {
           "#content": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
-          "@SIF_RefObject": "StudentPersonal"
+          "-SIF_RefObject": "StudentPersonal"
         },
         "WellbeingEventRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1688",
         "WellbeingResponseRefId": "E6E34B35-9D75-101A-8C3D-00AA001A1700"
       },
       {
-        "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+        "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
         "FollowUpActionList": {
           "FollowUpAction": [
             {
@@ -4941,13 +4620,13 @@
         "HowInvolved": "Instigator",
         "PersonRefId": {
           "#content": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
-          "@SIF_RefObject": "StudentPersonal"
+          "-SIF_RefObject": "StudentPersonal"
         },
         "WellbeingEventRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1688",
         "WellbeingResponseRefId": "E6E34B35-9D75-101A-8C3D-00AA001A1700"
       },
       {
-        "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+        "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
         "FollowUpActionList": {
           "FollowUpAction": [
             {
@@ -4959,13 +4638,13 @@
         "HowInvolved": "Reporter",
         "PersonRefId": {
           "#content": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
-          "@SIF_RefObject": "StaffPersonal"
+          "-SIF_RefObject": "StaffPersonal"
         },
         "WellbeingEventRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1688",
         "WellbeingResponseRefId": "E6E34B35-9D75-101A-8C3D-00AA001A1700"
       },
       {
-        "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+        "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
         "GroupId": "Inv0009",
         "OtherPersonContactDetails": "Ms Smith, Visitor, 0435 345 678",
         "OtherPersonId": "Not known",
@@ -4975,7 +4654,7 @@
       }
     ],
     "WellbeingResponse": {
-      "@RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
+      "-RefId": "2FFB63B4-CFEF-4820-8501-E7D1E54555CB",
       "Date": "2017-11-01",
       "SchoolInfoRefId": "CA285746-359D-7510-1A8C-36432A901A16",
       "StudentPersonalRefId": "D3E34B35-9D75-101A-8C3D-00AA001A1652",
