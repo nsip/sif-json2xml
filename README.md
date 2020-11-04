@@ -1,3 +1,5 @@
+XXX Copyright, License and other Template necessities
+
 # Web-Service for Converting SIF JSON Format to XML Format
 
 ## Build Prerequisite
@@ -26,7 +28,7 @@
    Default port is `1325`, can be set at config.toml.
 
 ## Docker Build
-  
+
 0. Make sure `Docker` is available and running on your machine.
 
 1. Run `docker build --rm -t nsip/sif-json2xml:latest .` to make docker image.

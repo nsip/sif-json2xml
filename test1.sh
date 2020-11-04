@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+# Text foreground colour (xterm)
 R=`tput setaf 1`
 G=`tput setaf 2`
 Y=`tput setaf 3`
@@ -9,19 +10,22 @@ W=`tput sgr0`
 
 printf "\n"
 
-ip="192.168.31.168:1325/"        ### 
-base=$ip"sif-json2xml/v0.1.0/"    ###
+ip="localhost:1325/"        ###
+# XXX URL was v0.1.0 - however, the URL returned by config system is 0.0.0 (no v, no 1)
+# XXX Review use of Version 3 digits here, since we need to upgrade last every release, it means
+# all libraries, and all systems always have to upgrade, maybe just v0.1/
+base=$ip"sif-json2xml/0.0.0/"    ###
 
 title='SIF-JSON2XML all APIs'
 url=$ip
 scode=`curl --write-out "%{http_code}" --silent --output /dev/null $url`
 if [ $scode -ne 200 ]; then
-    echo "${R}${title}${W}"
+    echo "${R}Error getting root information from ${ip} - ${title}${W}"
     exit 1
 else
-    echo "${G}${title}${W}"
+    echo "${G}Server OK: ${title}${W}"
 fi
-echo "curl $url"
+echo "# Headers: curl $url"
 curl -i $url
 printf "\n"
 
@@ -31,13 +35,14 @@ sv=3.4.7
 
 JSONFiles=./data/examples/$sv/*
 for f in $JSONFiles
-do  
+do
     title='2XML Test @ '$f
     url=$base"convert?sv=$sv" ###
     file="@"$f
     scode=`curl -X POST $url --data-binary $file -w "%{http_code}" -s -o /dev/null`
     if [ $scode -ne 200 ]; then
-        echo "${R}${title}${W}"
+        # TODO - be good to get actual text - e.g. 404, not found
+        echo "${R}Error posting binary data ${file} to ${url} - ${title} code=${scode}${W}"
         exit 1
     else
         echo "${G}${title}${W}"

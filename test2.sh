@@ -9,8 +9,9 @@ W=`tput sgr0`
 
 printf "\n"
 
-ip="192.168.31.168:1325/"        ### 
-base=$ip"sif-json2xml/v0.1.0/"    ###
+ip="localhost:1325/"        ###
+# XXX Change version
+base=$ip"sif-json2xml/0.0.0/"    ###
 
 title='SIF-JSON2XML all APIs'
 url=$ip
