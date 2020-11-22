@@ -1,11 +1,11 @@
 Service = "sif-json2xml"
 
 [Route]
-  Convert = "/sif-json2xml/v0.1.0/convert"
+  Convert = "/sif-json2xml/v0.1.1/convert"
   Help = "/"
 
 [Server]
-  IP = "192.168.31.168"
+  IP = "192.168.31.73"
   Port = 1325
   Protocol = "http"
 

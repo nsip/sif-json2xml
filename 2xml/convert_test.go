@@ -50,6 +50,7 @@ func TestJSON2XML(t *testing.T) {
 
 	ver := "3.4.7"
 	dir := `../data/examples/` + ver
+	// dir := `../data/examples/temp/`
 	files, err := ioutil.ReadDir(dir)
 	failOnErr("%v", err)
 	failOnErrWhen(len(files) == 0, "%v", errs.FILE_NOT_FOUND)

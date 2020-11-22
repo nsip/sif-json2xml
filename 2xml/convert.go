@@ -7,8 +7,8 @@ import (
 	"github.com/clbanning/mxj"
 	cfg "github.com/nsip/sif-json2xml/config/cfg"
 	errs "github.com/nsip/sif-json2xml/err-const"
-	sif346 "github.com/nsip/sif-json2xml/sif-spec/3.4.6"
-	sif347 "github.com/nsip/sif-json2xml/sif-spec/3.4.7"
+	sif346 "github.com/nsip/sif-spec-res/3.4.6"
+	sif347 "github.com/nsip/sif-spec-res/3.4.7"
 )
 
 // ----------------------------------------- //
