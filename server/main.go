@@ -23,6 +23,7 @@ import (
 	cvt "github.com/nsip/sif-json2xml/2xml"
 	cfg "github.com/nsip/sif-json2xml/config/cfg"
 	errs "github.com/nsip/sif-json2xml/err-const"
+	sr "github.com/nsip/sif-spec-res"
 )
 
 func mkCfg4Clt(cfg interface{}) {
@@ -130,6 +131,7 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 		fullIP = localIP() + fSf(":%d", port)
 		route  = Cfg.Route
 		mMtx   = initMutex(&Cfg.Route)
+		vers   = sr.GetAllVer("v", "")
 	)
 
 	defer e.Start(fSf(":%d", port))
@@ -150,9 +152,9 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 			// 	fSf("\n")+
 			fSf("[POST] %-40s\n%s", fullIP+route.Convert,
 				"--- Upload SIF(JSON), return SIF(XML).\n"+
-					"------ [sv]:   SIF Ver\n"+
+					"------ [sv]:   SIF Ver "+fSf("%v", vers)+"\n"+
 					"------ [nats]: send json to NATS\n"+
-					"------ [wrap]: if uploaded SIF is single root wrapped file"))
+					"------ [wrap]: if uploaded SIF file is single root wrapped"))
 	})
 
 	// ------------------------------------------------------------------------------------ //

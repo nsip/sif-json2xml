@@ -11,7 +11,7 @@ printf "\n"
 
 ip="localhost:1325/"        ###
 # XXX Change version
-base=$ip"sif-json2xml/0.0.0/"    ###
+base=$ip"sif-json2xml/v0.1.2"    ###
 
 title='SIF-JSON2XML all APIs'
 url=$ip
@@ -32,7 +32,7 @@ sv=3.4.7
 
 SIFJFile=./data/examples/siftest347.json
 title='Convert Test @ '$SIFJFile
-url=$base"convert?sv=$sv&wrap" ###
+url=$base"?sv=$sv&wrap" ###
 file="@"$SIFJFile
 scode=`curl -X POST $url --data-binary $file -w "%{http_code}" -s -o /dev/null`
 if [ $scode -ne 200 ]; then

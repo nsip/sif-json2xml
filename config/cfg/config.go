@@ -2,7 +2,7 @@ package cfg
 
 import "github.com/cdutwhu/gonfig"
 
-// Config : AUTO Created From /home/qmiao/Desktop/temp/sif-json2xml/config/config.toml
+// Config : AUTO Created From /home/user/Desktop/4rel/sif-json2xml/config/config.toml
 type Config struct {
 	Log string
 	Service interface{}
@@ -26,9 +26,9 @@ type Config struct {
 		URL string
 	}
 	Server struct {
-		IP interface{}
 		Port interface{}
 		Protocol string
+		IP interface{}
 	}
 	Access struct {
 		Timeout int

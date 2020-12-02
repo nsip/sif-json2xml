@@ -2,17 +2,17 @@ package client
 
 import "github.com/cdutwhu/gonfig"
 
-// Config : AUTO Created From /home/qmiao/Desktop/temp/sif-json2xml/server/client/config.toml
+// Config : AUTO Created From /home/user/Desktop/4rel/sif-json2xml/server/client/config.toml
 type Config struct {
 	Service string
 	Route struct {
-		Convert string
 		Help string
+		Convert string
 	}
 	Server struct {
-		IP string
 		Port int
 		Protocol string
+		IP string
 	}
 	Access struct {
 		Timeout int

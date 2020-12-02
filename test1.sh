@@ -14,7 +14,7 @@ ip="localhost:1325/"        ###
 # XXX URL was v0.1.0 - however, the URL returned by config system is 0.0.0 (no v, no 1)
 # XXX Review use of Version 3 digits here, since we need to upgrade last every release, it means
 # all libraries, and all systems always have to upgrade, maybe just v0.1/
-base=$ip"sif-json2xml/0.0.0/"    ###
+base=$ip"sif-json2xml/v0.1.2"    ###
 
 title='SIF-JSON2XML all APIs'
 url=$ip
@@ -37,7 +37,7 @@ JSONFiles=./data/examples/$sv/*
 for f in $JSONFiles
 do
     title='2XML Test @ '$f
-    url=$base"convert?sv=$sv" ###
+    url=$base"?sv=$sv" ###
     file="@"$f
     scode=`curl -X POST $url --data-binary $file -w "%{http_code}" -s -o /dev/null`
     if [ $scode -ne 200 ]; then
