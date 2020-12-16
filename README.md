@@ -34,7 +34,7 @@ that converts SIF XML to SIF JSON.
 
    On startup, you should see output messages printed such as service name, server IP:Port and service version:
 
-   ![Start service](screenshots/1_start_service.png)
+   ![Start service](screenshots/1_sifjson2xml_running.png)
 
 ### Play with Insomnia
 
