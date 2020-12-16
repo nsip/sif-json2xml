@@ -32,7 +32,8 @@ that converts SIF XML to SIF JSON.
 
    `./sifjson2xml`
 
-   On startup, you should see output messages printed such as service name, server IP:Port and service version:
+   On startup, you should see output messages printed such as service name, server IP:Port and service version. 
+   `IP`, `port`, `service name` and `version` are important for client access:
 
    ![Start service](screenshots/1_sifjson2xml_running.png)
 
@@ -50,9 +51,9 @@ For this test we'll use Insomnia, a REST-based API testing system, to call the c
 
 4. From the method dropdown on the right, Select `POST`.
 
-5. Add the request `localhost:1324`, select `JSON` from the body type pulldown, then click Create.
+5. Add the request `localhost:1325`, select `JSON` from the body type pulldown, then click Create.
 
-6. In the POST field above the centre Request body pane, type `localhost:1324/sif-json2xml/v0.1.5?wrap`
+6. In the POST field above the centre Request body pane, type `localhost:1325/sif-json2xml/v0.1.3?wrap`
 
 7. Copy the body of the sample file `student_personals.json` into the centre Request Body panel.
 
@@ -72,15 +73,16 @@ On Windows, if you don't have curl, you can copy it from your Windows system fol
 
 3. In your terminal (Linux/Mac) or Powershell (Windows), navigate to your chosen working directory
 
-4. On Windows: Run `./curl.exe -X POST 'localhost:1324/sif-json2xml/v0.1.5?wrap&sv=3.4.7' --data-binary '@student_personals.json' > student_personals.xml`
+4. On Windows: Run `./curl.exe -X POST 'localhost:1325/sif-json2xml/v0.1.3?wrap&sv=3.4.7' --data-binary '@student_personals.json' > student_personals.xml`
 
-   On other platforms: Run `curl -X POST 'localhost:1324/sif-json2xml/v0.1.5?wrap&sv=3.4.7' --data-binary '@student_personals.json' > student_personals.xml`.
+   On other platforms: Run `curl -X POST 'localhost:1325/sif-json2xml/v0.1.3?wrap&sv=3.4.7' --data-binary '@student_personals.json' > student_personals.xml`.
 
 ![3 curl test image](screenshots/3_curl_test.png)
 
 ### Notes
 
-   *  If sifjson2xml is being run remotely, set the URL `localhost` to the machine's IP address .
+   *  If sifjson2xml is being run remotely, set the URL `localhost` to the machine's IP address.
+   *  You can modify `port`, `service name` and `service version` in config.toml. 
    *  The SIF version parameter (URL param `sv`)can be set to the supported SIF data model versions '3.4.6' or '3.4.7'.
    *  Wrapper parameter (URL param `wrap`): if there is a (non-SIF-object) single wrapper root in the XML file you wish to covert, add the `wrap` parameter.
 
