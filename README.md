@@ -15,7 +15,7 @@ XXX Copyright, License and other Template necessities
 
 1. Make sure `golang` dev package & `git` are available on your machine.
 
-2. Run `./build.sh` to build service which embedded with SIF Spec 3.4.6 & 3.4.7.
+2. Run `./build.sh` to build service which embedded with SIF Spec 3.4.2 ... 3.4.7, 3.4.8.draft.
 
 3. Run `./release.sh [linux64|win64|mac] 'dest-path'` to extract minimal executable package on different.
    e.g. `./release.sh win64 ~/Desktop/sif-json2xml/` extracts windows version bin package into "~/Desktop/sif-json2xml/".
@@ -55,5 +55,5 @@ XXX Copyright, License and other Template necessities
    `Port`: Get from server's 'config.toml'-[WebService]-[Port], default is 1325.
    `Service`: service name. Get from server's 'config.toml'-[Service].
    `Version`: service version. Get from server's 'config.toml'-[Version].
-   `sv`: SIF Spec Version, available 3.4.6 & 3.4.7
+   `sv`: SIF Spec Version, available 3.4.2 ... 3.4.7, 3.4.8.draft.
    `wrap`: if there is a single wrapper (non-sif-object root) on upload sif.json, append param `wrap`.  

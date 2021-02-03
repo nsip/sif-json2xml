@@ -7,8 +7,13 @@ import (
 	"github.com/clbanning/mxj"
 	cfg "github.com/nsip/sif-json2xml/config/cfg"
 	errs "github.com/nsip/sif-json2xml/err-const"
+	sif342 "github.com/nsip/sif-spec-res/3.4.2"
+	sif343 "github.com/nsip/sif-spec-res/3.4.3"
+	sif344 "github.com/nsip/sif-spec-res/3.4.4"
+	sif345 "github.com/nsip/sif-spec-res/3.4.5"
 	sif346 "github.com/nsip/sif-spec-res/3.4.6"
 	sif347 "github.com/nsip/sif-spec-res/3.4.7"
+	sif348draft "github.com/nsip/sif-spec-res/3.4.8.draft"
 )
 
 // ----------------------------------------- //
@@ -408,16 +413,33 @@ func JSON2XML(json, sifver string) (sif, sv string, err error) {
 		ver = sifver
 	}
 
-	var bytes []byte
+	var (
+		bytes []byte
+		ok    bool
+	)
 	switch ver {
+	case "3.4.2":
+		bytes, ok = sif342.TXT["342"]
+	case "3.4.3":
+		bytes, ok = sif343.TXT["343"]
+	case "3.4.4":
+		bytes, ok = sif344.TXT["344"]
+	case "3.4.5":
+		bytes, ok = sif345.TXT["345"]
 	case "3.4.6":
-		bytes = sif346.TXT["346"]
+		bytes, ok = sif346.TXT["346"]
 	case "3.4.7":
-		bytes = sif347.TXT["347"]
+		bytes, ok = sif347.TXT["347"]
+	case "3.4.8.draft":
+		bytes, ok = sif348draft.TXT["348draft"]
 	default:
 		err = fmt.Errorf("Error: No SIF Spec @ Version [%s]", ver)
 		warner("%v", err)
 		return
+	}
+
+	if !ok {
+		panic("SIF TXT RES Load Error")
 	}
 
 	ResetAll()
