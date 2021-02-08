@@ -104,7 +104,6 @@ On Windows, if you don't have curl, you can copy it from your Windows system fol
 
 3. Run `./release.sh [linux64|win64|mac] 'dest-path'` to extract minimal executable package on different.
    e.g. `./release.sh win64 ~/Desktop/sif-json2xml/` extracts windows version bin package into "~/Desktop/sif-json2xml/".
-   then 'server' executable is available under "~/Desktop/sif-json2xml/".
 
 4. Jump into "~/Desktop/sif-json2xml/", modify 'config.toml' if needed.
    Please set [Service] & [Version] to your own value.
