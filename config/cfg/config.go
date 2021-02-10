@@ -2,7 +2,7 @@ package cfg
 
 import "github.com/cdutwhu/gonfig"
 
-// Config : AUTO Created From /home/qmiao/Desktop/sif-json2xml/config/config.toml
+// Config : AUTO Created From /sif-json2xml/config/config.toml
 type Config struct {
 	Log string
 	Service interface{}

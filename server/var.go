@@ -1,10 +1,13 @@
 package main
 
 import (
+	"bytes"
+	"encoding/binary"
 	"fmt"
 	"regexp"
 	"strings"
 	"sync"
+	"unicode/utf16"
 
 	"github.com/cdutwhu/debog/fn"
 	"github.com/cdutwhu/gotil/io"
@@ -31,6 +34,7 @@ var (
 	sHasSuffix       = strings.HasSuffix
 	sHasPrefix       = strings.HasPrefix
 	sContains        = strings.Contains
+	sSplit           = strings.Split
 	rxMustCompile    = regexp.MustCompile
 	failOnErr        = fn.FailOnErr
 	failOnErrWhen    = fn.FailOnErrWhen
@@ -56,8 +60,9 @@ var (
 )
 
 var (
-	logGrp  = logBind(logger) // logBind(logger, loggly("info"))
-	warnGrp = logBind(warner) // logBind(warner, loggly("warn"))
+	logGrp     = logBind(logger) // logBind(logger, loggly("info"))
+	warnGrp    = logBind(warner) // logBind(warner, loggly("warn"))
+	rxRootAttr = rxMustCompile(`^\{[\n\s]*"@\w+":\s+"[^"]*"`)
 )
 
 func initMutex(route interface{}) map[string]*sync.Mutex {
@@ -66,4 +71,43 @@ func initMutex(route interface{}) map[string]*sync.Mutex {
 		mMtx[v.(string)] = &sync.Mutex{}
 	}
 	return mMtx
+}
+
+// UTF16To8 :
+func UTF16To8(s string, order binary.ByteOrder) string {
+	if len(s) == 0 {
+		return ""
+	}
+	b := []byte(s)
+	switch b[0] {
+	case 0xff, 0xfe:
+		b = b[2:]
+		break
+	default:
+		return s
+	}
+
+	ints := make([]uint16, len(b)/2)
+	if err := binary.Read(bytes.NewReader(b), order, &ints); err != nil {
+		panic(err)
+	}
+	return string(utf16.Decode(ints))
+}
+
+func aln2mav(aln, apf string) map[string]interface{} {
+	mav := make(map[string]interface{})
+	if apf == "" {
+		apf = "@"
+	}
+	aln = sTrim(sTrimLeft(aln, "{"), " \t\n\r")
+	av := sSplit(aln, "\":")
+	if len(av) != 2 {
+		return nil
+	}
+	av[0] = sTrimLeft(av[0], "\"")
+	av[0] = sTrimLeft(av[0], apf)
+	av[1] = sTrimLeft(av[1], " ")
+	av[1] = sTrim(av[1], "\"")
+	mav[av[0]] = av[1]
+	return mav
 }

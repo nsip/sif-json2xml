@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"encoding/binary"
 	"io/ioutil"
 	"net/http"
 	"os"
@@ -22,6 +23,7 @@ import (
 	cvt "github.com/nsip/sif-json2xml/2xml"
 	cfg "github.com/nsip/sif-json2xml/config/cfg"
 	errs "github.com/nsip/sif-json2xml/err-const"
+	sr "github.com/nsip/sif-spec-res"
 )
 
 func mkCfg4Clt(cfg interface{}) {
@@ -129,6 +131,7 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 		fullIP = localIP() + fSf(":%d", port)
 		route  = Cfg.Route
 		mMtx   = initMutex(&Cfg.Route)
+		vers   = sr.GetAllVer("v", "")
 	)
 
 	defer e.Start(fSf(":%d", port))
@@ -149,9 +152,9 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 			// 	fSf("\n")+
 			fSf("[POST] %-40s\n%s", fullIP+route.Convert,
 				"--- Upload SIF(JSON), return SIF(XML).\n"+
-					"------ [sv]:   SIF Ver\n"+
+					"------ [sv]:   SIF Ver "+fSf("%v", vers)+"\n"+
 					"------ [nats]: send json to NATS\n"+
-					"------ [wrap]: if uploaded SIF is single root wrapped file"))
+					"------ [wrap]: if uploaded SIF file is single root wrapped"))
 	})
 
 	// ------------------------------------------------------------------------------------ //
@@ -190,7 +193,8 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 			status  = http.StatusOK
 			Ret     string
 			RetSB   strings.Builder
-			results []reflect.Value //  for 'jaegertracing.TraceFunction'
+			results []reflect.Value        // for 'jaegertracing.TraceFunction'
+			mav     map[string]interface{} // for wrapper root attributes
 		)
 
 		logGrp.Do("Parsing Params")
@@ -219,7 +223,7 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 			RetSB.WriteString(errs.HTTP_REQBODY_EMPTY.Error() + " @Request Body")
 			goto RET
 		}
-		if !isJSON(jstr) {
+		if jstr = UTF16To8(jstr, binary.LittleEndian); !isJSON(jstr) {
 			status = http.StatusBadRequest
 			RetSB.Reset()
 			RetSB.WriteString(errs.PARAM_INVALID_JSON.Error() + " @Request Body")
@@ -237,9 +241,13 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 		// ** if wrapped, break and handle each SIF object ** //
 		///
 		root, cont = jt.SglEleBlkCont(jstr) // if wrapped : => "sif", { "Activity" ... }
+		// take attribute lines from cont, then
+		mav = aln2mav(rxRootAttr.FindString(cont), "") // Now, Only take one wrapper root attribute
+
 		jsonObjNames, jsonContGrp = []string{root}, []string{cont}
 		if wrapped {
-			out4ret = jt.Cvt2XML(jt.MkSglEleBlk(root, "~~~", false))
+			wrapper := jt.MkSglEleBlk(root, "~~~", false)
+			out4ret = jt.Cvt2XML(wrapper, mav)
 			jsonObjNames, jsonContGrp = jt.BreakMulEleBlkV2(cont) // break array to single duplicated objects
 		}
 		///
