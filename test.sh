@@ -12,7 +12,7 @@ printf "\n"
 
 ip="localhost:1325/"             ###
 # XXX Change version
-base=$ip"sif-json2xml/v0.1.3"    ###
+base=$ip"sif-json2xml/convert"    ###
 
 title='SIF-JSON2XML all APIs'
 url=$ip
