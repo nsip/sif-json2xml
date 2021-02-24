@@ -1,7 +1,6 @@
 package cvt2xml
 
 import (
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"testing"
@@ -12,7 +11,7 @@ import (
 )
 
 func TestJSONRoot(t *testing.T) {
-	bytes, err := ioutil.ReadFile("../data/examples/3.4.6/Activity.json")
+	bytes, err := os.ReadFile("../data/examples/3.4.6/Activity.json")
 	failOnErr("%v", err)
 	fPln(jsonRoot(string(bytes)))
 }
@@ -27,7 +26,7 @@ func j2x(dim int, tid int, done chan int, params ...interface{}) {
 		ResetAll()
 
 		obj := rmTailFromLast(files[i].Name(), ".")
-		bytes, err := ioutil.ReadFile(filepath.Join(dir, files[i].Name()))
+		bytes, err := os.ReadFile(filepath.Join(dir, files[i].Name()))
 		failOnErr("%v", err)
 
 		sif, sv, err := JSON2XML(string(bytes), ver)
@@ -51,7 +50,7 @@ func TestJSON2XML(t *testing.T) {
 	ver := "3.4.7"
 	dir := `../data/examples/` + ver
 	// dir := `../data/examples/temp/`
-	files, err := ioutil.ReadDir(dir)
+	files, err := os.ReadDir(dir)
 	failOnErr("%v", err)
 	failOnErrWhen(len(files) == 0, "%v", errs.FILE_NOT_FOUND)
 	syncParallel(1, j2x, ver, files, dir) // only dispatch 1 goroutine, otherwise, error

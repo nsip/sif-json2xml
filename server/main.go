@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"encoding/binary"
-	"io/ioutil"
+	"io"
 	"net/http"
 	"os"
 	"os/signal"
@@ -218,7 +218,7 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 		}
 
 		logGrp.Do("Reading Body")
-		bytes, err := ioutil.ReadAll(c.Request().Body)
+		bytes, err := io.ReadAll(c.Request().Body)
 		jstr, root, cont, out4ret := "", "", "", ""
 		jsonObjNames, jsonContGrp := []string{}, []string{}
 
@@ -243,7 +243,7 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 
 		/// DEBUG ///
 		// if sContains(jstr, "A5A575C7-8917-5101-B8E7-F08ED123A823") {
-		// ioutil.WriteFile("./debug.json", []byte(jstr), 0666)
+		// os.WriteFile("./debug.json", []byte(jstr), 0666)
 		// fPln("break")
 		// }
 		/// DEBUG ///
@@ -271,7 +271,7 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 
 			/// DEBUG ///
 			// if sContains(jsonObj, "A5A575C7-8917-5101-B8E7-F08ED123A823") {
-			// 	ioutil.WriteFile("./debug.json", []byte(jsonObj), 0666)
+			// 	os.WriteFile("./debug.json", []byte(jsonObj), 0666)
 			// 	fPln("break")
 			// }
 			/// DEBUG ///
@@ -302,7 +302,7 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 
 			/// DEBUG ///
 			// if sContains(xmlObj, "A5A575C7-8917-5101-B8E7-F08ED123A823") {
-			// 	ioutil.WriteFile("./debug.xml", []byte(xmlObj), 0666)
+			// 	os.WriteFile("./debug.xml", []byte(xmlObj), 0666)
 			// 	fPln("break")
 			// }
 			/// DEBUG ///

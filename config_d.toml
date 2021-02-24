@@ -1,5 +1,5 @@
 Service = "sif-json2xml"
-Version = "v0.1.5"
+Version = "v0.1.6"
 
 [SIF]
   DefaultVer = "3.4.7"
@@ -15,7 +15,7 @@ Version = "v0.1.5"
   Help = "/"
 
 [NATS]
+  Subject = "SIF-JSON2XML"
   Timeout = 500
   URL = "nats://192.168.78.130:4222"
-  Subject = "SIF-JSON2XML"
 
