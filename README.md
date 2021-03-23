@@ -77,8 +77,8 @@ On Windows, if you don't have curl, you can copy it from your Windows system fol
 
 3. In your terminal (Linux/Mac) or Powershell (Windows), navigate to your chosen working directory
 
-4. On Windows: Run `./curl.exe -X POST 'localhost:1325/sif-json2xml/convert?wrap&sv=3.4.7' --data-binary '@student_personals.json' > student_personals.xml`  
-   On other platforms: Run `curl -X POST 'localhost:1325/sif-json2xml/convert?wrap&sv=3.4.7' --data-binary '@student_personals.json' > student_personals.xml`.
+4. On Windows: Run `./curl.exe -X POST 'localhost:1325/sif-json2xml/convert?wrap&sv=3.4.8' --data-binary '@student_personals.json' > student_personals.xml`  
+   On other platforms: Run `curl -X POST 'localhost:1325/sif-json2xml/convert?wrap&sv=3.4.8' --data-binary '@student_personals.json' > student_personals.xml`.
 
 ![3 curl test image](screenshots/3_curl_test.png)
 
@@ -86,7 +86,7 @@ On Windows, if you don't have curl, you can copy it from your Windows system fol
 
 * If sifjson2xml is being run remotely, set the URL `localhost` to the machine's IP address.
 * You can modify `port`, `service name` and `service version` in config.toml.
-* The SIF version parameter (URL param `sv`)can be set to the supported SIF data model versions '3.4.2', '3.4.3' ... '3.4.8.draft'.
+* The SIF version parameter (URL param `sv`)can be set to the supported SIF data model versions '3.4.2', '3.4.3' ... '3.4.8'.
 * Wrapper parameter (URL param `wrap`): if there is a (non-SIF-object) single wrapper root in the XML file you wish to covert, add the `wrap` parameter.
 
 ## More information
@@ -106,7 +106,7 @@ Here is the current [SIF data standard](http://specification.sifassociation.org/
 
 1. Make sure `golang` dev package & `git` are available on your machine.
 
-2. Run `./build.sh` to build service which embedded with SIF Spec. i.e. 3.4.2, 3.4.3 ... 3.4.8.draft.
+2. Run `./build.sh` to build service which embedded with SIF Spec. i.e. 3.4.2, 3.4.3 ... 3.4.8.
 
 3. Run `./release.sh [linux64|win64|mac] 'dest-path'` to extract minimal executable package on different.
    e.g. `./release.sh win64 ~/Desktop/sif-json2xml/` extracts windows version bin package into "~/Desktop/sif-json2xml/".
@@ -138,12 +138,12 @@ Here is the current [SIF data standard](http://specification.sifassociation.org/
    `IP` : your sif-json2xml server running machine ip.
    `Port`: set in 'config.toml' file, default is 1325, can be changed in 'config.toml'.
 
-2. Run `curl -X POST IP:Port/Service/Version/convert?sv=3.4.7 -d @path/to/your/sif.json`
+2. Run `curl -X POST IP:Port/Service/Version/convert?sv=3.4.8 -d @path/to/your/sif.json`
    to convert a SIF.json to SIF.xml
 
    `IP` : your sif-json2xml server running machine ip.
    `Port`: Get from server's 'config.toml'-[WebService]-[Port], default is 1325.
    `Service`: service name. Get from server's 'config.toml'-[Service].
    `Version`: service version. Get from server's 'config.toml'-[Version].
-   `sv`: SIF Spec Version, available 3.4.2 to 3.4.8.draft.
+   `sv`: SIF Spec Version, available 3.4.2 to 3.4.8.
    `wrap`: if there is a single wrapper (non-sif-object root) on upload sif.json, append param `wrap`.  

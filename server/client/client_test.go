@@ -16,14 +16,14 @@ func TestDO(t *testing.T) {
 	fPln(err)
 	fPln(" ------------------------------------ ")
 
-	bytes, err := ioutil.ReadFile("../../data/examples/3.4.7/NAPCodeFrame_0.xml")
+	bytes, err := ioutil.ReadFile("../../data/examples/3.4.8/NAPCodeFrame_0.xml")
 	failOnErr("%v", err)
 	str, err = DO(
 		config,
 		"Convert",
 		&Args{
 			Data:   bytes,
-			Ver:    "3.4.7",
+			Ver:    "3.4.8",
 			ToNATS: false,
 			Wrap:   false,
 		},

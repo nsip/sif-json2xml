@@ -48,7 +48,7 @@ func TestJSON2XML(t *testing.T) {
 	// enableLog2F(true, "./error.log")
 	// defer enableLog2F(false, "")
 
-	ver := "3.4.7"
+	ver := "3.4.8"
 	dir := `../data/examples/` + ver
 	// dir := `../data/examples/temp/`
 	files, err := ioutil.ReadDir(dir)

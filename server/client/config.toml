@@ -5,9 +5,9 @@ Service = "sif-json2xml"
   Help = "/"
 
 [Server]
-  Port = 1325
   Protocol = "http"
   IP = "192.168.31.168"
+  Port = 1325
 
 [Access]
   Timeout = 10

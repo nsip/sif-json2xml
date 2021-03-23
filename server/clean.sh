@@ -1,5 +1,5 @@
  #!/bin/bash
 
-rm -rf ./build
+rm -rf ./build ./release
 rm -f ./*_rel.toml ./debug.*
 rm -f ./client/*.json

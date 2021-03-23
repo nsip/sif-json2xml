@@ -29,9 +29,9 @@ printf "\n"
 
 ## exit 0 ###
 
-sv=3.4.8.draft
+sv=3.4.8
 
-SIFJFile=./data/examples/StudentPersonals@3.4.8.draft.json
+SIFJFile=./data/examples/siftest@3.4.8.json
 title='Convert Test @ '$SIFJFile
 url=$base"?sv=$sv&wrap" ###
 file="@"$SIFJFile
@@ -77,7 +77,7 @@ echo "${G}All Done${W}"
 
 # ## exit 0 ###
 
-# sv=3.4.7
+# sv=3.4.8
 
 # JSONFiles=./data/examples/$sv/*
 # for f in $JSONFiles

@@ -13,7 +13,7 @@ import (
 	sif345 "github.com/nsip/sif-spec-res/3.4.5"
 	sif346 "github.com/nsip/sif-spec-res/3.4.6"
 	sif347 "github.com/nsip/sif-spec-res/3.4.7"
-	sif348draft "github.com/nsip/sif-spec-res/3.4.8.draft"
+	sif348 "github.com/nsip/sif-spec-res/3.4.8"
 )
 
 // ----------------------------------------- //
@@ -430,8 +430,8 @@ func JSON2XML(json, sifver string) (sif, sv string, err error) {
 		bytes, ok = sif346.TXT["346"]
 	case "3.4.7":
 		bytes, ok = sif347.TXT["347"]
-	case "3.4.8.draft":
-		bytes, ok = sif348draft.TXT["348draft"]
+	case "3.4.8":
+		bytes, ok = sif348.TXT["348"]
 	default:
 		err = fmt.Errorf("Error: No SIF Spec @ Version [%s]", ver)
 		warner("%v", err)

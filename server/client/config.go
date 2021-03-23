@@ -2,7 +2,7 @@ package client
 
 import "github.com/cdutwhu/gonfig"
 
-// Config : AUTO Created From /sif-json2xml/server/client/config.toml
+// Config : AUTO Created From /home/qmiao/Desktop/Rel-ready for Submit/sif-json2xml/server/client/config.toml
 type Config struct {
 	Service string
 	Route struct {
