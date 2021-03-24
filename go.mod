@@ -1,10 +1,10 @@
 module github.com/nsip/sif-json2xml
 
-go 1.15
+go 1.16
 
 require (
 	github.com/cdutwhu/debog v0.2.12
-	github.com/cdutwhu/gonfig v0.0.0-20201023060437-1964b194abe9
+	github.com/cdutwhu/gonfig v0.0.2
 	github.com/cdutwhu/gotil v0.1.31
 	github.com/cdutwhu/json-tool v0.1.7
 	github.com/cdutwhu/n3-util v0.3.12

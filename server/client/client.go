@@ -28,7 +28,7 @@ func DoWithTrace(ctx context.Context, config, fn string, args *Args) (string, er
 			span.SetTag(fn, *args)
 		}
 		defer span.Finish()
-		ctx = opentracing.ContextWithSpan(ctx, span)
+		opentracing.ContextWithSpan(ctx, span)
 	}
 	return DO(config, fn, args)
 }
@@ -136,5 +136,4 @@ ERR_RET:
 
 	chStr <- string(Ret)
 	chErr <- errs.NO_ERROR
-	return
 }

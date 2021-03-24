@@ -2,11 +2,11 @@ package cfg
 
 import "github.com/cdutwhu/gonfig"
 
-// Config : AUTO Created From /home/qmiao/Desktop/Rel-ready for Submit/sif-json2xml/config/config.toml
+// Config : AUTO Created From "sif-json2xml/config/config.toml"
 type Config struct {
+	Version interface{}
 	Log string
 	Service interface{}
-	Version interface{}
 	SIF struct {
 		DefaultVer string
 	}
@@ -26,9 +26,9 @@ type Config struct {
 		URL string
 	}
 	Server struct {
-		Protocol string
 		IP interface{}
 		Port interface{}
+		Protocol string
 	}
 	Access struct {
 		Timeout int

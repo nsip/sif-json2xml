@@ -12,8 +12,9 @@ github.com/cdutwhu/debog v0.2.10/go.mod h1:1aTerK2VgeCIvf3Ss4J+zUzhEivYSwJyGWUSu
 github.com/cdutwhu/debog v0.2.11/go.mod h1:qMQrHVozPZKANb+rDva6fnK453xaQ/pXGgo9tXifJQI=
 github.com/cdutwhu/debog v0.2.12 h1:1Si7VftJfLAeSec3NAHoGPPt7Li0R1CHa7mjb+cRO8k=
 github.com/cdutwhu/debog v0.2.12/go.mod h1:qMQrHVozPZKANb+rDva6fnK453xaQ/pXGgo9tXifJQI=
-github.com/cdutwhu/gonfig v0.0.0-20201023060437-1964b194abe9 h1:BYyGlfh+d9K+gR8PBv8NLAmDa+07wKk5zw8m8yzxE50=
 github.com/cdutwhu/gonfig v0.0.0-20201023060437-1964b194abe9/go.mod h1:33iZXaWjSdz4eUJfBbxXAgFyKxTxAJnSEL1gS1pdxaQ=
+github.com/cdutwhu/gonfig v0.0.2 h1:Xl0UzPsSOi6ySdsPUC2aW7qffI6/06RvYXfItrrLu94=
+github.com/cdutwhu/gonfig v0.0.2/go.mod h1:qIvEsbyCXfw0jVPOcdd6+Q+fdqyThphQHDNSsqTfe4w=
 github.com/cdutwhu/gotil v0.1.7/go.mod h1:yI4md0Ig5cY/bT2AHq4n/XnSl3fo2eYYvFSGAv31QHQ=
 github.com/cdutwhu/gotil v0.1.8/go.mod h1:yI4md0Ig5cY/bT2AHq4n/XnSl3fo2eYYvFSGAv31QHQ=
 github.com/cdutwhu/gotil v0.1.11/go.mod h1:yI4md0Ig5cY/bT2AHq4n/XnSl3fo2eYYvFSGAv31QHQ=

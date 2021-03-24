@@ -13,25 +13,18 @@ import (
 )
 
 var (
-	fPt           = fmt.Print
-	fPf           = fmt.Printf
 	fPln          = fmt.Println
 	fSf           = fmt.Sprintf
-	sJoin         = strings.Join
 	sReplace      = strings.Replace
 	sReplaceAll   = strings.ReplaceAll
 	sTrimRight    = strings.TrimRight
 	struct2Map    = rflx.Struct2Map
 	mapKeys       = rflx.MapKeys
-	env2Struct    = rflx.Env2Struct
-	struct2Env    = rflx.Struct2Env
-	enableLog2F   = fn.EnableLog2F
 	failOnErrWhen = fn.FailOnErrWhen
 	failOnErr     = fn.FailOnErr
 	logWhen       = fn.LoggerWhen
 	warnOnErr     = fn.WarnOnErr
 	warnOnErrWhen = fn.WarnOnErrWhen
-	isXML         = judge.IsXML
 	isJSON        = judge.IsJSON
 	mustWriteFile = io.MustWriteFile
 )
