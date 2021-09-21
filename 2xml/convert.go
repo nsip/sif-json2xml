@@ -5,6 +5,7 @@ import (
 	"fmt"
 
 	"github.com/clbanning/mxj"
+	"github.com/digisan/gotk/io"
 	cfg "github.com/nsip/sif-json2xml/config/cfg"
 	errs "github.com/nsip/sif-json2xml/err-const"
 	sif342 "github.com/nsip/sif-spec-res/3.4.2"
@@ -15,6 +16,47 @@ import (
 	sif347 "github.com/nsip/sif-spec-res/3.4.7"
 	sif348 "github.com/nsip/sif-spec-res/3.4.8"
 )
+
+func AllSIFObject(ver string) (objs []string, err error) {
+	txt, err := BytesOfTXT(ver)
+	if err != nil {
+		return nil, err
+	}
+	const pfx = "OBJECT: "
+	p := len(pfx)
+	objstr, err := io.StrLineScan(txt, func(line string) (bool, string) {
+		if sHasPrefix(line, pfx) {
+			return true, line[p:]
+		}
+		return false, ""
+	}, "")
+	return sSplit(objstr, "\n"), err
+}
+
+func BytesOfTXT(ver string) (ret string, err error) {
+	var mBytes map[string][]byte
+	switch ver {
+	case "3.4.2":
+		mBytes = sif342.TXT
+	case "3.4.3":
+		mBytes = sif343.TXT
+	case "3.4.4":
+		mBytes = sif344.TXT
+	case "3.4.5":
+		mBytes = sif345.TXT
+	case "3.4.6":
+		mBytes = sif346.TXT
+	case "3.4.7":
+		mBytes = sif347.TXT
+	case "3.4.8":
+		mBytes = sif348.TXT
+	default:
+		err = fmt.Errorf("error: No SIF Spec @ Version [%s]", ver)
+		warner("%v", err)
+		return
+	}
+	return string(mBytes[sReplaceAll(ver, ".", "")]), err
+}
 
 // ----------------------------------------- //
 

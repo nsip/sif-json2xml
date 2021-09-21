@@ -9,6 +9,7 @@ import (
 	"os/signal"
 	"reflect"
 	"strings"
+	"syscall"
 	"time"
 
 	"github.com/cdutwhu/gonfig"
@@ -16,6 +17,7 @@ import (
 	"github.com/cdutwhu/gonfig/strugen"
 	"github.com/cdutwhu/gotil/misc"
 	jt "github.com/cdutwhu/json-tool"
+	"github.com/digisan/gotk/slice/ts"
 	"github.com/labstack/echo-contrib/jaegertracing"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
@@ -24,6 +26,16 @@ import (
 	errs "github.com/nsip/sif-json2xml/err-const"
 	sr "github.com/nsip/sif-spec-res"
 )
+
+var allSIF = []string{
+	"3.4.2",
+	"3.4.3",
+	"3.4.4",
+	"3.4.5",
+	"3.4.6",
+	"3.4.7",
+	"3.4.8",
+}
 
 func mkCfg4Clt(cfg interface{}) {
 	forel := "./config_rel.toml"
@@ -96,8 +108,8 @@ func main() {
 
 	// Start Service
 	done := make(chan string)
-	c := make(chan os.Signal)
-	signal.Notify(c, os.Kill, os.Interrupt)
+	c := make(chan os.Signal, 1)
+	signal.Notify(c, syscall.SIGTERM, os.Interrupt)
 	go HostHTTPAsync(c, done)
 	logGrp.Do(<-done)
 }
@@ -147,6 +159,12 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 		mMtx   = initMutex(&gCfg.Route)
 		vers   = sr.GetAllVer("v", "")
 	)
+
+	// prepare for inferring 'wrapped'
+	mAllObj := make(map[string][]string)
+	for _, v := range allSIF {
+		mAllObj[v], _ = cvt.AllSIFObject(v)
+	}
 
 	defer e.Start(fSf(":%d", port))
 	logGrp.Do("Echo Service is Starting ...")
@@ -256,6 +274,12 @@ func HostHTTPAsync(sig <-chan os.Signal, done chan<- string) {
 		mav = aln2mav(rxRootAttr.FindString(cont), "") // Now, Only take one wrapper root attribute
 
 		jsonObjNames, jsonContGrp = []string{root}, []string{cont}
+
+		// for inferring wrapped when wrap is not provided
+		if !wrapped {
+			wrapped = ts.NotIn(root, mAllObj[sv]...)
+		}
+
 		if wrapped {
 			wrapper := jt.MkSglEleBlk(root, "~~~", false)
 			out4ret = jt.Cvt2XML(wrapper, mav)

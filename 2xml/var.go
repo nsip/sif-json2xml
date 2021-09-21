@@ -5,7 +5,6 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cdutwhu/debog/fn"
 	"github.com/cdutwhu/gotil/dispatcher"
 	"github.com/cdutwhu/gotil/endec"
 	"github.com/cdutwhu/gotil/io"
@@ -16,6 +15,7 @@ import (
 	"github.com/cdutwhu/gotil/str"
 	jt "github.com/cdutwhu/json-tool"
 	xt "github.com/cdutwhu/xml-tool"
+	"github.com/digisan/logkit"
 )
 
 var (
@@ -27,12 +27,12 @@ var (
 	sHasPrefix         = strings.HasPrefix
 	sHasSuffix         = strings.HasSuffix
 	sReplaceAll        = strings.ReplaceAll
-	failOnErr          = fn.FailOnErr
-	failOnErrWhen      = fn.FailOnErrWhen
-	failP1OnErrWhen    = fn.FailP1OnErrWhen
-	failP1OnErr        = fn.FailP1OnErr
-	enableLog2F        = fn.EnableLog2F
-	warner             = fn.Warner
+	failOnErr          = logkit.FailOnErr
+	failOnErrWhen      = logkit.FailOnErrWhen
+	failP1OnErrWhen    = logkit.FailP1OnErrWhen
+	failP1OnErr        = logkit.FailP1OnErr
+	enableLog2F        = logkit.Log2F
+	warner             = logkit.Warn
 	localIP            = net.LocalIP
 	sSplit             = strings.Split
 	sReplace           = strings.Replace

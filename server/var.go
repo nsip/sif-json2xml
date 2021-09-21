@@ -9,7 +9,7 @@ import (
 	"sync"
 	"unicode/utf16"
 
-	"github.com/cdutwhu/debog/fn"
+	"github.com/digisan/logkit"
 	"github.com/cdutwhu/gotil/judge"
 	"github.com/cdutwhu/gotil/net"
 	"github.com/cdutwhu/gotil/rflx"
@@ -25,12 +25,12 @@ var (
 	sTrim            = strings.Trim
 	sSplit           = strings.Split
 	rxMustCompile    = regexp.MustCompile
-	failOnErr        = fn.FailOnErr
-	failOnErrWhen    = fn.FailOnErrWhen
-	enableLog2F      = fn.EnableLog2F
-	enableWarnDetail = fn.EnableWarnDetail
-	logger           = fn.Logger
-	warner           = fn.Warner
+	failOnErr        = logkit.FailOnErr
+	failOnErrWhen    = logkit.FailOnErrWhen
+	enableLog2F      = logkit.Log2F
+	enableWarnDetail = logkit.WarnDetail
+	logger           = logkit.Log
+	warner           = logkit.Warn
 	localIP          = net.LocalIP
 	struct2Map       = rflx.Struct2Map
 	logBind          = n3log.Bind

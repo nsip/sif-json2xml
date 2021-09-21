@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cdutwhu/debog/fn"
+	"github.com/digisan/logkit"
 	"github.com/cdutwhu/gotil/io"
 	"github.com/cdutwhu/gotil/judge"
 	"github.com/cdutwhu/gotil/rflx"
@@ -20,11 +20,11 @@ var (
 	sTrimRight    = strings.TrimRight
 	struct2Map    = rflx.Struct2Map
 	mapKeys       = rflx.MapKeys
-	failOnErrWhen = fn.FailOnErrWhen
-	failOnErr     = fn.FailOnErr
-	logWhen       = fn.LoggerWhen
-	warnOnErr     = fn.WarnOnErr
-	warnOnErrWhen = fn.WarnOnErrWhen
+	failOnErrWhen = logkit.FailOnErrWhen
+	failOnErr     = logkit.FailOnErr
+	logWhen       = logkit.LogWhen
+	warnOnErr     = logkit.WarnOnErr
+	warnOnErrWhen = logkit.WarnOnErrWhen
 	isJSON        = judge.IsJSON
 	mustWriteFile = io.MustWriteFile
 )

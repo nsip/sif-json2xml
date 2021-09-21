@@ -5,7 +5,7 @@ Service = "sif-json2xml"
   Help = "/"
 
 [Server]
-  IP = "192.168.31.168"
+  IP = "192.168.31.227"
   Port = 1325
   Protocol = "http"
 

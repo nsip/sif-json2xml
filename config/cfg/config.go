@@ -4,9 +4,9 @@ import "github.com/cdutwhu/gonfig"
 
 // Config : AUTO Created From "sif-json2xml/config/config.toml"
 type Config struct {
-	Version interface{}
 	Log string
 	Service interface{}
+	Version interface{}
 	SIF struct {
 		DefaultVer string
 	}

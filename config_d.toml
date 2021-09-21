@@ -1,5 +1,5 @@
-Version = "v0.1.7"
 Service = "sif-json2xml"
+Version = "v0.1.7"
 
 [SIF]
   DefaultVer = "3.4.8"

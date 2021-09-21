@@ -6,13 +6,13 @@ import "github.com/cdutwhu/gonfig"
 type Config struct {
 	Service string
 	Route struct {
-		Help string
 		Convert string
+		Help string
 	}
 	Server struct {
-		IP string
 		Port int
 		Protocol string
+		IP string
 	}
 	Access struct {
 		Timeout int
